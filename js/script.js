@@ -6,7 +6,7 @@ var month = d.getMonth(); // returns the month (from 0 to 11) for the specified 
 var daysUntilHalloween = halloween - today;
 
 
-if (today == halloween && month+1 == 10) {	
+if (today == halloween && month+1 == 10) {
 	message = "It's Halloween! Stay spooky!"
 }
 // what if tomorrow is halloween?!?
