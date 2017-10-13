@@ -2,10 +2,11 @@ var message = null;
 var halloween = 31;
 var d = new Date();
 var today = d.getDate(); // return the day of the month as a number 0-30
+var currentMonth = d.getMonth(); // return the current month as a number 0-12
 var daysUntilHalloween = halloween - today;
 
 
-if (today == halloween) {
+if (currentMonth == 9 && today == halloween) {
 	message = "It's Halloween! Stay spooky!"
 }
 
