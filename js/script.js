@@ -1,18 +1,23 @@
 var message = null;
-var halloween = 31;
-var d = new Date();
-var today = d.getDate(); // return the day of the month as a number 0-30
-var daysUntilHalloween = halloween - today;
+var halloween = new Date(2017, 9, 31);
+var today = new Date();
+var millisPerDay = 1000*60*60*24;
 
 
-if (today == halloween) {
+var millisToHalloween = halloween.getTime() - today.getTime();
+var daysToHalloween = Math.round(millisToHalloween / millisPerDay) % 365;
+
+console.log(daysToHalloween);
+
+
+if (daysToHalloween == 0) {
 	message = "It's Halloween! Stay spooky!"
 }
 
 // what if tomorrow is halloween?!?
 
 else {
-	message = "There are " + daysUntilHalloween + " days until Halloween"
+	message = "There are " + daysToHalloween + " days until Halloween"
 }
 
 // Display message
