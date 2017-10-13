@@ -36,8 +36,6 @@ var nextBatSpawn = 0;
 canvasAutoFullScreen();
 draw();
 
-
-
 function draw(){
 	context.clearRect(0, 0, canvas.width, canvas.height);
 	requestAnimationFrame(draw);
@@ -96,11 +94,12 @@ function canvasAutoFullScreen(){
 }
 
 function getDaysUntilHalloween(){
-	var today = new Date();
+	var d = new Date();
+	var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
 	var year = today.getFullYear();
 	if (today.getMonth() > 9)
 		year += 1;
-	var halloween = new Date(year, 9, 30);
+	var halloween = new Date(year, 9, 31);
 	var elapsedTime = halloween-today;
 	return Math.floor(elapsedTime/86400000);
 }
