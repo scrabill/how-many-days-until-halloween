@@ -11,3 +11,7 @@ a {
 	text-decoration: underline;
 	color: black;
 }
+
+.emoji {
+	font-size: 128px;
+}
