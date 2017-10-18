@@ -10,7 +10,7 @@ Wow! I'm happy to see all the pull requests that are waiting for me to review. I
 
 In the meantime...
 
-![](img/gl/86/8r8n.gif)
+![](img/8r8n.gif)
 
 ## Contributing
 
