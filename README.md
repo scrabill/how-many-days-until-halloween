@@ -4,6 +4,12 @@ Idk. Let [this page](http://shannoncrabill.com/how-many-days-until-halloween/) d
 
 ![Boo!](/img/screenshot.png)
 
+## Update 10/17
+
+Wow! I'm happy to see all the pull requests that are waiting for me to review. I'm working on reviewing all of them, merging where appropriate and providing feedback. I'll keep chugging away and will plan to have all changes push lived by the end of the week. 
+
+In the meantime...
+
 ## Contributing
 
 To keep in the spirit of [Hacktoberfest](https://hacktoberfest.digitalocean.com/) I'm opening this up to the Github community.
