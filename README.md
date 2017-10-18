@@ -10,6 +10,8 @@ Wow! I'm happy to see all the pull requests that are waiting for me to review. I
 
 In the meantime...
 
+![](img/gl/86/8r8n.gif)
+
 ## Contributing
 
 To keep in the spirit of [Hacktoberfest](https://hacktoberfest.digitalocean.com/) I'm opening this up to the Github community.
