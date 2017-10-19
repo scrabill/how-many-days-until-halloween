@@ -39,7 +39,7 @@ If you are experienced in any of these languages, you can help us improve these 
 o!
 ## Links to resources ##
 
-To get you startred, some of the links follwoin can be useful:
+To get you started, some of the links following can be useful:
 
 - [bootstrap](https://www.w3schools.com/bootstrap/)
 - [css](https://www.w3schools.com/css/)
@@ -59,7 +59,7 @@ To get you startred, some of the links follwoin can be useful:
 [linkfont]: https://github.com/scrabill/how-many-days-until-halloween/tree/master/fonts
 [linkimg]: https://github.com/scrabill/how-many-days-until-halloween/tree/master/img
 
-To get you startred, some of the links follwoin can be useful:
+To get you started, some of the links following can be useful:
 
 - [sublime](https://www.sublimetext.com/)
 - [atom](https://atom.io/)
