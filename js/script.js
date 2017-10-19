@@ -23,19 +23,6 @@ var splashText = [
 	"Time for a coffin break.",
 	"Carve out some good times!",
 	"Ghostly Greetings",
-  "On Halloween, witches come true; Wild ghosts escape from dreams. Each monster dances in the park.... ",
-     "When witches go riding, and black cats are seen, the moon laughs and whispers, tis near Halloween.",
-     "Where there is no imagination there is no horror.",
-     "Best Withces.",
-     "Happy Hunting.",
-     "Practice safe hex.",
-     "I want my mummy.",
-     "Free Broom with flying lessons.",
-     "Fangs for the memories and nightmares.",
-     "Booooo spoken here.",
-     "If the broom fits, fly it.",
-     "Demons are ghoul's best friend.",
-     "Hang around for spell."
 ];
 
 document.getElementById("splashText").innerText = randFromList(splashText);
@@ -126,4 +113,8 @@ function rand(min, max){
 		min = temp;
 	}
 	return Math.floor(Math.random()*(max-min+1))+min;
+}
+
+function randFromList(list){
+	return list[rand(0, list.length-1)];
 }
