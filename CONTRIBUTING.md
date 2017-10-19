@@ -27,7 +27,8 @@ Key areas of code contributions include:
 - [Documentation](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation)
 - [Enhancements](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
-##Current Status##
+## Current Status ##
+
 The project has a landing page which displays a static message saying how many days are remaining to the Halloween.
 
 
@@ -35,8 +36,8 @@ The project has a landing page which displays a static message saying how many d
 - [R](https://github.com/arrayfire/arrayfire_r)
 - [Fortran](https://github.com/arrayfire/arrayfire_fortran)
 
-If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not in the list, dive in and create a new rep
-o!
+If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not in the list, dive in and create a new repo!
+
 ## Links to resources ##
 
 To get you started, some of the links following can be useful:
