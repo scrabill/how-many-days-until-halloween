@@ -7,3 +7,4 @@
 
 ### Contributers:
 * [Joshua Hoffman](github.com/hoffmanjoshua)
+* [Kudakwashe Siziva](github.com/kaysiz)
