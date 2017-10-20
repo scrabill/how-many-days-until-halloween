@@ -23,7 +23,7 @@ var splashText = [
 	"Free Broom Rides!",
 	"Time for a coffin break.",
 	"Carve out some good times!",
-	"Ghostly Greetings",	
+	"Ghostly Greetings"
 ];
 
 document.getElementById("splashText").innerText = randFromList(splashText);
@@ -45,6 +45,7 @@ function draw(){
 	handleBats();
 }
 
+// Add bat to our array so we can keep track of them all
 function spawnBat(){
 	nextBatSpawn = Date.now()+rand(500, 1500);
 	bats.push({
@@ -56,6 +57,7 @@ function spawnBat(){
 		scale: .2,
 	});
 }
+
 
 function handleBats(){
 	for (var i = bats.length-1; i >= 0; i--){
@@ -94,6 +96,7 @@ function canvasAutoFullScreen(){
 	window.onresize();
 }
 
+// Returns how many days until Halloween
 function getDaysUntilHalloween(){
 	var d = new Date();
 	var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -105,17 +108,12 @@ function getDaysUntilHalloween(){
 	return Math.floor(elapsedTime/86400000);
 }
 
+// Generates a random number between min and max inclusive.
 function rand(min, max){
-	min = parseInt(min, 10);
-	max = parseInt(max, 10);
-	if (max < min){
-		var temp = max;
-		max = min;
-		min = temp;
-	}
 	return Math.floor(Math.random()*(max-min+1))+min;
 }
 
+// Returns a random string in an array
 function randFromList(list){
 	return list[rand(0, list.length-1)];
 }
