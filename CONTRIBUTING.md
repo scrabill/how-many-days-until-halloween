@@ -10,17 +10,17 @@ The project is a simple Website that includes interesting information about Hall
 
 We use the github [issue tracker](https://github.com/scrabill/how-many-days-until-halloween/issues?state=open) to track our issues. One can see the progress made on a particular issue and the discussion on any issues
 
-### How it works?
+### How does it work?
 
-it's simple all you need to do is visit our [page][link] and it will do the counting for you!
+It's simple: All you need to do is visit our [page][link] and it will do the counting for you!
 
 [link]: http://shannoncrabill.com/how-many-days-until-halloween/
 
-Hope your Halloween is fun and spooky. Eat, drink and be scary!   :jack_o_lantern:  :ghost:
+We hope your Halloween is fun and spooky. Eat, drink and be scary!   :jack_o_lantern:  :ghost:
 
 ## Contributing Code ##
 
-If you want to contribute code, we suggest you fork the repository first, select an issue, make your changes and submit a PR for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues, etc.
+If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a PR for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues, etc.
 
 Key areas of code contributions include:
 - [New features](https://github.com/scrabill/how-many-days-until-halloween/issues/1)
@@ -36,11 +36,11 @@ The project has a landing page which displays a static message saying how many d
 - [R](https://github.com/arrayfire/arrayfire_r)
 - [Fortran](https://github.com/arrayfire/arrayfire_fortran)
 
-If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not in the list, dive in and create a new repo!
+If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not in the list, dive in and create a new repository!
 
 ## Links to resources ##
 
-To get you started, some of the links following can be useful:
+To get you started, some of the following links can be useful:
 
 - [Bootstrap](https://www.w3schools.com/bootstrap/)
 - [CSS](https://www.w3schools.com/css/)
@@ -60,7 +60,7 @@ To get you started, some of the links following can be useful:
 [linkfont]: https://github.com/scrabill/how-many-days-until-halloween/tree/master/fonts
 [linkimg]: https://github.com/scrabill/how-many-days-until-halloween/tree/master/img
 
-To get you started, some of the links following can be useful:
+To get you started, download one of the text editors below:
 
 - [Sublime](https://www.sublimetext.com/)
 - [Atom](https://atom.io/)
