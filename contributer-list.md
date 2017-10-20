@@ -7,3 +7,5 @@
 
 ### Contributers:
 * [Joshua Hoffman](github.com/hoffmanjoshua)
+* [Jacky Hui](github.com/jackyhui96)
+
