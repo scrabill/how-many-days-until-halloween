@@ -1,18 +1,4 @@
-function calculateDaysLeft(){
-	var daysUntilHalloween = getDaysUntilHalloween();
-
-	if (daysUntilHalloween === 0){
-		document.getElementById("spooky").innerText = "It's Halloween!";
-	}
-	else if (daysUntilHalloween === 1){
-		document.getElementById("spooky").innerText = "Tomorrow is Halloween!";
-	}
-	else{
-		document.getElementById("spooky").innerText = "There are "+daysUntilHalloween+" days until Halloween.";
-	}
-}
 calculateDaysLeft();
-setInterval(calculateDaysLeft, 60);
 
 var splashText = [
 	"Best Witches",
@@ -93,15 +79,35 @@ function canvasAutoFullScreen(){
 	window.onresize();
 }
 
-function getDaysUntilHalloween(){
-	var d = new Date();
-	var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-	var year = today.getFullYear();
-	if (today.getMonth() > 9)
-		year += 1;
-	var halloween = new Date(year, 9, 31);
-	var elapsedTime = halloween-today;
-	return Math.floor(elapsedTime/86400000);
+function calculateDaysLeft(){
+	var x = setInterval(function(){
+		var d = new Date();
+		var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+		var year = today.getFullYear();
+		if (d.getMonth() > 9)
+			year += 1;
+		var halloween = new Date(year, 9, 31);
+		var distance = halloween - today;
+		if (distance/86400000 === 0){
+			document.getElementById("spooky").innerText = "It's Halloween!";
+			clearInterval(x);
+		}
+		else if (distance/86400000 === 1){
+			document.getElementById("spooky").innerText = "Tomorrow is Halloween!";
+			clearInterval(x);
+		}
+		else{
+			d = new Date();
+			today = d.getTime();
+			distance = halloween - today;
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			document.getElementById("spooky").innerText = "There are "+ days + "D " + hours + "H "
+			+ minutes + "M " + seconds + "S "+" days until Halloween.";
+		}
+	}, 1000);
 }
 
 function rand(min, max){
