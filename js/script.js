@@ -1,3 +1,4 @@
+/* Updates spooky to reflect number of days until Halloween */
 function calculateDaysLeft(){
 	var daysUntilHalloween = getDaysUntilHalloween();
 
@@ -25,6 +26,7 @@ var splashText = [
 	"Ghostly Greetings",
 ];
 
+/* Updates splashText with a string randomly selected from splashText array */
 document.getElementById("splashText").innerText = randFromList(splashText);
 
 var canvas = document.getElementById("canvas");
@@ -93,6 +95,7 @@ function canvasAutoFullScreen(){
 	window.onresize();
 }
 
+/* Returns the number of days until Halloween */
 function getDaysUntilHalloween(){
 	var d = new Date();
 	var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -104,6 +107,7 @@ function getDaysUntilHalloween(){
 	return Math.floor(elapsedTime/86400000);
 }
 
+/* Generates a random number within a range */
 function rand(min, max){
 	min = parseInt(min, 10);
 	max = parseInt(max, 10);
@@ -115,6 +119,7 @@ function rand(min, max){
 	return Math.floor(Math.random()*(max-min+1))+min;
 }
 
+/* Utilizes rand to retrieve an element at random from a list */
 function randFromList(list){
 	return list[rand(0, list.length-1)];
 }
