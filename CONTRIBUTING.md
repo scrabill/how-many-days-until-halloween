@@ -27,7 +27,8 @@ Key areas of code contributions include:
 - [Documentation](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation)
 - [Enhancements](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
-##Current Status##
+## Current Status ##
+
 The project has a landing page which displays a static message saying how many days are remaining to the Halloween.
 
 
@@ -35,22 +36,22 @@ The project has a landing page which displays a static message saying how many d
 - [R](https://github.com/arrayfire/arrayfire_r)
 - [Fortran](https://github.com/arrayfire/arrayfire_fortran)
 
-If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not in the list, dive in and create a new rep
-o!
+If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not in the list, dive in and create a new repo!
+
 ## Links to resources ##
 
 To get you started, some of the links following can be useful:
 
-- [bootstrap](https://www.w3schools.com/bootstrap/)
-- [css](https://www.w3schools.com/css/)
+- [Bootstrap](https://www.w3schools.com/bootstrap/)
+- [CSS](https://www.w3schools.com/css/)
 - [jquery](https://www.w3schools.com/jquery/)
 - [git](https://www.atlassian.com/git/tutorials)
 - [github](https://guides.github.com/activities/hello-world/)
 - [markdown](https://www.markdowntutorial.com)
 
 ### Quick links
-* Javascript Folder ([link][linkjs])
-* Css Folder ([link][linkcss])
+* JavaScript Folder ([link][linkjs])
+* CSS Folder ([link][linkcss])
 * Fonts Folder ([link][linkfont])
 * Images Folder ([link][linkimg])
 
@@ -61,5 +62,5 @@ To get you started, some of the links following can be useful:
 
 To get you started, some of the links following can be useful:
 
-- [sublime](https://www.sublimetext.com/)
-- [atom](https://atom.io/)
+- [Sublime](https://www.sublimetext.com/)
+- [Atom](https://atom.io/)
