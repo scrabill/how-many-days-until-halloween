@@ -8,4 +8,5 @@
 ### Contributers:
 * [Joshua Hoffman](github.com/hoffmanjoshua)
 * [Kudakwashe Siziva](github.com/kaysiz)
-*[Emily Martens](github.com/ekmartens)
+* [Jacky Hui](github.com/jackyhui96)
+* [Emily Martens](github.com/ekmartens)
