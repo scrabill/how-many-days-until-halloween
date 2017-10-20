@@ -1,3 +1,4 @@
+// Returns different messages based on how many days are left until Halloween
 function calculateDaysLeft(){
 	var daysUntilHalloween = getDaysUntilHalloween();
 
@@ -8,7 +9,7 @@ function calculateDaysLeft(){
 		document.getElementById("spooky").innerText = "Tomorrow is Halloween!";
 	}
 	else{
-		document.getElementById("spooky").innerText = "There are "+daysUntilHalloween+" days until Halloween.";
+		document.getElementById("spooky").innerText = "There are " + daysUntilHalloween + " days until Halloween.";
 	}
 }
 calculateDaysLeft();
@@ -22,7 +23,7 @@ var splashText = [
 	"Free Broom Rides!",
 	"Time for a coffin break.",
 	"Carve out some good times!",
-	"Ghostly Greetings",
+	"Ghostly Greetings",	
 ];
 
 document.getElementById("splashText").innerText = randFromList(splashText);

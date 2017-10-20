@@ -1,5 +1,5 @@
 body, .jumbotron {
-	background-color: #FFB74D;
+	 background: linear-gradient(to right, red , yellow);
 }
 
 .jumbotron p {
