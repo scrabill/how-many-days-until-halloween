@@ -11,3 +11,4 @@
 * [Jacky Hui](github.com/jackyhui96)
 * [Emily Martens](github.com/ekmartens)
 * [Viren Bhagat](github.com/virenb)
+* [Manuel Hölzl](https://github.com/manuel-hoelzl)
