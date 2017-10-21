@@ -10,3 +10,4 @@
 * [Kudakwashe Siziva](github.com/kaysiz)
 * [Jacky Hui](github.com/jackyhui96)
 * [Emily Martens](github.com/ekmartens)
+* [Viren Bhagat](github.com/virenb)
