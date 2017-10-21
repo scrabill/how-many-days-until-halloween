@@ -10,7 +10,7 @@ In the spirit of [Hacktoberfest](https://hacktoberfest.digitalocean.com/), I pos
 
 This site it built with Bootstrap, Javascript and JQuery.
 
-If you are interested in contributing, [open issues can be found here](https://github.com/scrabill/how-many-days-until-halloween/issues) or suggest your own! More information on contributing and how to get set up can be found in CONTRIBUTING.md.
+If you are interested in contributing, [open issues can be found here](https://github.com/scrabill/how-many-days-until-halloween/issues) or suggest your own! More information on contributing and how to get set up can be found in [Contributing Guidelines](https://github.com/scrabill/how-many-days-until-halloween/blob/master/CONTRIBUTING.md).
 
 ## Update 10/19
 Wooo! I've gotten most of the new pull requests merged into the master branch. I'm probably biased, but this page is looking pretty kooky! All changes are also live on the [interWEBS](http://shannoncrabill.com/how-many-days-until-halloween/).
