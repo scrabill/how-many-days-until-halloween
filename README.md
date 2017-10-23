@@ -8,6 +8,6 @@ In the spirit of [Hacktoberfest](https://hacktoberfest.digitalocean.com/), I pos
 
 ## Contributing
 
-This site it built with Bootstrap, Javascript and JQuery.
+This site is built with Bootstrap, Javascript and JQuery.
 
 If you are interested in contributing, [open issues can be found here](https://github.com/scrabill/how-many-days-until-halloween/issues) or suggest your own! Here are [guidelines for contributing](https://github.com/scrabill/how-many-days-until-halloween/blob/master/CONTRIBUTING.md).
