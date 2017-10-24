@@ -6,6 +6,7 @@
 ```
 
 ### Contributors:
+* [Bill McClung](github.com/cfgauss)
 * [Joshua Hoffman](github.com/hoffmanjoshua)
 * [Kudakwashe Siziva](github.com/kaysiz)
 * [Jacky Hui](github.com/jackyhui96)
