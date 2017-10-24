@@ -36,7 +36,7 @@ The project has a landing page which displays a static message saying how many d
 - [R](https://github.com/arrayfire/arrayfire_r)
 - [Fortran](https://github.com/arrayfire/arrayfire_fortran)
 
-If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not in the list, dive in and create a new repository!
+If you are experienced in any of these languages, you can help us improve these language bindings. If you prefer a different language that is not on the list, dive in and create a new repository!
 
 ## Links to resources ##
 
