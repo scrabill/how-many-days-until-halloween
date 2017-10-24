@@ -6,12 +6,13 @@
 ```
 
 ### Contributors:
-* [Bill McClung](github.com/cfgauss)
-* [Joshua Hoffman](github.com/hoffmanjoshua)
-* [Kudakwashe Siziva](github.com/kaysiz)
-* [Jacky Hui](github.com/jackyhui96)
-* [Emily Martens](github.com/ekmartens)
-* [Viren Bhagat](github.com/virenb)
+* [Bill McClung](https://github.com/cfgauss)
+* [Joshua Hoffman](https://github.com/hoffmanjoshua)
+* [Kudakwashe Siziva](https://github.com/kaysiz)
+* [Jacky Hui](https://github.com/jackyhui96)
+* [Emily Martens](https://github.com/ekmartens)
+* [Viren Bhagat](https://github.com/virenb)
 * [Manuel Hölzl](https://github.com/manuel-hoelzl)
 * [Jesse Calton](https://github.com/jessecalton)
 * [Rannie Ollit](https://github.com/einnar82)
+* [Pannatat Supharatnodom](https://github.com/thepriefy)
