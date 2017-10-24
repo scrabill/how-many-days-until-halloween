@@ -13,3 +13,4 @@
 * [Viren Bhagat](github.com/virenb)
 * [Manuel Hölzl](https://github.com/manuel-hoelzl)
 * [Jesse Calton](https://github.com/jessecalton)
+* [Rannie Ollit](https://github.com/einnar82)
