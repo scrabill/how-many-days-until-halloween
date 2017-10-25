@@ -20,3 +20,6 @@
 * [IzabelaM](https://github.com/IzabelaM)
 * [Diego Gutierrez](https://github.com/daguttierrez)
 * [Onar Alili](https://github.com/onaralili)
+* [Joshua Hoffman](github.com/hoffmanjoshua)
+* [Kudakwashe Siziva](github.com/kaysiz)
+* [Neil Busse](github.com/nbuss848)
