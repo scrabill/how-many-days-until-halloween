@@ -15,3 +15,4 @@
 * [Manuel Hölzl](https://github.com/manuel-hoelzl)
 * [Jesse Calton](https://github.com/jessecalton)
 * [Rannie Ollit](https://github.com/einnar82)
+* [IzabelaM](https://github.com/IzabelaM)
