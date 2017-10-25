@@ -28,6 +28,15 @@ var splashText = [
 	"Time for a coffin break.",
 	"Carve out some good times!",
 	"Ghostly Greetings",
+	"Trick or Treat Yo Self!",
+	"Gobble Til You Wobble",
+	"Come In For a Bite",
+	"I Ain’t Afraid of No Ghost",
+	"Eat, Drink and be Scary!",
+	"Creep it Real",
+	"Drink Up Witches!",
+	"If You’ve Got It, Haunt it",
+	"Don’t Make Me Get The Flying Monkeys"
 ];
 
 
