@@ -1,4 +1,3 @@
-
 /*
 Display's different messages based on, if Halloween is today, tomorrow or after some days.
 */
@@ -13,7 +12,7 @@ function calculateDaysLeft(){
 		document.getElementById("spooky").innerText = "Tomorrow is Halloween!";
 	}
 	else{
-		document.getElementById("spooky").innerText = "There are "+daysUntilHalloween+" days until Halloween.";
+		document.getElementById("spooky").innerText = "There are " + daysUntilHalloween + " days until Halloween.";
 	}
 }
 calculateDaysLeft();
@@ -63,6 +62,7 @@ function draw(){
 /*
 Calculates the Rotation direction and death time of the bat.
 */
+
 function spawnBat(){
 	nextBatSpawn = Date.now()+rand(500, 1500);
 	bats.push({
@@ -74,9 +74,11 @@ function spawnBat(){
 		scale: .2,
 	});
 }
+
 /*
 Displays bats based on their time and current date.
 */
+
 function handleBats(){
 	for (var i = bats.length-1; i >= 0; i--){
 		var bat = bats[i];
@@ -132,20 +134,15 @@ function getDaysUntilHalloween(){
 	return Math.floor(elapsedTime/86400000);
 }
 
+// Generates a random number between min and max inclusive.
 function rand(min, max){
-	min = parseInt(min, 10);
-	max = parseInt(max, 10);
-	if (max < min){
-		var temp = max;
-		max = min;
-		min = temp;
-	}
 	return Math.floor(Math.random()*(max-min+1))+min;
 }
 
 /*
 Selects a random number from 0 upto the size of the list array.
 */
+
 function randFromList(list){
 	return list[rand(0, list.length-1)];
 }
