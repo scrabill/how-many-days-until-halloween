@@ -2,7 +2,7 @@
 
 ##### Contributors, add your name to this list using this format:
 ```
-[Your Name](github.com/yourusername)
+[Your Name](https://github.com/yourusername)
 ```
 
 ### Contributors:
