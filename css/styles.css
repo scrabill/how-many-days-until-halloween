@@ -16,6 +16,14 @@ h1 {
 	font-family: 'Creepster', cursive;
 }
 
-h2 {
+h2, p {
 	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	text-shadow: 2px 2px #ff6600;
+}
+
+h2 {
+	text-shadow: 1px 1px #ff6600;
 }

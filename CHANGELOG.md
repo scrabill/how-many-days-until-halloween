@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
+## Update 10/25
+6 days! There have been a lot of behind the scenes pull requests but I'm happy to annouce we now have a seriously spooky drop shadow and animated text. 
+
+![Boo!](/img/6-days.gif)
+
+Chills and Thrills!
+
+![Boo!](/img/pumpkin-dance.gif)
+
 ## Update 10/24
 Can you boo-lieve Halloween is 7 days away? Me neither! Merged pull requests from the past five days are now [live](http://shannoncrabill.com/how-many-days-until-halloween/)!
 

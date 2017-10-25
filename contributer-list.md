@@ -6,6 +6,7 @@
 ```
 
 ### Contributors:
+
 * [Bill McClung](https://github.com/cfgauss)
 * [Joshua Hoffman](https://github.com/hoffmanjoshua)
 * [Kudakwashe Siziva](https://github.com/kaysiz)
@@ -16,3 +17,6 @@
 * [Jesse Calton](https://github.com/jessecalton)
 * [Rannie Ollit](https://github.com/einnar82)
 * [Pannatat Supharatnodom](https://github.com/thepriefy)
+* [IzabelaM](https://github.com/IzabelaM)
+* [Diego Gutierrez](https://github.com/daguttierrez)
+* [Onar Alili](https://github.com/onaralili)
