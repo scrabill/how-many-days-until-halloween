@@ -20,3 +20,4 @@
 * [IzabelaM](https://github.com/IzabelaM)
 * [Diego Gutierrez](https://github.com/daguttierrez)
 * [Onar Alili](https://github.com/onaralili)
+* [Yendy](https://github.com/yendyh)
