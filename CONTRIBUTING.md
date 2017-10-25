@@ -2,7 +2,7 @@ Welcome to How many days to Halloween!
 ===================
 # Contributing Guidelines #
 
-## Current Status ##
+## About this project ##
 
 We value and encourage the community to provide feedback on how we can make our Halloween site more aesthetically pleasing.
 
@@ -20,12 +20,16 @@ We hope your Halloween is fun and spooky. Eat, drink and be scary!   :jack_o_lan
 
 ## Contributing Code ##
 
-If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a PR for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues, etc.
+If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a pull request for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues, etc.
 
 Key areas of code contributions include:
 - [New features](https://github.com/scrabill/how-many-days-until-halloween/issues/1)
 - [Documentation](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation)
 - [Enhancements](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+When working on an issue, see if the update/fix already has a pending [pull request]/(https://github.com/scrabill/how-many-days-until-halloween/pulls). New pull requests are always welcome, however, duplicate pull requests will not be merged.
+
+When creating a pull request, if it applies, close or link to the issue it resolves in your comments. See [GitHubs documentation](https://help.github.com/articles/closing-issues-using-keywords/) on how to do this.
 
 ## Current Status ##
 
