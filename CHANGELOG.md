@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
 Chills and Thrills!
 
-![Boo!](/img/pumkkin-dance.gif)
+![Boo!](/img/pumpkin-dance.gif)
 
 ## Update 10/24
 Can you boo-lieve Halloween is 7 days away? Me neither! Merged pull requests from the past five days are now [live](http://shannoncrabill.com/how-many-days-until-halloween/)!
