@@ -23,3 +23,4 @@
 * [Joshua Hoffman](github.com/hoffmanjoshua)
 * [Kudakwashe Siziva](github.com/kaysiz)
 * [Neil Busse](github.com/nbuss848)
+* [Yendy](https://github.com/yendyh)
