@@ -1,10 +1,10 @@
-## Story :fallen_leaf:
+## Story :jack_o_lantern:
 Task: [Link to external story here.](link)
 
-## Description
+## Description :fallen_leaf:
 Describe your changes here.
 
-## Tasks
+## Tasks :zap:
 - [x] Feature 1 
 - [x] Feature 2
 - [ ] Feature 3
