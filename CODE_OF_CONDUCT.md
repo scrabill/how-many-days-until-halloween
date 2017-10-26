@@ -9,7 +9,7 @@ submitting pull requests, and other activities.
 We look forward to making participation on this project a great experience for everyone, regardless of experience level, sexual orientation, gender identity and expression, personal appearance, body size, race, ethnicity, age, nationality 
 or religion. This is a safe place to share ideas, comments, code, etc.
 
-## Our Standarts
+## Our Standards
 
 ### Examples of behavior that contributes to creating a positive environment include:
 
