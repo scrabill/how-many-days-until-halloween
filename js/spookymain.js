@@ -35,7 +35,9 @@ var splashText = [
 	"Creep it Real",
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
-	"Don’t Make Me Get The Flying Monkeys"
+	"Don’t Make Me Get The Flying Monkeys",
+	"I See Dead People",
+	"Shaay Hello To My Little Friend!"
 ];
 
 
