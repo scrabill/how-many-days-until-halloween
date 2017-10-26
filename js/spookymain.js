@@ -94,8 +94,8 @@ function handleBats(){
 	}
 }
 
-/* 
-Bat image is loaded from the source folder 
+/*
+Bat image is loaded from the source folder
 */
 function loadImage(src){
 	var image = new Image();
@@ -146,3 +146,26 @@ Selects a random number from 0 upto the size of the list array.
 function randFromList(list){
 	return list[rand(0, list.length-1)];
 }
+
+var countdownDate = new Date("31 Oct, 2017").getTime();
+console.log (countdownDate);
+
+var x = setInterval(function(){
+	var now = new Date().getTime();
+	var distance = countdownDate-now;
+
+	var days = Math.floor(distance/(1000*60*60*24));
+	var hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+	var minutes = Math.floor((distance%(1000*60*60))/(1000*60));
+	var seconds = Math.floor((distance%(1000*60))/1000);
+
+	document.getElementById("days").innerHTML = days;
+	document.getElementById("hours").innerHTML = hours;
+	document.getElementById("minutes").innerHTML = minutes;
+	document.getElementById("seconds").innerHTML = seconds;
+
+	if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);

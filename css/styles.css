@@ -27,3 +27,11 @@ h1 {
 h2 {
 	text-shadow: 1px 1px #ff6600;
 }
+
+#countdown{
+	text-align: center;
+	color: #162f59;
+	font-size: 7rem;
+	font-weight: 700;
+	font-family: 'IM Fell English', serif;
+}
