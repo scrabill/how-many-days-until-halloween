@@ -35,7 +35,11 @@ var splashText = [
 	"Creep it Real",
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
-	"Don’t Make Me Get The Flying Monkeys"
+	"Don’t Make Me Get The Flying Monkeys",
+	"Be the Scariest Thing in These Woods",
+	"Thrilling, Chilling, Spine Curling",
+	"Embrace the Pumpkin Spice",
+	"I Got 99 Problems But a Witch Ain't One"
 ];
 
 
