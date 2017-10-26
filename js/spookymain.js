@@ -4,15 +4,16 @@ Display's different messages based on, if Halloween is today, tomorrow or after 
 
 function calculateDaysLeft(){
 	var daysUntilHalloween = getDaysUntilHalloween();
+	var title = document.getElementById("spooky");
 
 	if (daysUntilHalloween === 0){
-		document.getElementById("spooky").innerText = "It's Halloween!";
+		title.innerText = "It's Halloween!";
 	}
 	else if (daysUntilHalloween === 1){
-		document.getElementById("spooky").innerText = "Tomorrow is Halloween!";
+		title.innerText = "Tomorrow is Halloween!";
 	}
 	else{
-		document.getElementById("spooky").innerText = "There are " + daysUntilHalloween + " days until Halloween.";
+		title.innerText = "There are " + daysUntilHalloween + " days until Halloween.";
 	}
 }
 calculateDaysLeft();
@@ -35,7 +36,8 @@ var splashText = [
 	"Creep it Real",
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
-	"Don’t Make Me Get The Flying Monkeys"
+	"Don’t Make Me Get The Flying Monkeys",
+	"Cheers Witches"
 ];
 
 
@@ -94,8 +96,8 @@ function handleBats(){
 	}
 }
 
-/* 
-Bat image is loaded from the source folder 
+/*
+Bat image is loaded from the source folder
 */
 function loadImage(src){
 	var image = new Image();
