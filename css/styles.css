@@ -3,8 +3,16 @@ body, .jumbotron {
 }
 
 .jumbotron p {
-	margin-top: 20%;
-	font-size: 12px;
+	font-size: 150%;
+}
+
+.jumbotron h1 {
+	font-size: 700%;
+}
+
+.jumbotron h2 {
+	font-size: 600%;
+	padding: 20% 0 50% 0;
 }
 
 a {
