@@ -7,6 +7,20 @@ body, .jumbotron {
 	font-size: 12px;
 }
 
+/* Medium Devices/Desktops */
+@media only screen and (min-width : 992px) {
+	.jumbotron p {
+		font-size: 17px;
+	}
+}
+
+/* Large Devices/Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.jumbotron p {
+		font-size: 19px;
+	}
+}
+
 a {
 	text-decoration: underline;
 	color: black;
