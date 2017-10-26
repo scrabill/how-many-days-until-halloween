@@ -9,15 +9,15 @@ body, .jumbotron {
 
 /* Medium Devices/Desktops */
 @media only screen and (min-width : 992px) {
-	.jumbotron p {
-		font-size: 17px;
+	.jumbotron h2 {
+		font-size: 4em;
 	}
 }
 
 /* Large Devices/Wide Screens */
 @media only screen and (min-width : 1200px) {
-	.jumbotron p {
-		font-size: 19px;
+	.jumbotron h2 {
+		font-size: 4em;
 	}
 }
 
