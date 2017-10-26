@@ -152,22 +152,22 @@ Night mode
 */
 
 (function(){
-var nightButton = document.getElementById('nightButton');
-var isItNight = false;
+	var nightButton = document.getElementById('nightButton');
+	var isItNight = false;
 
-function toggleNight(){		 	
-	var background = isItNight ? "" : "linear-gradient(to bottom, black , #011a42)";
-	var textColor = isItNight ? "" : "#ff6600"; 
+	function toggleNight(){		 	
+		var background = isItNight ? "" : "linear-gradient(to bottom, black , #011a42)";
+		var textColor = isItNight ? "" : "#ff6600"; 
 
-	document.querySelector('body').style.background = background;
+		document.querySelector('body').style.background = background;
 
-	var elems = document.querySelectorAll('p, a, button');
-	for(var i = 0; i < elems.length; i++){
-		elems[i].style.color = textColor;
-		elems[i].style.borderColor = textColor;
+		var elems = document.querySelectorAll('p, a, button');
+		for(var i = 0; i < elems.length; i++){
+			elems[i].style.color = textColor;
+			elems[i].style.borderColor = textColor;
+		}
+		
+		isItNight = !isItNight;
 	}
-	
-	isItNight = !isItNight;
-}
-nightButton.addEventListener('click', toggleNight);
+	nightButton.addEventListener('click', toggleNight);
 })();
