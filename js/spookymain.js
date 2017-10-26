@@ -35,7 +35,13 @@ var splashText = [
 	"Creep it Real",
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
-	"Don’t Make Me Get The Flying Monkeys"
+	"Don’t Make Me Get The Flying Monkeys",
+	"If the broom fits, ride it!",
+	"I am a good witch most of the times",
+	"A Haunting We Will Go",
+	"Beary Be-Witching",
+	"Causion! Black Cat Crossing",
+	"Bugs and Hisses!"
 ];
 
 
