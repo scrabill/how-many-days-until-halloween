@@ -24,3 +24,4 @@
 * [Kudakwashe Siziva](github.com/kaysiz)
 * [Neil Busse](github.com/nbuss848)
 * [Yendy](https://github.com/yendyh)
+* [DynamiteC](https://github.com/DynamiteC)
