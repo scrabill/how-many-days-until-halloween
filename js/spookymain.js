@@ -1,4 +1,7 @@
-// Returns different messages based on how many days are left until Halloween
+/*
+Display's different messages based on, if Halloween is today, tomorrow or after some days.
+*/
+
 function calculateDaysLeft(){
 	var daysUntilHalloween = getDaysUntilHalloween();
 
@@ -23,9 +26,20 @@ var splashText = [
 	"Free Broom Rides!",
 	"Time for a coffin break.",
 	"Carve out some good times!",
-	"Ghostly Greetings"
+	"Ghostly Greetings",
+	"Trick or Treat Yo Self!",
+	"Gobble Til You Wobble",
+	"Come In For a Bite",
+	"I Ain’t Afraid of No Ghost",
+	"Eat, Drink and be Scary!",
+	"Creep it Real",
+	"Drink Up Witches!",
+	"If You’ve Got It, Haunt it",
+	"Don’t Make Me Get The Flying Monkeys"
 ];
 
+
+//Random message is displayed from splashText array.
 document.getElementById("splashText").innerText = randFromList(splashText);
 
 var canvas = document.getElementById("canvas");
@@ -45,7 +59,10 @@ function draw(){
 	handleBats();
 }
 
-// Add bat to our array so we can keep track of them all
+/*
+Calculates the Rotation direction and death time of the bat.
+*/
+
 function spawnBat(){
 	nextBatSpawn = Date.now()+rand(500, 1500);
 	bats.push({
@@ -58,6 +75,9 @@ function spawnBat(){
 	});
 }
 
+/*
+Displays bats based on their time and current date.
+*/
 
 function handleBats(){
 	for (var i = bats.length-1; i >= 0; i--){
@@ -74,6 +94,9 @@ function handleBats(){
 	}
 }
 
+/* 
+Bat image is loaded from the source folder 
+*/
 function loadImage(src){
 	var image = new Image();
 	image.src = src;
@@ -96,7 +119,10 @@ function canvasAutoFullScreen(){
 	window.onresize();
 }
 
-// Returns how many days until Halloween
+/*
+Calculates how many days are remaining to Halloween day from the current day.
+*/
+
 function getDaysUntilHalloween(){
 	var d = new Date();
 	var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -113,7 +139,10 @@ function rand(min, max){
 	return Math.floor(Math.random()*(max-min+1))+min;
 }
 
-// Returns a random string in an array
+/*
+Selects a random number from 0 upto the size of the list array.
+*/
+
 function randFromList(list){
 	return list[rand(0, list.length-1)];
 }
