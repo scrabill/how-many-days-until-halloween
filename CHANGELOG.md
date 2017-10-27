@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
+## Update 10/26
+Oh my gourd! So many pull requests waiting for me today. In the mean time, all changes from the the past day are live!
+
+Thanks again for everyone who has contributed. 
+
 ## Update 10/25
 6 days! There have been a lot of behind the scenes pull requests but I'm happy to annouce we now have a seriously spooky drop shadow and animated text. 
 
