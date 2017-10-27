@@ -1,5 +1,39 @@
 body, .jumbotron {
-	 background: linear-gradient(to right, red , yellow);
+	 background: linear-gradient(to right, red , orange);
+}
+
+/* Orange browser border on desktops and tablets; z-index of over 9,000. */
+
+@media (min-width:900px) {
+    div#wrapper:before {
+        content: "";
+        background: rgba(0, 0, 0, 0.00);
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        border-top: 25px orange solid;
+        border-left: 25px solid orange;
+        border-right: 25px solid orange;
+        border-bottom: 25px solid orange;
+        border-color: #E85708;
+        z-index: 9998;
+        pointer-events: none;
+    }
+}
+
+#video-background {
+/* Making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+  background: rgba(0, 0, 0, 0.50);
 }
 
 .jumbotron p {
@@ -9,21 +43,24 @@ body, .jumbotron {
 
 a {
 	text-decoration: underline;
-	color: black;
+	color: white;
+}
+
+a:hover {
+	color: #E85708;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	color: white;
 }
 
 h1 {
 	font-family: 'Creepster', cursive;
-}
-
-h2, p {
-	font-family: 'Oswald', sans-serif;
-}
-
-h1 {
 	text-shadow: 2px 2px #ff6600;
 }
 
 h2 {
+	font-family: 'Oswald', sans-serif;
 	text-shadow: 1px 1px #ff6600;
 }
