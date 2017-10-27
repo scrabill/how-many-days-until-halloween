@@ -54,6 +54,7 @@ To get you started, some of the following links can be useful:
 - [Markdown](https://www.markdowntutorial.com)
 
 ### Quick links
+
 - [JavaScript folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/js)
 - [CSS folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/css)
 - [Fonts folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/fonts)
@@ -63,3 +64,4 @@ To get you started, some of the following links can be useful:
 
 - [Sublime](https://www.sublimetext.com/)
 - [Atom](https://atom.io/)
+- [Visual Studio Code](https://code.visualstudio.com/)

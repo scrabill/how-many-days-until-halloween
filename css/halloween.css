@@ -1,0 +1,30 @@
+body, .jumbotron {
+	 background-color: black;
+}
+
+.jumbotron p {
+	margin-top: 20%;
+    font-size: 12px;
+    color:gray;
+}
+
+a {
+	text-decoration: underline;
+	color:lightgray;
+}
+
+h1 {
+	font-family: 'Creepster', cursive;
+}
+
+h2, p {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	text-shadow: 2px 2px #FF8300;
+}
+
+h2 {
+	text-shadow: 1px 1px #FF8300;
+}

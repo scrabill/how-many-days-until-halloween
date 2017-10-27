@@ -1,3 +1,17 @@
+function celebrateHalloween(){
+	var oldlink = document.getElementsByTagName("link")[2];
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", "css/halloween.css");
+
+	document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+	
+	var docs = document.getElementById("img");
+	docs.setAttribute("src", "./img/pumpkin-dance.gif");
+}
+
 /*
 Display's different messages based on, if Halloween is today, tomorrow or after some days.
 */
@@ -7,6 +21,7 @@ function calculateDaysLeft(){
 
 	if (daysUntilHalloween === 0){
 		document.getElementById("spooky").innerText = "It's Halloween!";
+		celebrateHalloween();
 	}
 	else if (daysUntilHalloween === 1){
 		document.getElementById("spooky").innerText = "Tomorrow is Halloween!";
