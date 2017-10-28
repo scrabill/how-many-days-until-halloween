@@ -51,4 +51,4 @@ appointed representative at an online or offline event.
 ## Attribution ##
 
 This Code of Conduct is adapted from
-[Contributor Covenant][https://www.contributor-covenant.org/version/1/4/code-of-conduct.html].
+[Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).

@@ -1,11 +1,11 @@
 
-# 🎃 CONTRIBUTORS 🎃 #
+# 🎃 List of contributors 🎃 #
 
 **Contributors, add your name to this list using this format:**
 
     [Your Name](https://github.com/yourusername)
 
-## Contributors: ##
+## Contributors ##
 
 - [Bill McClung](https://github.com/cfgauss)
 - [Joshua Hoffman](https://github.com/hoffmanjoshua)
