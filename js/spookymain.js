@@ -1,5 +1,5 @@
 /*
-Display's different messages based on, if Halloween is today, tomorrow or after some days.
+Displays different messages based on, if Halloween is today, tomorrow or after some days.
 */
 
 function calculateDaysLeft(){
