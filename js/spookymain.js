@@ -38,9 +38,14 @@ var splashText = [
 	"Don’t Make Me Get The Flying Monkeys"
 ];
 
-
+var splashElement = document.getElementById("splashText")
 //Random message is displayed from splashText array.
-document.getElementById("splashText").innerText = randFromList(splashText);
+splashElement.innerText = randFromList(splashText);
+
+//Onclick of splashText, random message changes.
+document.getElementById("splashText").onclick = function showNewSplash() {
+	splashElement.innerText = randFromList(splashText);
+}
 
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
