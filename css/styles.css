@@ -27,3 +27,7 @@ h1 {
 h2 {
 	text-shadow: 1px 1px #ff6600;
 }
+
+#splashText {
+	font-size: 40px;
+}
