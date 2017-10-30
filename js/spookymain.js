@@ -43,7 +43,7 @@ var splashElement = document.getElementById("splashText")
 splashElement.innerText = randFromList(splashText);
 
 //Onclick of splashText, random message changes.
-document.getElementById("splashText").onclick = function showNewSplash() {
+splashElement.onclick = function showNewSplash() {
 	splashElement.innerText = randFromList(splashText);
 }
 
