@@ -37,6 +37,7 @@ var splashText = [
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
 	"Don’t Make Me Get The Flying Monkeys",
+  "Witch better have my candy!",
 	"Franken-tastic!",
 	"Got Ghosts?",
 	"Happy Howl-o-Ween.",
