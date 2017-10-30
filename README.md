@@ -7,6 +7,8 @@ Idk. Let [this page](http://shannoncrabill.com/how-many-days-until-halloween/) d
 In the spirit of [Hacktoberfest](https://hacktoberfest.digitalocean.com/), I posted this project to GitHub with the purpose of giving developers a place to practice write coding and working with Git / Github. You can [read my blog post](https://shannoncrabill.com/blog/hacktoberfest-2017/) for more on how this project came to be.
 
 A list of notable updates for the project are documented in the [Changelog](CHANGELOG.md).
+Document regarding [Code Of Conduct](CODE_OF_CONDUCT.md). Guidelines for [Contributing](CONTRIBUTING.md)
+
 
 ## Contributing
 
