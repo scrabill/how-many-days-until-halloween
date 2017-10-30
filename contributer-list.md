@@ -24,7 +24,7 @@
 * [Kudakwashe Siziva](github.com/kaysiz)
 * [Neil Busse](github.com/nbuss848)
 * [Yendy](https://github.com/yendyh)
-* [Jax Steele] (http://github.com/schteele)
+* [Jax Steele](http://github.com/schteele)
 * [DynamiteC](https://github.com/DynamiteC)
 * [Juan Luis Chaurant](https://github.com/juanluischaurant)
 * [Gagan M](https://github.com/theTechie)
