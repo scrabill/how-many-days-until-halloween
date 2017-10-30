@@ -25,3 +25,4 @@
 * [Neil Busse](github.com/nbuss848)
 * [Yendy](https://github.com/yendyh)
 * [Juan Luis Chaurant](https://github.com/juanluischaurant)
+* [Gagan M](https://github.com/theTechie)
