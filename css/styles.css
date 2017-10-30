@@ -27,3 +27,6 @@ h1 {
 h2 {
 	text-shadow: 1px 1px #ff6600;
 }
+.text-large {
+	font-size: 20px !important;
+}
