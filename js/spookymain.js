@@ -1,4 +1,4 @@
-/*
+f/*
 Display's different messages based on, if Halloween is today, tomorrow or after some days.
 */
 
@@ -19,7 +19,7 @@ calculateDaysLeft();
 setInterval(calculateDaysLeft, 60);
 
 var splashText = [
-	"Don't Underestimate Me"
+	"Don't Underestimate Me",
 	"Best Witches",
 	"Chills and Thrills",
 	"Don't be a scaredy cat!",
@@ -51,9 +51,14 @@ var splashText = [
   "When black cats prowl and pumpkins gleam, May luck be yours on Halloween"
 ];
 
-
+var splashElement = document.getElementById("splashText")
 //Random message is displayed from splashText array.
-document.getElementById("splashText").innerText = randFromList(splashText);
+splashElement.innerText = randFromList(splashText);
+
+//Onclick of splashText, random message changes.
+splashElement.onclick = function showNewSplash() {
+	splashElement.innerText = randFromList(splashText);
+}
 
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
