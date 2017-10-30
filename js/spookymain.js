@@ -19,6 +19,7 @@ calculateDaysLeft();
 setInterval(calculateDaysLeft, 60);
 
 var splashText = [
+	"Don't Underestimate Me"
 	"Best Witches",
 	"Chills and Thrills",
 	"Don't be a scaredy cat!",
