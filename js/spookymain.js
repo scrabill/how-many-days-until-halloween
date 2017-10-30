@@ -37,6 +37,8 @@ var splashText = [
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
 	"Don’t Make Me Get The Flying Monkeys",
+	"I See Dead People",
+	"Shaay Hello To My Little Friend!",
 	"Be the Scariest Thing in These Woods",
 	"Thrilling, Chilling, Spine Curling",
 	"Embrace the Pumpkin Spice",
