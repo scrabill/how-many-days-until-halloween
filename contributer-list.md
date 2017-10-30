@@ -24,8 +24,11 @@
 * [Kudakwashe Siziva](github.com/kaysiz)
 * [Neil Busse](github.com/nbuss848)
 * [Yendy](https://github.com/yendyh)
-* [Jax Steele] (http://github.com/schteele)
+* [Jax Steele](http://github.com/schteele)
 * [DynamiteC](https://github.com/DynamiteC)
 * [Juan Luis Chaurant](https://github.com/juanluischaurant)
 * [Gagan M](https://github.com/theTechie)
 * [Janice Medina](https://github.com/ConnectExtend)
+* [Bernard Brink](https://github.com/royalmitten)
+
+[And many more!](https://github.com/scrabill/how-many-days-until-halloween/graphs/contributors)
