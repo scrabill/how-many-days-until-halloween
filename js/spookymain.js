@@ -187,3 +187,28 @@ Selects a random number from 0 upto the size of the list array.
 function randFromList(list){
 	return list[rand(0, list.length-1)];
 }
+
+/*
+Night mode
+*/
+
+(function(){
+	var nightButton = document.getElementById('nightButton');
+	var isItNight = false;
+
+	function toggleNight(){		 	
+		var background = isItNight ? "" : "linear-gradient(to bottom, black , #011a42)";
+		var textColor = isItNight ? "" : "#ff6600"; 
+
+		document.querySelector('body').style.background = background;
+
+		var elems = document.querySelectorAll('p, a, button');
+		for(var i = 0; i < elems.length; i++){
+			elems[i].style.color = textColor;
+			elems[i].style.borderColor = textColor;
+		}
+		
+		isItNight = !isItNight;
+	}
+	nightButton.addEventListener('click', toggleNight);
+})();
