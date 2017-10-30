@@ -12,4 +12,6 @@ A list of notable updates for the project are documented in the [Changelog](CHAN
 
 This site is built with Bootstrap, Javascript and JQuery.
 
-If you are interested in contributing, [open issues can be found here](https://github.com/scrabill/how-many-days-until-halloween/issues) or suggest your own! Here are [guidelines for contributing](https://github.com/scrabill/how-many-days-until-halloween/blob/master/CONTRIBUTING.md).
+If you are interested in contributing, [open issues can be found here](https://github.com/scrabill/how-many-days-until-halloween/issues) or suggest your own! Here are [guidelines for contributing](https://github.com/scrabill/how-many-days-until-halloween/blob/master/CONTRIBUTING.md). You can also make sure your contributions are up to our standards by referring to the [code of conduct](CODE_OF_CONDUCT.md).
+
+
