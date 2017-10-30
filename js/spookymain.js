@@ -41,7 +41,13 @@ var splashText = [
 	"A Haunting We Will Go",
 	"Beary Be-Witching",
 	"Causion! Black Cat Crossing",
-	"Bugs and Hisses!"
+	"Bugs and Hisses!",
+	"Be Afraid. Be Very Afraid.",
+	"Happy Haunting!",
+	"Skeletons Make Great Friends",
+	"Stop In For a Spell",
+	"Boogeyman Says Hi",
+  "When black cats prowl and pumpkins gleam, May luck be yours on Halloween"
 ];
 
 
