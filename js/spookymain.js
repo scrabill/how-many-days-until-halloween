@@ -37,6 +37,10 @@ var splashText = [
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
 	"Don’t Make Me Get The Flying Monkeys",
+	"Be the Scariest Thing in These Woods",
+	"Thrilling, Chilling, Spine Curling",
+	"Embrace the Pumpkin Spice",
+	"I Got 99 Problems But a Witch Ain't One",
   "Witch better have my candy!",
 	"Franken-tastic!",
 	"Got Ghosts?",
@@ -72,12 +76,13 @@ var nextBatSpawn = 0;
 
 canvasAutoFullScreen();
 draw();
+registerClickSpawn();
 
 function draw(){
 	context.clearRect(0, 0, canvas.width, canvas.height);
 	requestAnimationFrame(draw);
 	if (nextBatSpawn < Date.now())
-		spawnBat();
+		spawnBat(rand(50, canvas.width-50), rand(50, canvas.height-50));
 	handleBats();
 }
 
@@ -85,11 +90,11 @@ function draw(){
 Calculates the Rotation direction and death time of the bat.
 */
 
-function spawnBat(){
+function spawnBat(x, y){
 	nextBatSpawn = Date.now()+rand(500, 1500);
 	bats.push({
-		x: rand(50, canvas.width-50),
-		y: rand(50, canvas.height-50),
+		x: x,
+		y: y,
 		degrees: rand(-45, 45),
 		rotationDirection: (rand(0, 100) < 50 ? 2 : -2),
 		deathTime: Date.now()+rand(1000, 5000),
@@ -139,6 +144,18 @@ function canvasAutoFullScreen(){
 		canvas.width = window.innerWidth;
 	}
 	window.onresize();
+}
+
+function registerClickSpawn(){
+	canvas.onclick = clickSpawnBat
+	centerDivs = document.getElementsByClassName("jumbotron");
+	for (var i = 0; i < centerDivs.length; i++){
+		centerDivs[i].onclick = clickSpawnBat;
+	}
+}
+
+function clickSpawnBat(event){
+	spawnBat(event.clientX, event.clientY);
 }
 
 /*
