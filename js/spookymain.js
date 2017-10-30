@@ -1,5 +1,5 @@
 /*
-Display's different messages based on, if Halloween is today, tomorrow or after some days.
+Displays different messages based on, if Halloween is today, tomorrow or after some days.
 */
 
 function calculateDaysLeft(){
@@ -37,6 +37,9 @@ var splashText = [
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
 	"Don’t Make Me Get The Flying Monkeys",
+	"Franken-tastic!",
+	"Got Ghosts?",
+	"Happy Howl-o-Ween.",
 	"If the broom fits, ride it!",
 	"I am a good witch most of the times",
 	"A Haunting We Will Go",
