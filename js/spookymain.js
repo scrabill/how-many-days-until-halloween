@@ -19,6 +19,7 @@ calculateDaysLeft();
 setInterval(calculateDaysLeft, 60);
 
 var splashText = [
+	"Don't Underestimate Me"
 	"Best Witches",
 	"Chills and Thrills",
 	"Don't be a scaredy cat!",
@@ -38,7 +39,19 @@ var splashText = [
 	"Don’t Make Me Get The Flying Monkeys",
 	"Franken-tastic!",
 	"Got Ghosts?",
-	"Happy Howl-o-Ween."
+	"Happy Howl-o-Ween.",
+	"If the broom fits, ride it!",
+	"I am a good witch most of the times",
+	"A Haunting We Will Go",
+	"Beary Be-Witching",
+	"Causion! Black Cat Crossing",
+	"Bugs and Hisses!",
+	"Be Afraid. Be Very Afraid.",
+	"Happy Haunting!",
+	"Skeletons Make Great Friends",
+	"Stop In For a Spell",
+	"Boogeyman Says Hi",
+  "When black cats prowl and pumpkins gleam, May luck be yours on Halloween"
 ];
 
 

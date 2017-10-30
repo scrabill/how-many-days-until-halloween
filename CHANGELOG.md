@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
+## Update 10/29
+
+Quick update here! I was out of town of the weekend and will be reviewing as many pull request as as I can over the next few days. 
+
+Don't worry if your pull request isn't reviewed/accepted until November. As long as the pull request is made "between October 1–31 in any timezone" it'll count toward getting the t-shirt. 
+
+Another update coming soon!
+
 ## Update 10/26
 Oh my gourd! So many pull requests waiting for me today. In the mean time, all changes from the the past day are live!
 
