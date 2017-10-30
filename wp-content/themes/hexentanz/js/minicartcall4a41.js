@@ -1,3 +1,0 @@
-PAYPAL.apps.MiniCart.render();
-
-
