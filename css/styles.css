@@ -8,7 +8,21 @@ body {
 
 .jumbotron p {
 	margin-top: 20%;
-	font-size: 12px;
+	font-size: 18px;
+}
+
+/* Medium Devices/Desktops */
+@media only screen and (min-width : 992px) {
+	.jumbotron h2 {
+		font-size: 4em;
+	}
+}
+
+/* Large Devices/Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.jumbotron h2 {
+		font-size: 4em;
+	}
 }
 
 a {
@@ -37,4 +51,26 @@ h2 {
 	padding: 10px 20px;
 	font-family: 'Oswald', sans-serif;
 	border: solid 2px black;	
+}
+
+p.text-center {
+	font-size: 13pt;
+}
+
+#splashText {
+	font-size: 40px;
+}
+
+.text-large {
+	font-size: 20px !important;
+}
+
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
