@@ -40,7 +40,8 @@ var splashText = [
 	"Happy Haunting!",
 	"Skeletons Make Great Friends",
 	"Stop In For a Spell",
-	"Boogeyman Says Hi"
+	"Boogeyman Says Hi",
+  "When black cats prowl and pumpkins gleam, May luck be yours on Halloween"
 ];
 
 
