@@ -29,3 +29,8 @@
 * [Juan Luis Chaurant](https://github.com/juanluischaurant)
 * [Gagan M](https://github.com/theTechie)
 * [Janice Medina](https://github.com/ConnectExtend)
+* [Bernard Brink](https://github.com/royalmitten)
+* [Kevin Bruland](https://github.com/KevinBruland)
+* [Adam Wall](https://github.com/adamthewizard)
+
+[And many more!](https://github.com/scrabill/how-many-days-until-halloween/graphs/contributors)
