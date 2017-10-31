@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
+## Update 10/30
+
+Halloween is TOMORROW! Who's ready?
+
+![Boo!](/img/1-day.gif)
+
+I've merged and [pushed live](http://shannoncrabill.com/how-many-days-until-halloween/) on most of the pull requests since Friday. 
+
+We're getting close spookiest day of the year!
+
+![Boo!](/img/dwight-pumpkin-head.gif)
+
 ## Update 10/29
 
 Quick update here! I was out of town of the weekend and will be reviewing as many pull request as as I can over the next few days. 
