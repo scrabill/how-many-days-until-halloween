@@ -54,6 +54,7 @@ var splashText = [
 	"Causion! Black Cat Crossing",
 	"Bugs and Hisses!",
 	"Be Afraid. Be Very Afraid.",
+	"I never go to sleep. But I keep waking up.",
 	"Happy Haunting!",
 	"Skeletons Make Great Friends",
 	"Stop In For a Spell",
