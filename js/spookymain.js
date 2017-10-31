@@ -61,7 +61,8 @@ var splashText = [
   	"When black cats prowl and pumpkins gleam, May luck be yours on Halloween",
 	"To scream or not to scream",
 	"When witches go riding, and black cats are seen, the moon laughs and whispers 'tis near Halloween",
-	"There is magic in the night when pumpkins glow by moonlight"
+	"There is magic in the night when pumpkins glow by moonlight",
+	"Skeletons under the mattress"
 ];
 
 var splashElement = document.getElementById("splashText")
