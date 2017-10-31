@@ -3,6 +3,40 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
+## Update 10/30
+
+Halloween is TOMORROW! Who's ready?
+
+![Boo!](/img/1-day.gif)
+
+I've merged and [pushed live](http://shannoncrabill.com/how-many-days-until-halloween/) on most of the pull requests since Friday. 
+
+We're getting close spookiest day of the year!
+
+![Boo!](/img/dwight-pumpkin-head.gif)
+
+## Update 10/29
+
+Quick update here! I was out of town of the weekend and will be reviewing as many pull request as as I can over the next few days. 
+
+Don't worry if your pull request isn't reviewed/accepted until November. As long as the pull request is made "between October 1–31 in any timezone" it'll count toward getting the t-shirt. 
+
+Another update coming soon!
+
+## Update 10/26
+Oh my gourd! So many pull requests waiting for me today. In the mean time, all changes from the the past day are live!
+
+Thanks again for everyone who has contributed. 
+
+## Update 10/25
+6 days! There have been a lot of behind the scenes pull requests but I'm happy to annouce we now have a seriously spooky drop shadow and animated text. 
+
+![Boo!](/img/6-days.gif)
+
+Chills and Thrills!
+
+![Boo!](/img/pumpkin-dance.gif)
+
 ## Update 10/24
 Can you boo-lieve Halloween is 7 days away? Me neither! Merged pull requests from the past five days are now [live](http://shannoncrabill.com/how-many-days-until-halloween/)!
 
