@@ -54,6 +54,7 @@ var splashText = [
 	"Causion! Black Cat Crossing",
 	"Bugs and Hisses!",
 	"Be Afraid. Be Very Afraid.",
+	"I never go to sleep. But I keep waking up.",
 	"Happy Haunting!",
 	"Skeletons Make Great Friends",
 	"Stop In For a Spell",
@@ -62,7 +63,8 @@ var splashText = [
 	"To scream or not to scream",
 	"When witches go riding, and black cats are seen, the moon laughs and whispers 'tis near Halloween",
 	"There is magic in the night when pumpkins glow by moonlight",
-	"Spooky scary skeletons!"
+	"Spooky scary skeletons!",
+	"Skeletons under the mattress"
 ];
 
 var splashElement = document.getElementById("splashText")
