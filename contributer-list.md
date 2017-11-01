@@ -29,6 +29,7 @@
 * [Juan Luis Chaurant](https://github.com/juanluischaurant)
 * [Gagan M](https://github.com/theTechie)
 * [Janice Medina](https://github.com/ConnectExtend)
+* [Rama41222](https://github.com/rama41222)
 * [Jamie Woodmancy](https://github.com/jamie29w)
 * [Muntasir Biojid](https://github.com/muntasir2165)
 * [Bernard Brink](https://github.com/royalmitten)
