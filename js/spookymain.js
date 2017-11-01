@@ -43,7 +43,7 @@ var splashText = [
 	"Thrilling, Chilling, Spine Curling",
 	"Embrace the Pumpkin Spice",
 	"I Got 99 Problems But a Witch Ain't One",
-  "Witch better have my candy!",
+  	"Witch better have my candy!",
 	"Franken-tastic!",
 	"Got Ghosts?",
 	"Happy Howl-o-Ween.",
@@ -54,11 +54,17 @@ var splashText = [
 	"Causion! Black Cat Crossing",
 	"Bugs and Hisses!",
 	"Be Afraid. Be Very Afraid.",
+	"I never go to sleep. But I keep waking up.",
 	"Happy Haunting!",
 	"Skeletons Make Great Friends",
 	"Stop In For a Spell",
 	"Boogeyman Says Hi",
-  "When black cats prowl and pumpkins gleam, May luck be yours on Halloween"
+  	"When black cats prowl and pumpkins gleam, May luck be yours on Halloween",
+	"To scream or not to scream",
+	"When witches go riding, and black cats are seen, the moon laughs and whispers 'tis near Halloween",
+	"There is magic in the night when pumpkins glow by moonlight",
+	"Spooky scary skeletons!",
+	"Skeletons under the mattress"
 ];
 
 var splashElement = document.getElementById("splashText")
