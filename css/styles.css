@@ -16,12 +16,18 @@ body {
 	.jumbotron h2 {
 		font-size: 4em;
 	}
+	.jumbotron h1 {
+		font-size: 6em;
+	}
 }
 
 /* Large Devices/Wide Screens */
 @media only screen and (min-width : 1200px) {
 	.jumbotron h2 {
 		font-size: 4em;
+	}
+	.jumbotron h1 {
+		font-size: 6em;
 	}
 }
 
@@ -62,7 +68,7 @@ p.text-center {
 }
 
 .text-large {
-	font-size: 20px !important;
+	font-size: 40px !important;
 }
 
 * {
