@@ -1,5 +1,5 @@
 /*
-Display's different messages based on, if Halloween is today, tomorrow or after some days.
+Displays different messages based on, if Halloween is today, tomorrow or after some days.
 */
 
 function calculateDaysLeft(){
@@ -19,6 +19,7 @@ calculateDaysLeft();
 setInterval(calculateDaysLeft, 60);
 
 var splashText = [
+	"Don't Underestimate Me",
 	"Best Witches",
 	"Chills and Thrills",
 	"Don't be a scaredy cat!",
@@ -35,12 +36,45 @@ var splashText = [
 	"Creep it Real",
 	"Drink Up Witches!",
 	"If You’ve Got It, Haunt it",
-	"Don’t Make Me Get The Flying Monkeys"
+	"Don’t Make Me Get The Flying Monkeys",
+	"I See Dead People",
+	"Shaay Hello To My Little Friend!",
+	"Be the Scariest Thing in These Woods",
+	"Thrilling, Chilling, Spine Curling",
+	"Embrace the Pumpkin Spice",
+	"I Got 99 Problems But a Witch Ain't One",
+  	"Witch better have my candy!",
+	"Franken-tastic!",
+	"Got Ghosts?",
+	"Happy Howl-o-Ween.",
+	"If the broom fits, ride it!",
+	"I am a good witch most of the times",
+	"A Haunting We Will Go",
+	"Beary Be-Witching",
+	"Causion! Black Cat Crossing",
+	"Bugs and Hisses!",
+	"Be Afraid. Be Very Afraid.",
+	"I never go to sleep. But I keep waking up.",
+	"Happy Haunting!",
+	"Skeletons Make Great Friends",
+	"Stop In For a Spell",
+	"Boogeyman Says Hi",
+  	"When black cats prowl and pumpkins gleam, May luck be yours on Halloween",
+	"To scream or not to scream",
+	"When witches go riding, and black cats are seen, the moon laughs and whispers 'tis near Halloween",
+	"There is magic in the night when pumpkins glow by moonlight",
+	"Spooky scary skeletons!",
+	"Skeletons under the mattress"
 ];
 
-
+var splashElement = document.getElementById("splashText")
 //Random message is displayed from splashText array.
-document.getElementById("splashText").innerText = randFromList(splashText);
+splashElement.innerText = randFromList(splashText);
+
+//Onclick of splashText, random message changes.
+splashElement.onclick = function showNewSplash() {
+	splashElement.innerText = randFromList(splashText);
+}
 
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
@@ -50,12 +84,13 @@ var nextBatSpawn = 0;
 
 canvasAutoFullScreen();
 draw();
+registerClickSpawn();
 
 function draw(){
 	context.clearRect(0, 0, canvas.width, canvas.height);
 	requestAnimationFrame(draw);
 	if (nextBatSpawn < Date.now())
-		spawnBat();
+		spawnBat(rand(50, canvas.width-50), rand(50, canvas.height-50));
 	handleBats();
 }
 
@@ -63,11 +98,11 @@ function draw(){
 Calculates the Rotation direction and death time of the bat.
 */
 
-function spawnBat(){
+function spawnBat(x, y){
 	nextBatSpawn = Date.now()+rand(500, 1500);
 	bats.push({
-		x: rand(50, canvas.width-50),
-		y: rand(50, canvas.height-50),
+		x: x,
+		y: y,
 		degrees: rand(-45, 45),
 		rotationDirection: (rand(0, 100) < 50 ? 2 : -2),
 		deathTime: Date.now()+rand(1000, 5000),
@@ -119,6 +154,18 @@ function canvasAutoFullScreen(){
 	window.onresize();
 }
 
+function registerClickSpawn(){
+	canvas.onclick = clickSpawnBat
+	centerDivs = document.getElementsByClassName("jumbotron");
+	for (var i = 0; i < centerDivs.length; i++){
+		centerDivs[i].onclick = clickSpawnBat;
+	}
+}
+
+function clickSpawnBat(event){
+	spawnBat(event.clientX, event.clientY);
+}
+
 /*
 Calculates how many days are remaining to Halloween day from the current day.
 */
@@ -146,3 +193,28 @@ Selects a random number from 0 upto the size of the list array.
 function randFromList(list){
 	return list[rand(0, list.length-1)];
 }
+
+/*
+Night mode
+*/
+
+(function(){
+	var nightButton = document.getElementById('nightButton');
+	var isItNight = false;
+
+	function toggleNight(){		 	
+		var background = isItNight ? "" : "linear-gradient(to bottom, black , #011a42)";
+		var textColor = isItNight ? "" : "#ff6600"; 
+
+		document.querySelector('body').style.background = background;
+
+		var elems = document.querySelectorAll('p, a, button');
+		for(var i = 0; i < elems.length; i++){
+			elems[i].style.color = textColor;
+			elems[i].style.borderColor = textColor;
+		}
+		
+		isItNight = !isItNight;
+	}
+	nightButton.addEventListener('click', toggleNight);
+})();

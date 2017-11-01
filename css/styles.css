@@ -1,11 +1,35 @@
-body, .jumbotron {
+html{
+	height: 100%;
+}
+body {
 	 background: linear-gradient(to right, red , yellow);
+	 height: 100vh;	 
 }
 
 .jumbotron p {
 	margin-top: 20%;
 	font-size: 20px;
 	font-family: emilys-candy;
+}
+
+/* Medium Devices/Desktops */
+@media only screen and (min-width : 992px) {
+	.jumbotron h2 {
+		font-size: 4em;
+	}
+	.jumbotron h1 {
+		font-size: 6em;
+	}
+}
+
+/* Large Devices/Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.jumbotron h2 {
+		font-size: 4em;
+	}
+	.jumbotron h1 {
+		font-size: 6em;
+	}
 }
 
 a {
@@ -32,4 +56,37 @@ h1 {
 	.jumbotron h1 {
 		font-size: 70px;
 	}
+}
+
+h2 {
+	text-shadow: 1px 1px #ff6600;
+}
+
+.night-button{
+	background: transparent;
+	padding: 10px 20px;
+	font-family: 'Oswald', sans-serif;
+	border: solid 2px black;	
+}
+
+p.text-center {
+	font-size: 13pt;
+}
+
+#splashText {
+	font-size: 40px;
+}
+
+.text-large {
+	font-size: 40px !important;
+}
+
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
