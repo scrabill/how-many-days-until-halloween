@@ -35,6 +35,6 @@
 * [Bernard Brink](https://github.com/royalmitten)
 * [Kevin Bruland](https://github.com/KevinBruland)
 * [Adam Wall](https://github.com/adamthewizard)
-* [LFonsi](https://github.com/luisf1821)
+* [LFonsi](https://github.com/LFonsi)
 
 [And many more!](https://github.com/scrabill/how-many-days-until-halloween/graphs/contributors)
