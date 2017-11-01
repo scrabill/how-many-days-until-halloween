@@ -63,6 +63,7 @@ var splashText = [
 	"To scream or not to scream",
 	"When witches go riding, and black cats are seen, the moon laughs and whispers 'tis near Halloween",
 	"There is magic in the night when pumpkins glow by moonlight",
+	"Spooky scary skeletons!",
 	"Skeletons under the mattress"
 ];
 
