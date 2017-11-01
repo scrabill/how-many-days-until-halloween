@@ -8,8 +8,7 @@ body {
 
 .jumbotron p {
 	margin-top: 20%;
-	font-size: 20px;
-	font-family: emilys-candy;
+	font-size: 18px;
 }
 
 /* Medium Devices/Desktops */
@@ -39,23 +38,14 @@ a {
 
 h1 {
 	font-family: 'Creepster', cursive;
-	font-size: 70px;
 }
 
-h2 {
-	text-shadow: 1px 1px #ff6600;
-	font-family: de-walpergens-pica;
-	font-size: 50px;
+h2, p {
+	font-family: 'Oswald', sans-serif;
 }
 
 h1 {
 	text-shadow: 2px 2px #ff6600;
-}
-
-@media screen and (min-width: 768px) {
-	.jumbotron h1 {
-		font-size: 70px;
-	}
 }
 
 h2 {
