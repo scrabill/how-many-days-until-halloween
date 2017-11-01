@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
 We did it!
 
-![It's Halloween!](/img/1-day.gif)
+![It's Halloween!](/img/0-day.gif)
 
 The past few weeks have been great! This started as a simple, moderately spooky countdown timer, to one complete with bats, spooky texts and night mode!
 
@@ -16,6 +16,7 @@ When I posted this project to Github, I didn't expect much of a response from th
 Here are the stats to date:
 
 ![Stats to date](/img/stats_103117.png)
+
 _How Many Days Until Halloween | [Insights](https://github.com/scrabill/how-many-days-until-halloween/pulse)_
 
 Again, a big thanks to EVERY SINGLE one of you that contributed to this project. I learned a lot about Github, git and open source and wouldn't have gotten here without you all.
