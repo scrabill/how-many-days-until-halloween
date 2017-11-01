@@ -3,6 +3,29 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
+## Update 10/31
+
+We did it!
+
+![It's Halloween!](/img/1-day.gif)
+
+The past few weeks have been great! This started as a simple, moderately spooky countdown timer, to one complete with bats, spooky texts and night mode!
+
+When I posted this project to Github, I didn't expect much of a response from the community. I was happily suprised.
+
+Here are the stats to date:
+
+![Stats to date](/img/stats_103117.png)
+_How Many Days Until Halloween | [Insights](https://github.com/scrabill/how-many-days-until-halloween/pulse)_
+
+Again, a big thanks to EVERY SINGLE one of you that contributed to this project. I learned a lot about Github, git and open source and wouldn't have gotten here without you all.
+
+Same time next year?
+
+![So long and thanks for all the fish](/img/i-put-a-spell-on-you.gif)
+
+_Stay Spooky!_
+
 ## Update 10/30
 
 Halloween is TOMORROW! Who's ready?
