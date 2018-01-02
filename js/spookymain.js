@@ -51,7 +51,7 @@ var splashText = [
 	"I am a good witch most of the times",
 	"A Haunting We Will Go",
 	"Beary Be-Witching",
-	"Causion! Black Cat Crossing",
+	"Caution! Black Cat Crossing",
 	"Bugs and Hisses!",
 	"Be Afraid. Be Very Afraid.",
 	"I never go to sleep. But I keep waking up.",
@@ -64,7 +64,10 @@ var splashText = [
 	"When witches go riding, and black cats are seen, the moon laughs and whispers 'tis near Halloween",
 	"There is magic in the night when pumpkins glow by moonlight",
 	"Spooky scary skeletons!",
-	"Skeletons under the mattress"
+	"Skeletons under the mattress",
+	"Ooooooooo!",
+	"Everyone hail to the pumpkin song!",
+	"Be Afraid, Be Very Afraid!"
 ];
 
 var splashElement = document.getElementById("splashText")
