@@ -66,8 +66,7 @@ var splashText = [
 	"Spooky scary skeletons!",
 	"Skeletons under the mattress",
 	"Ooooooooo!",
-	"Everyone hail to the pumpkin song!",
-	"Be Afraid, Be Very Afraid!"
+	"Everyone hail to the pumpkin song!"
 ];
 
 var splashElement = document.getElementById("splashText")
