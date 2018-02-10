@@ -64,7 +64,8 @@ var splashText = [
 	"When witches go riding, and black cats are seen, the moon laughs and whispers 'tis near Halloween",
 	"There is magic in the night when pumpkins glow by moonlight",
 	"Spooky scary skeletons!",
-	"Skeletons under the mattress"
+	"Skeletons under the mattress",
+	"Halloween candy is great, but don't forget to save room for I-scream."
 ];
 
 var splashElement = document.getElementById("splashText")
