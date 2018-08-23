@@ -65,6 +65,7 @@ var splashText = [
 	"There is magic in the night when pumpkins glow by moonlight",
 	"Spooky scary skeletons!",
 	"Skeletons under the mattress",
+	"Halloween candy is great, but don't forget to save room for I-scream.",
 	"May the trick or treat odds, be ever in your favour",
 	"Time to sip blood from my skull mug"
 ];
