@@ -36,5 +36,6 @@
 * [Kevin Bruland](https://github.com/KevinBruland)
 * [Adam Wall](https://github.com/adamthewizard)
 * [LFonsi](https://github.com/luisf1821)
+* [Arnava Agrawal](https://github.com/arnava17)
 
 [And many more!](https://github.com/scrabill/how-many-days-until-halloween/graphs/contributors)

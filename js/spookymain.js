@@ -65,7 +65,9 @@ var splashText = [
 	"There is magic in the night when pumpkins glow by moonlight",
 	"Spooky scary skeletons!",
 	"Skeletons under the mattress",
-	"Halloween candy is great, but don't forget to save room for I-scream."
+	"Halloween candy is great, but don't forget to save room for I-scream.",
+	"May the trick or treat odds, be ever in your favour",
+	"Time to sip blood from my skull mug"
 ];
 
 var splashElement = document.getElementById("splashText")
@@ -130,8 +132,8 @@ function handleBats(){
 	}
 }
 
-/* 
-Bat image is loaded from the source folder 
+/*
+Bat image is loaded from the source folder
 */
 function loadImage(src){
 	var image = new Image();
@@ -203,9 +205,9 @@ Night mode
 	var nightButton = document.getElementById('nightButton');
 	var isItNight = false;
 
-	function toggleNight(){		 	
+	function toggleNight(){
 		var background = isItNight ? "" : "linear-gradient(to bottom, black , #011a42)";
-		var textColor = isItNight ? "" : "#ff6600"; 
+		var textColor = isItNight ? "" : "#ff6600";
 
 		document.querySelector('body').style.background = background;
 
@@ -214,7 +216,7 @@ Night mode
 			elems[i].style.color = textColor;
 			elems[i].style.borderColor = textColor;
 		}
-		
+
 		isItNight = !isItNight;
 	}
 	nightButton.addEventListener('click', toggleNight);
