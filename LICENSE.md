@@ -1,4 +1,4 @@
-Copyright (c) [2017] [How many days until Halloween]
+Copyright (c) [2018] [How many days until Halloween]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
