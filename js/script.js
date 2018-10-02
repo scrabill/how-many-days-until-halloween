@@ -1,74 +1,87 @@
-var message = null;
-var halloween = 31;
-var d = new Date();
-var today = d.getDate(); // return the day of the month as a number 0-30
-var daysUntilHalloween = halloween - today;
+// Assign DOM elements
+const spooky = document.querySelector("#spooky");
+const jumbotron = document.querySelector(".jumbotron");
 
-  if (today == halloween) {
-	message = "It's Halloween! Stay spooky!"
-}
+// Assign colors
+const colors = {
+    spooky: "#ada48f"
+};
 
-  else {
-	message = "There are " + daysUntilHalloween + " days until Halloween!"
-}
- // Display message
- spooky.innerText = message;
+const getMessage = days => {
+    if (days < 0) {
+        return `Halloween was ${-days} days ago.`;
+    }
 
+    if (days === 0) {
+        return "It 's Halloween! Stay spooky!";
+    }
 
- // Map of allowed keys
- var allowedKeys = {
-   37: 'left',
-   38: 'up',
-   39: 'right',
-   40: 'down',
-   65: 'a',
-   66: 'b'
- };
+    if (days === 1) {
+        return "Halloween is tomorrow! Be afraid, be very afraid!";
+    }
 
- // 'Official' Konami Code sequence
- var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
+    return `There are still ${days} days until Halloween.`;
+};
 
- // Variable to remember the 'position' the user has reached so far.
- var konamiCodePosition = 0;
+const today = moment(); // Today
+const halloween = moment("31-10", "DD-MM"); // Next Halloween
+const message = getMessage(halloween.diff(today, "days")); // Calculate difference
 
- // Add keydown event listener
- document.addEventListener('keydown', function(e) {
-   // Get the value of the key code from the key map
-   var key = allowedKeys[e.keyCode];
-   // Get the value of the required key from the konami code
-   var requiredKey = konamiCode[konamiCodePosition];
+// Display message
+spooky.innerText = `${message} 👻`;
 
-   // Compare the key with the required key
-   if (key == requiredKey) {
+// Map of allowed keys for Konami Code
+const allowedKeys = {
+    37: "left",
+    38: "up",
+    39: "right",
+    40: "down",
+    65: "a",
+    66: "b"
+};
 
-     // Move to the next key in the konami code sequence
-     konamiCodePosition++;
+// 'Official' Konami Code sequence
+const konamiCode = ["up", "up", "down", "down", "left", "right", "left", "right", "b", "a"];
 
-     // If the last key is reached, activate cheats
-     if (konamiCodePosition == konamiCode.length) {
-       activateCheats();
-       konamiCodePosition = 0;
-     }
-   } else {
-     konamiCodePosition = 0;
-   }
- });
+// Variable to remember the 'position' the user has reached so far.
+let konamiCodePosition = 0;
+
+// Add keydown event listener
+document.addEventListener("keydown", e => {
+    // Get the value of the key code from the key map
+    const key = allowedKeys[e.keyCode];
+    
+    // Get the value of the required key from the konami code
+    const requiredKey = konamiCode[konamiCodePosition];
+
+    // Compare the key with the required key
+    if (key === requiredKey) {
+
+        // Move to the next key in the konami code sequence
+        konamiCodePosition++;
+
+        // If the last key is reached, activate cheats
+        if (konamiCodePosition === konamiCode.length) {
+            doKonami();
+            konamiCodePosition = 0;
+        }
+    } else {
+        konamiCodePosition = 0;
+    }
+});
 
 // Konami function that activates
- function activateCheats() {
-   // Changes css of elements into spooky theme
-   document.getElementById("jumbotron-background").style.backgroundColor = "transparent";
-   document.getElementById("spooky").style.color = "#ada48f";
-   document.body.style.backgroundImage = "url('https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg')";
-   document.body.style.backgroundColor = "black";
-   document.body.style.color = "#ada48f";
-   // Changes the color of all hyperlinks
-   var links = document.getElementsByTagName('a');
-   for(var i=0;i<links.length;i++)
-    {
-        if(links[i].href)
-        {
-            links[i].style.color = "#ada48f";
+const doKonami = () => {
+    // Changes the CSS of elements into spooky theme
+    jumbotron.style.backgroundColor = "transparent";
+    spooky.style.color = colors["spooky"];
+    
+    document.body.classList.add(["konami"]);
+    
+    // Changes the color of all hyperlinks
+    document.querySelectorAll("a").forEach(link => {
+        if (link.href !== "") {
+            link.style.color = colors["spooky"];
         }
-    }
-}
+    });
+};

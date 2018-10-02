@@ -12,3 +12,8 @@ body {
 	text-decoration: underline;
 	color: black;
 }
+
+.konami {
+	background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
+	color: #ada48f;
+}
