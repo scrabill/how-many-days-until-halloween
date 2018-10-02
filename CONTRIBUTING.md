@@ -36,7 +36,7 @@ When creating a pull request, if it applies, close or link to the issue it resol
 
 Make sure you are registered for the [HacktoberFest] before you start!(https://hacktoberfest.digitalocean.com/)
 
-Also, if you want to run the site locally and take a look at your changes, just open '''index.html''' with a browser.
+Also, if you want to run the site locally and take a look at your changes, just open **index.html** with a browser.
 
 ## Current Status ##
 
