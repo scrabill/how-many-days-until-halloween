@@ -20,7 +20,7 @@ We hope your Halloween is fun and spooky. Eat, drink and be scary!   :jack_o_lan
 
 ## Contributing Code ##
 
-If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a pull request for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues, etc.
+If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a pull request for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues etc.
 
 Key areas of code contributions include:
 - [New features](https://github.com/scrabill/how-many-days-until-halloween/issues/1)

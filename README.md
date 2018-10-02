@@ -4,7 +4,7 @@ Idk. Let [this page](http://shannoncrabill.com/how-many-days-until-halloween/) d
 
 ## About
 
-In the spirit of [Hacktoberfest](https://hacktoberfest.digitalocean.com/), I posted this project to GitHub with the purpose of giving developers a place to practice write coding and working with Git / Github. You can [read my blog post](https://shannoncrabill.com/blog/hacktoberfest-2017/) or my [AMA on open source](https://shannoncrabill.com/blog/open-source-ama/) for more on how this project came to be.
+In the spirit of [Hacktoberfest](https://hacktoberfest.digitalocean.com/), I posted this project to GitHub with the purpose of giving developers a place to practice writing code and working with Git / Github. You can [read my blog post](https://shannoncrabill.com/blog/hacktoberfest-2017/) or my [AMA on open source](https://shannoncrabill.com/blog/open-source-ama/) for more on how this project came to be.
 
 ## Table of Contents
 
