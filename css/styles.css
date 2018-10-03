@@ -1,11 +1,38 @@
-body, .jumbotron {
+/*
+TO DO: Center illustration and text vertically
+*/
+
+body{
 	background-color: #FFB74D;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-bottom: 60px;
 }
- .jumbotron p {
-	margin-top: 20%;
+
+main {
+  flex: 1;
+  justify-content: center;
+}
+
+svg#illustration {
+  margin: 2rem;
+  width: 15rem;
+}
+
+p {
 	font-size: 12px;
 }
+
  a {
 	text-decoration: underline;
 	color: black;
-} 
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}

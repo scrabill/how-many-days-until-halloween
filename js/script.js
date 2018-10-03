@@ -9,7 +9,7 @@ var daysUntilHalloween = halloween - today;
 }
 
   else {
-	message = "There are " + daysUntilHalloween + " days until Halloween"
+	message = "There are " + daysUntilHalloween + " days until Halloween."
 }
  // Display message
  spooky.innerText = message;
