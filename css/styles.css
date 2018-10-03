@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster'); /* Imports a creepy webfont from google fonts*/
+
+
 body, .jumbotron {
 	background-color: #FFB74D;
 }
@@ -8,4 +11,7 @@ body, .jumbotron {
  a {
 	text-decoration: underline;
 	color: black;
-} 
+}
+#spooky{
+	font-family: 'Creepster';
+}
