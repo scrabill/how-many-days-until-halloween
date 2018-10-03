@@ -1,11 +1,18 @@
-body, .jumbotron {
-	background-color: #FFB74D;
+body,
+.jumbotron {
+    background-color: #ffb74d;
 }
- .jumbotron p {
-	margin-top: 20%;
-	font-size: 12px;
+
+.jumbotron p {
+    margin: 10% 0;
+    font-size: 12px;
 }
- a {
-	text-decoration: underline;
-	color: black;
-} 
+
+.jumbotron h3 {
+    margin: 10% 0;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
