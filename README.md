@@ -1,3 +1,6 @@
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg)](#)
+[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](#)
+
 # How Many Days Until Halloween?
 
 Idk. Let [this page](http://shannoncrabill.com/how-many-days-until-halloween/) do the counting for you!
