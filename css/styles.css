@@ -1,5 +1,8 @@
-body, .jumbotron {
-	background-color: #FFB74D;
+body {
+  background-color: #f7a325;
+}
+.jumbotron {
+	background-color: #f29810;
 }
  .jumbotron p {
 	margin-top: 20%;
@@ -8,4 +11,4 @@ body, .jumbotron {
  a {
 	text-decoration: underline;
 	color: black;
-} 
+}
