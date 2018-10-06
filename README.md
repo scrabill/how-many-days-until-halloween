@@ -6,7 +6,6 @@ Idk. Let [this page][this] do the counting for you!
 
 In the spirit of [Hacktoberfest][hacktoberfest], I posted this project to GitHub with the purpose of giving developers a place to practice write coding and working with Git / Github. You can [read my blog post][blog] or my [AMA on open source][ama] for more on how this project came to be.
 
-
 ## Table of Contents
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
@@ -30,8 +29,8 @@ If you are interested in contributing, [open issues can be found here][issues] o
 [hacktoberfest]: https://hacktoberfest.digitalocean.com/
 [blog]: https://shannoncrabill.com/blog/hacktoberfest-2017/
 [ama]: https://shannoncrabill.com/blog/open-source-ama/
-[issues]: https://github.com/scrabill/how-many-days-until-halloween/issues
-[guidelines]: https://github.com/scrabill/how-many-days-until-halloween/blob/master/CONTRIBUTING.md
+[issues]: https://github.com/scrabill/how-many-days-until-halloween/issues/
+[guidelines]: https://github.com/scrabill/how-many-days-until-halloween/blob/master/CONTRIBUTING.md/
 [momentjs]: https://momentjs.com/
 [momentdocs]: https://momentjs.com/docs/
 [javascript]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
