@@ -4,19 +4,13 @@ body {
 .jumbotron {
 	background-color: #f29810;
 }
-
-.jumbotron p {
-    margin: 10% 0;
-    font-size: 12px;
+ .jumbotron p {
+	margin-top: 20%;
+	font-size: 12px;
 }
-
-.jumbotron h3 {
-    margin: 10% 0;
-}
-
-a {
-    text-decoration: underline;
-    color: black;
+ a {
+	text-decoration: underline;
+	color: black;
 }
 
 .konami {
