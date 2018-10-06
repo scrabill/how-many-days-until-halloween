@@ -6,6 +6,7 @@ Idk. Let [this page][this] do the counting for you!
 
 In the spirit of [Hacktoberfest][hacktoberfest], I posted this project to GitHub with the purpose of giving developers a place to practice write coding and working with Git / Github. You can [read my blog post][blog] or my [AMA on open source][ama] for more on how this project came to be.
 
+
 ## Table of Contents
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
