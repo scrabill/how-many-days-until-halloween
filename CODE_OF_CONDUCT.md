@@ -7,11 +7,11 @@ submitting pull requests, and other activities.
 ### Everyone is Welcome (Regardless of Experience Level)
 
 We look forward to making participation on this project a great experience for everyone, regardless of experience level, sexual orientation, gender identity and expression, personal appearance, body size, race, ethnicity, age, nationality 
-or religion. This is a safe place to share ideas, comments, code, etc.
+or religion. This is a safe place to share ideas, comments, code etc.
 
 ## Our Standards
 
-### Examples of behavior that contributes to creating a positive environment include:
+### Examples of behavior that contribute to creating a positive environment include:
 
 * Using welcoming and inclusive language
 * Being respectful of differing viewpoints and experiences
@@ -27,11 +27,11 @@ or religion. This is a safe place to share ideas, comments, code, etc.
 * Other conduct which could reasonably be considered inappropriate in aprofessional setting
   
 Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
+behavior and are expected to take appropriate and fair corrective actions in
 response to any instances of unacceptable behavior.
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, 
-issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any 
+issues, and other contributions that are not aligned to this Code of Conduct, or to temporarily or permanently ban any 
 contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
