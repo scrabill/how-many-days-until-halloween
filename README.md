@@ -19,6 +19,13 @@ This site is built with **Bootstrap**, **Javascript** and **JQuery**. The logic 
 
 If you are interested in contributing, [open issues can be found here][issues] or suggest your own! Here are [guidelines for contributing][guidelines]. You can also make sure your contributions are up to our standards by referring to the [code of conduct](CODE_OF_CONDUCT.md).
 
+## Technologies
+
+- [JavaScript](javascript) - the programming language of HTML and the Web 
+  - [JQuery](jquery) - a fast, small, and feature-rich JavaScript library 
+  - [Moment.js](momentjs) - date and time logic behind the Halloween counter
+- [Bootstrap](bootstrap) - HTML and CSS front-end development
+
 [this]: http://shannoncrabill.com/how-many-days-until-halloween/
 [hacktoberfest]: https://hacktoberfest.digitalocean.com/
 [blog]: https://shannoncrabill.com/blog/hacktoberfest-2017/
@@ -27,3 +34,6 @@ If you are interested in contributing, [open issues can be found here][issues] o
 [guidelines]: https://github.com/scrabill/how-many-days-until-halloween/blob/master/CONTRIBUTING.md
 [momentjs]: https://momentjs.com/
 [momentdocs]: https://momentjs.com/docs/
+[javascript]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
+[bootstrap]: http://getbootstrap.com/
+[jquery]: https://jquery.com/
