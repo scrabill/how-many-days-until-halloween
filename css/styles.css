@@ -3,7 +3,7 @@ TO DO: Center illustration and text vertically
 */
 
 body{
-	background-color: #FFB74D;
+	background-color: #f7a325;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -35,4 +35,13 @@ p {
   width: 100%;
   height: 60px;
   line-height: 60px;
+}
+
+.konami {
+	background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
+	color: #ada48f;
+}
+
+#spooky{
+	font-family: 'Creepster';
 }
