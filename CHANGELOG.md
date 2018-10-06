@@ -12,4 +12,4 @@ First week and we're off! Here are the changes from this week
 
 And here are the stats
 
-![Stats from September 28, 2018 – October 5, 2018][img/stats-2018-10-5.png]
+![Stats from September 28, 2018 – October 5, 2018](img/stats-2018-10-5.png)
