@@ -28,7 +28,12 @@ const halloween = moment("31-10", "DD-MM"); // Next Halloween
 const message = getMessage(halloween.diff(today, "days")); // Calculate difference
 
 // Display message
-spooky.innerText = `${message} 👻`;
+spooky.innerHTML = `<div>${message} 👻</div>
+                    <div id="outerBox">
+                    <button id="costumeButton"><span id="pumpkinEmoji">🎃</span></button>
+                    <div id="costumeContent">Got a costume yet?
+                     <br>Click the pumpkin for a random idea.</div>
+                    </div>`;
 
 // Map of allowed keys for Konami Code
 const allowedKeys = {
@@ -85,3 +90,36 @@ const doKonami = () => {
         }
     });
 };
+
+
+// Costume picker
+
+const costumes = [
+    ["Napolen Dynamite", "https://i.pinimg.com/originals/26/2a/f4/262af40e4592db053fd8613773e3f5b0.jpg"],
+    ["Tom Hanks & Wilson from Castaway","https://www.pinterest.ca/pin/16958936081976494/"],
+    ["a 404error", "https://www.instagram.com/p/7QsQ9Vhj9_/?utm_source=ig_embed"],
+    ["50 Shades of Grey", "https://www.pinterest.ca/pin/313915036497888806/"]
+  ];
+  
+  let costumeButton = document.getElementById("costumeButton");
+  let costumeContent = document.getElementById("costumeContent");
+  
+  const costumeIs = () => {
+    let numCostumes = costumes.length;
+    let randomNumber = Math.floor( ( Math.random() * numCostumes ) );
+    return costumes[randomNumber];
+  }
+  
+  const newCostume = () => {
+    costume = costumeIs();
+    costumeContent.innerHTML = `Got a costume yet?<br>
+                                You could be:<br>
+                                <a href="${costume[1]}" target="_blank">${costume[0]}</a>`;
+  };
+  
+  costumeButton.addEventListener('click', newCostume, false);
+  
+  
+  
+
+
