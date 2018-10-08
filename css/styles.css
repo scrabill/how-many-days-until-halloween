@@ -23,3 +23,45 @@ body {
 #spooky{
 	font-family: 'Creepster';
 }
+
+
+/* Costume picker */
+
+#outerBox {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	font-size: 50px;
+  }
+  
+  #costumeButton {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	align-self: center;
+	cursor: pointer;
+	text-decoration: none;
+	vertical-align: middle;
+	background-color: transparent;
+	border: none;
+  }
+  
+  #pumpkinEmoji {
+	padding-top: 3px;
+  /*   vertical-align: middle; */
+  }
+  
+  #costumeContent {
+	text-align: center;
+  }
+  
+  #checkItLink {
+	display: flex;
+	justify-content: center;
+  }
+
+  /* Add media query to adjust costume picker font! */
+  
+  
