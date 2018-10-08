@@ -28,7 +28,7 @@ const halloween = moment("31-10", "DD-MM"); // Next Halloween
 const message = getMessage(halloween.diff(today, "days")); // Calculate difference
 
 // Display message
-spooky.innerText = `${message} 👻`;
+spooky.innerText = `${message} 👻🎃`;
 
 // Map of allowed keys for Konami Code
 const allowedKeys = {
