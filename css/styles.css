@@ -24,10 +24,9 @@ body {
 	font-family: 'Creepster';
 }
 
+/* Costume picker styles */
 
-/* Costume picker */
-
-#outerBox {
+#outerCostumeBox {
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
@@ -37,31 +36,19 @@ body {
   }
   
   #costumeButton {
-	display: flex;
-	justify-items: center;
-	align-items: center;
-	align-self: center;
-	cursor: pointer;
-	text-decoration: none;
-	vertical-align: middle;
 	background-color: transparent;
 	border: none;
-  }
-  
-  #pumpkinEmoji {
-	padding-top: 3px;
-  /*   vertical-align: middle; */
   }
   
   #costumeContent {
 	text-align: center;
   }
-  
-  #checkItLink {
-	display: flex;
-	justify-content: center;
-  }
-
-  /* Add media query to adjust costume picker font! */
+	
+	/* Adjust font size with screen size */
+	@media (max-width: 768px) {
+		#outerPumpkinBox {
+			font-size: 25px;
+		}
+	}
   
   
