@@ -45,8 +45,8 @@ body {
   }
 	
 	/* Adjust font size with screen size */
-	@media (max-width: 768px) {
-		#outerPumpkinBox {
+	@media screen and (max-width: 768px) {
+		#outerCostumeBox {
 			font-size: 25px;
 		}
 	}
