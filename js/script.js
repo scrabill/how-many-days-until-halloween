@@ -32,7 +32,7 @@ spooky.innerHTML = `<div>${message} 👻</div>
                     <div id="outerCostumeBox">
                     <button id="costumeButton">🦇</button>
                     <div id="costumeContent">Got a costume yet?
-                     <br>Click the bat for a random idea!</div>
+                     <br>Click on the bat for a random idea!</div>
                     </div>`;
 
 // Map of allowed keys for Konami Code
