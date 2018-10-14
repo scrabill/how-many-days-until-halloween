@@ -1,4 +1,5 @@
-
+![Contributions welcome](https://img.shields.io/badge/Friendly-True-brightgreen.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)
 ![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/w/eslint/eslint.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
