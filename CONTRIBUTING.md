@@ -56,7 +56,6 @@ To get you started, some of the following links can be useful:
 
 - [JavaScript folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/js)
 - [CSS folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/css)
-- [Fonts folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/fonts)
 - [Images folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/img)
 
 ### Text editors
