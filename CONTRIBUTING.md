@@ -28,8 +28,6 @@ Well before you can contribute you need to set up git on your PC, fork and clone
 [link]: https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository
 
 Key areas of code contributions include:
-
-- [New features](https://github.com/scrabill/how-many-days-until-halloween/issues/1)
 - [Documentation](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation)
 - [Enhancements](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
@@ -56,7 +54,6 @@ To get you started, some of the following links can be useful:
 
 - [JavaScript folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/js)
 - [CSS folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/css)
-- [Fonts folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/fonts)
 - [Images folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/img)
 
 ### Text editors

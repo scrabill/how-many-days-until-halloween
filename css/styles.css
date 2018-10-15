@@ -8,7 +8,7 @@ body {
 }
  .jumbotron p {
 	margin-top: 20%;
-	font-size: 12px;
+	font-size: 20px;
 }
  a {
 	text-decoration: underline;
@@ -22,4 +22,10 @@ body {
 
 #spooky{
 	font-family: 'Creepster';
+}
+
+@media screen and (max-width: 680px) {
+  .jumbotron p {
+    fon-size: 24px;
+  }
 }
