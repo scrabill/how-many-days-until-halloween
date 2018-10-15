@@ -50,7 +50,7 @@ let konamiCodePosition = 0;
 document.addEventListener("keydown", e => {
     // Get the value of the key code from the key map
     const key = allowedKeys[e.keyCode];
-    
+
     // Get the value of the required key from the konami code
     const requiredKey = konamiCode[konamiCodePosition];
 
@@ -75,9 +75,9 @@ const doKonami = () => {
     // Changes the CSS of elements into spooky theme
     jumbotron.style.backgroundColor = "transparent";
     spooky.style.color = colors["spooky"];
-    
+
     document.body.classList.add(["konami"]);
-    
+
     // Changes the color of all hyperlinks
     document.querySelectorAll("a").forEach(link => {
         if (link.href !== "") {
