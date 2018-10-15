@@ -28,7 +28,4 @@ Does the PR have a potential impact on performance on the codebase? If so, to wh
 What tests were conducted to ensure the PR functions and has no impact on previous functionalities of the code base
 
 #### New Dependencies
-Have new dependencies been introduced? Please list them with links to documentation and add installaion steps to the README
-
-
-
+Have new dependencies been introduced? Please list them with links to documentation and add installation steps to the README.
