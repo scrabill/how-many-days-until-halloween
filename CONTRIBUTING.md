@@ -29,7 +29,7 @@ Well before you can contribute you need to set up git on your PC, fork and clone
 
 Key areas of code contributions include:
 
-- [New features](https://github.com/scrabill/how-many-days-until-halloween/issues/1)
+- [Discussion](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion)
 - [Documentation](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation)
 - [Enhancements](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
