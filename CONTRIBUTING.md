@@ -21,9 +21,9 @@ We hope your Halloween is fun and spooky. Eat, drink and be scary!   :jack_o_lan
 ## How do I start contributing? ##
 
 
-If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a pull request for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues etc.
+If you want to contribute code, we suggest that you fork the repository first, select an issue, make your changes and submit a pull request for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues etc.
 
-Well before you can contribute you need to set up git on your PC, fork and clone this repository and a lot more of groundwork. Follow [this][link] video to get started. Once everything is setup, you can go to the issues tab and select one that interests you. After fixing it, you can submit a Pull Request. Make sure that you browse through other videos on that site to understand how to go about this.
+Before you can contribute you need to set up git on your computer, fork and clone this repository. Follow [this][link] video to get started. Once everything is setup, you can go to the issues tab and select one that interests you. After fixing it, you can submit a Pull Request. Make sure that you browse through other videos on that site to understand how to go about this.
 
 [link]: https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository
 
@@ -37,7 +37,7 @@ When working on an issue, see if the update/fix already has a pending [pull requ
 
 When creating a pull request, if it applies, close or link to the issue it resolves in your comments. See [GitHubs documentation](https://help.github.com/articles/closing-issues-using-keywords/) on how to do this.
 
-Make sure you are registered for the [HacktoberFest](https://hacktoberfest.digitalocean.com/) before you start!
+Make sure you are registered for [HacktoberFest](https://hacktoberfest.digitalocean.com/) before you start!
 
 Also, if you want to run the site locally and take a look at your changes, just open **index.html** with a browser.
 
