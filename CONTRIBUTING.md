@@ -37,7 +37,7 @@ When working on an issue, see if the update/fix already has a pending [pull requ
 
 When creating a pull request, if it applies, close or link to the issue it resolves in your comments. See [GitHubs documentation](https://help.github.com/articles/closing-issues-using-keywords/) on how to do this.
 
-Make sure you are registered for the [HacktoberFest] before you start!(https://hacktoberfest.digitalocean.com/)
+Make sure you are registered for the [HacktoberFest](https://hacktoberfest.digitalocean.com/) before you start!
 
 Also, if you want to run the site locally and take a look at your changes, just open **index.html** with a browser.
 
