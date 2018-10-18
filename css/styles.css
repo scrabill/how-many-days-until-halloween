@@ -1,6 +1,4 @@
-/*
-TO DO: Center illustration and text vertically
-*/
+@import url('https://fonts.googleapis.com/css?family=Creepster'); /* Imports a creepy webfont from go */
 
 body{
 	background-color: #f7a325;
@@ -13,6 +11,10 @@ body{
 main {
   flex: 1;
   justify-content: center;
+}
+
+.jumbotron {
+  background: transparent;
 }
 
 svg#illustration {
