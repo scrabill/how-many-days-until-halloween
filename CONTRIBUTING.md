@@ -23,9 +23,9 @@ We hope your Halloween is fun and spooky. Eat, drink and be scary!   :jack_o_lan
 
 If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a pull request for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues etc.
 
-Well before you can contribute you need to set up git on your PC, fork and clone this repository and a lot more of groundwork. Follow [this][link] video to get started. Once everything is setup, you can go to the issues tab and select one that interests you. After fixing it, you can submit a Pull Request. Make sure that you browse through other videos on that site to understand how to go about this.
+Well before you can contribute you need to set up git on your PC, fork and clone this repository and a lot more of groundwork. Follow [this][link2] video to get started. Once everything is setup, you can go to the issues tab and select one that interests you. After fixing it, you can submit a Pull Request. Make sure that you browse through other videos on that site to understand how to go about this.
 
-[link]: https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository
+[link2]: https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository
 
 Key areas of code contributions include:
 
