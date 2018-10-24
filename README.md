@@ -35,10 +35,10 @@ If you are interested in contributing, [open issues can be found here][issues] o
 
 ## Technologies
 
-- [JavaScript](javascript) - the programming language of HTML and the Web 
-  - [JQuery](jquery) - a fast, small, and feature-rich JavaScript library 
-  - [Moment.js](momentjs) - date and time logic behind the Halloween counter
-- [Bootstrap](bootstrap) - HTML and CSS front-end development
+- [JavaScript][javascript] - the programming language of HTML and the Web 
+  - [JQuery][jquery] - a fast, small, and feature-rich JavaScript library 
+  - [Moment.js][momentjs] - date and time logic behind the Halloween counter
+- [Bootstrap][bootstrap] - HTML and CSS front-end development
 
 [this]: http://shannoncrabill.com/how-many-days-until-halloween/
 [hacktoberfest]: https://hacktoberfest.digitalocean.com/
