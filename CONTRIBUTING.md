@@ -23,9 +23,9 @@ We hope your Halloween is fun and spooky. Eat, drink and be scary!   :jack_o_lan
 
 If you want to contribute code, we suggest you to fork the repository first, select an issue, make your changes and submit a pull request for that issue. You can suggest new features, fix an existing functionality for performance or readability, work on open issues etc.
 
-Well before you can contribute you need to set up git on your PC, fork and clone this repository and a lot more of groundwork. Follow [this][link] video to get started. Once everything is setup, you can go to the issues tab and select one that interests you. After fixing it, you can submit a Pull Request. Make sure that you browse through other videos on that site to understand how to go about this.
+Well before you can contribute you need to set up git on your PC, fork and clone this repository and a lot more of groundwork. Follow [this][link2] video to get started. Once everything is setup, you can go to the issues tab and select one that interests you. After fixing it, you can submit a Pull Request. Make sure that you browse through other videos on that site to understand how to go about this.
 
-[link]: https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository
+[link2]: https://egghead.io/lessons/javascript-how-to-fork-and-clone-a-github-repository
 
 Key areas of code contributions include:
 
@@ -37,7 +37,10 @@ When working on an issue, see if the update/fix already has a pending [pull requ
 
 When creating a pull request, if it applies, close or link to the issue it resolves in your comments. See [GitHubs documentation](https://help.github.com/articles/closing-issues-using-keywords/) on how to do this.
 
-Make sure you are registered for the [HacktoberFest] before you start!(https://hacktoberfest.digitalocean.com/)
+For more details or a step by step guide on contributing, visit https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+
+Make sure you are registered for the [HacktoberFest](https://hacktoberfest.digitalocean.com/) before you start!
+
 
 Also, if you want to run the site locally and take a look at your changes, just open **index.html** with a browser.
 
@@ -56,7 +59,6 @@ To get you started, some of the following links can be useful:
 
 - [JavaScript folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/js)
 - [CSS folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/css)
-- [Fonts folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/fonts)
 - [Images folder](https://github.com/scrabill/how-many-days-until-halloween/tree/master/img)
 
 ### Text editors
