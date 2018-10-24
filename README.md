@@ -9,6 +9,12 @@
 
 Idk. Let [this page][this] do the counting for you!
 
+## 2018-10-24 update
+
+Can you BOO-lieve Halloween is less than a week away? I certainly can't! I'm working through the backlog of open pull requests. In the mean time, [check the updates](http://shannoncrabill.com/how-many-days-until-halloween) I added tonight! Or, if you really want to be frightened, [check out what was done for last year's page](http://shannoncrabill.com/how-many-days-until-halloween/2017/). Muhahhahahah!
+
+![img](https://media.giphy.com/media/MsJO9AUbrLWy4/giphy.gif)
+
 ## 2018-10-11 update
 
 Hey ghouls! It's been a few days since I've been on here, but I have not forgotten. I caught my first cold (or flu) of the season so I've spent the past few days catching up on sleep. I hope to be back up and running over the weekend. Then I'll get started on reviewing the very spooky additions you all have made to this project.
