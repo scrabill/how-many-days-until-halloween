@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-![Contributions welcome](https://img.shields.io/badge/Friendly-True-brightgreen.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)
-![GitHub commit activity the past week](https://img.shields.io/github/commit-activity/w/eslint/eslint.svg)
-=======
 ![How Many Days Until Halloween?](img/readme-banner.jpg)
 
 ![Contributions welcome](https://img.shields.io/badge/Friendly-True-brightgreen.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)
 ![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/w/eslint/eslint.svg)
->>>>>>> 86eb5d247e1986f3eb677c244f6297b832650dd7
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
 # How Many Days Until Halloween?
@@ -41,8 +35,8 @@ If you are interested in contributing, [open issues can be found here][issues] o
 
 ## Technologies
 
-- [JavaScript][javascript] - the programming language of HTML and the Web 
-  - [JQuery][jquery] - a fast, small, and feature-rich JavaScript library 
+- [JavaScript][javascript] - the programming language of HTML and the Web
+  - [JQuery][jquery] - a fast, small, and feature-rich JavaScript library
   - [Moment.js][momentjs] - date and time logic behind the Halloween counter
 - [Bootstrap][bootstrap] - HTML and CSS front-end development
 
