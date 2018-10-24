@@ -13,3 +13,17 @@ First week and we're off! Here are the changes from this week
 And here are the stats
 
 ![Stats from September 28, 2018 – October 5, 2018](img/stats-2018-10-5.png)
+
+2018-10-24
+
+One week until we arrive in Halloween town!
+
+- Cauldron illustration
+- Pumpkin favicon
+- Readme banner image
+- Shields
+- Minor text edits and bug fixes
+
+And here are the stats so far!
+
+![Stats from September 24, 2018 – October 24, 2018](img/stats-2018-10-24.png)
