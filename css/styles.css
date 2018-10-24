@@ -1,18 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Creepster'); /* Imports a creepy webfont from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Creepster'); /* Imports a creepy webfont from go */
 
-body {
-  background-color: #f7a325;
+body{
+	background-color: #f7a325;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-bottom: 60px;
 }
+
+main {
+  flex: 1;
+  justify-content: center;
+}
+
 .jumbotron {
-	background-color: #f29810;
+  background: transparent;
 }
- .jumbotron p {
-	margin-top: 20%;
+
+svg#illustration {
+  margin: 2rem;
+  width: 15rem;
+}
+
+p {
 	font-size: 12px;
 }
+
  a {
 	text-decoration: underline;
 	color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
 }
 
 .konami {
