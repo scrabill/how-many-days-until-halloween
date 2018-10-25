@@ -25,7 +25,7 @@ const getMessage = days => {
 
 const today = moment(); // Today
 const halloween = moment("31-10", "DD-MM"); // Next Halloween
-const message = getMessage(halloween.diff(today, "days")); // Calculate difference
+const message = getMessage(halloween.diff(today, "days")+1); // Calculate difference
 
 // Display message
 spooky.innerText = `${message} 👻`;
