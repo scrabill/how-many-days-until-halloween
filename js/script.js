@@ -23,7 +23,8 @@ const getMessage = days => {
     return `There are still ${days} days until Halloween.`;
 };
 
-const today = moment(); // Today
+// const today = moment(); // Today
+const today = moment().startOf("day")
 const halloween = moment("31-10", "DD-MM"); // Next Halloween
 const message = getMessage(halloween.diff(today, "days")); // Calculate difference
 
@@ -50,7 +51,7 @@ let konamiCodePosition = 0;
 document.addEventListener("keydown", e => {
     // Get the value of the key code from the key map
     const key = allowedKeys[e.keyCode];
-    
+
     // Get the value of the required key from the konami code
     const requiredKey = konamiCode[konamiCodePosition];
 
@@ -75,9 +76,9 @@ const doKonami = () => {
     // Changes the CSS of elements into spooky theme
     jumbotron.style.backgroundColor = "transparent";
     spooky.style.color = colors["spooky"];
-    
+
     document.body.classList.add(["konami"]);
-    
+
     // Changes the color of all hyperlinks
     document.querySelectorAll("a").forEach(link => {
         if (link.href !== "") {
