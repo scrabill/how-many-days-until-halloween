@@ -5,7 +5,7 @@ body{
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  margin-bottom: 60px;
+  margin-bottom: 62px;
 }
 
 main {
@@ -23,7 +23,7 @@ svg#illustration {
 }
 
 p {
-	font-size: 12px;
+	font-size: 10px;
 }
 
  a {
@@ -33,7 +33,7 @@ p {
 
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 1px;
   width: 100%;
   height: 60px;
   line-height: 60px;
