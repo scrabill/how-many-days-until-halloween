@@ -9,18 +9,18 @@ const colors = {
 
 const getMessage = days => {
     if (days < 0) {
-        return `Halloween was ${-days} days ago.`;
+        return `Halloween was ${-days} days ago. <span class="past">👻</span>`;
     }
 
     if (days === 0) {
-        return "It 's Halloween! Stay spooky!";
+        return 'It\'s Halloween! Stay spooky! <span class="present">👻</span>';
     }
 
     if (days === 1) {
-        return "Halloween is tomorrow! Be afraid, be very afraid!";
+        return 'Halloween is tomorrow! Be afraid, be very afraid! <span class="tomorrow">👻</span>';
     }
 
-    return `There are still ${days} days until Halloween.`;
+    return `There are still ${days} days until Halloween. <span class="future">👻</span>`;
 };
 
 const today = moment(); // Today
@@ -28,7 +28,7 @@ const halloween = moment("31-10", "DD-MM"); // Next Halloween
 const message = getMessage(halloween.diff(today, "days")); // Calculate difference
 
 // Display message
-spooky.innerText = `${message} 👻`;
+spooky.innerHTML = `${message}`;
 
 // Map of allowed keys for Konami Code
 const allowedKeys = {
