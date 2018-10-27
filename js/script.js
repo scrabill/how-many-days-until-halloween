@@ -13,7 +13,7 @@ const getMessage = days => {
     }
 
     if (days === 0) {
-        return "It 's Halloween! Stay spooky!";
+        return "It's Halloween! Stay spooky!";
     }
 
     if (days === 1) {
