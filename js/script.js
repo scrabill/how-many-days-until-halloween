@@ -23,7 +23,7 @@ const getMessage = days => {
     return `There are still ${days} days until Halloween.`;
 };
 
-const today = moment(); // Today
+const today = moment().startOf('day'); // Today
 const halloween = moment("31-10", "DD-MM"); // Next Halloween
 const message = getMessage(halloween.diff(today, "days")); // Calculate difference
 
