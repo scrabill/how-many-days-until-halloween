@@ -19,6 +19,7 @@ const facts = [
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
     'The Plymouth Colony Pilgrims started the superstition about black cats.',
     'Tootsie Rolls, Smarties, and candy corn were among the most hated candies in 2017.',
+    "Most of people is afraid of ghosts because they can't see them.",
     "Reese's Peanut Butter Cups were 2017’s most popular Halloween candy.",
     'At one time, it was customary to perform dances, songs, prayers, and plays in order to receive treats.',
     'Silly String is banned in Hollywood on Halloween.',
