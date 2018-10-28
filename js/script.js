@@ -26,6 +26,7 @@ const facts = [
     'Trunk-or-Treating was created as a safer alternative to Trick-or-Treating in 2000.',
     'Halloween ranks as the sixth most popular card-giving holiday, with 20 million cards sent each year.',
     'In 2017, the most popular pet costumes were pumpkins, hot dogs, and a tie between a dog, lion, and pirate.',
+    'Candy Corn was originally known as "chicken feed"',
     'Samhainophobia is the fear of Halloween.',
     'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
     'The first Jack O’Lanterns were actually made from turnips.',
