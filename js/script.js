@@ -52,6 +52,8 @@ const facts = [
     'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
     'According to tradition, if a person wears his or her clothes inside out and then walks backwards on Halloween, he or she will see a witch at midnight.',
     'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.',
+    'Legend has it that if you see a spider on Halloween night, it means a loved one is watching over you.',
+    'In the 1940s, trick or treating was halted because war-time rationing had curtailed the use of sugar.',
     'Halloween celebrations in Hong Kong are known as Yue Lan or the “Festival of the Hungry Ghosts” during which fires are lit and food and gifts are offered to placate potentially angry ghosts who might be looking for revenge.', 
     'Teng Chieh or the Lantern Festival is one Halloween festival in China. Lanterns shaped like dragons and other animals are hung around houses and streets to help guide the spirits back to their earthly homes', 
     'Halloween was influenced by the ancient Roman festival Pomona, which celebrated the harvest goddess of the same name', 
