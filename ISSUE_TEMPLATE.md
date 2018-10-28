@@ -4,6 +4,7 @@ ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
 -->
 
 ## I'm submitting a...
+
 <pre><code>
 [ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
 [ ] Feature request
@@ -11,14 +12,18 @@ ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
 </code></pre>
 
 ## Current behavior
+
 <!-- Describe how the issue manifests. -->
 
-
 ## Expected behavior
+
+<!-- a cards section for tips on holloween and best place to visit for holloween party -->
+<!-- glowing fonts using CSS keyframes -->
 
 ## Minimal reproduction of the problem with instructions
 
 ## If this is a feature request please fill out the following:
+
 <pre><code>
 As a (user, developer, contributor, etc):
 I want:
@@ -27,6 +32,7 @@ So that:
 </code></pre>
 
 ## Environment
+
 <pre><code>
 Browser:
 - [ ] Chrome (desktop) version XX
