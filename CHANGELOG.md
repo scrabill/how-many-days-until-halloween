@@ -1,5 +1,18 @@
 ## Changelog
 
+2018-10-27
+
+It's the last weekend before Halloween.
+
+- Konami code (added a while ago, but I've confirmed it works :ghost: )
+- Corrected countdown logic (it was off by one day)
+- Added styling for improved visuals on mobile
+- Minor text edits and bug fixes
+
+And here are the stats so far!
+
+![Stats from September 27, 2018 – October 27, 2018](img/stats-2018-10-27.png)
+
 2018-10-24
 
 One week until we arrive in Halloween town!
