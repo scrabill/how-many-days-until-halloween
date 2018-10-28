@@ -1,5 +1,21 @@
 ## Changelog
 
+2018-10-28
+
+3 more days!
+
+- Color changing ~~potion~~ background
+- Mysterious ghost
+- Halloween costume generator
+- Halloween fact generator
+- Pumpkin favicon
+
+And here are the stats so far!
+
+![Stats from September 28, 2018 – October 28, 2018](img/stats-2018-10-28.png)
+
+***
+
 2018-10-27
 
 It's the last weekend before Halloween.
@@ -12,6 +28,8 @@ It's the last weekend before Halloween.
 And here are the stats so far!
 
 ![Stats from September 27, 2018 – October 27, 2018](img/stats-2018-10-27.png)
+
+***
 
 2018-10-24
 
@@ -26,6 +44,8 @@ One week until we arrive in Halloween town!
 And here are the stats so far!
 
 ![Stats from September 24, 2018 – October 24, 2018](img/stats-2018-10-24.png)
+
+***
 
 2018-10-5
 
