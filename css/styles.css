@@ -1,6 +1,4 @@
-/*
-TO DO: Center illustration and text vertically
-*/
+@import url("https://fonts.googleapis.com/css?family=Creepster"); /* Imports a creepy webfont from google fonts*/
 
 body{
 	background-color: #f7a325;
@@ -13,6 +11,19 @@ body{
 main {
   flex: 1;
   justify-content: center;
+}
+
+.jumbotron {
+  background-color: #f7a325;
+}
+.jumbotron p {
+  margin-top: 20%;
+  font-size: 12px;
+}
+a {
+  text-decoration: underline;
+  color: black;
+  background: transparent;
 }
 
 svg#illustration {
@@ -30,7 +41,7 @@ p {
 }
 
 .footer {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -38,10 +49,58 @@ p {
 }
 
 .konami {
-	background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
-	color: #ada48f;
+  background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
+  color: #ada48f;
 }
 
-#spooky{
-	font-family: 'Creepster';
+#spooky {
+  font-family: "Creepster";
+}
+
+@media only screen and (max-width: 768px) {
+  body,
+  html {
+   /* overflow: hidden; */
+  }
+  h1 {
+    font-size: 20vw;
+    word-spacing: 2rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+	#spooky {
+		font-size: 78px;
+	}
+}
+
+@media screen and (min-width: 414px) {
+	#spooky {
+		font-size: 88px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#spooky {
+		font-size: 134px;
+	}
+	.jumbotron p {
+		font-size: 20px;
+	}
+}
+
+#spooky-ghost-wrapper {
+	right:20vw;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+#spooky-ghost {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+#spooky-ghost-wrapper:hover #spooky-ghost{
+	display: block;
 }
