@@ -7,6 +7,8 @@ const factElement = document.querySelector('#fact');
 
 // Array of Halloween facts
 // Source: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/
+// Source: https://www.huffingtonpost.in/entry/halloween-weird-facts_n_5948456
+// Source: https://www.factretriever.com/halloween-facts
 const facts = [
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
@@ -23,6 +25,11 @@ const facts = [
     'Trunk-or-Treating was created as a safer alternative to Trick-or-Treating in 2000.',
     'Halloween ranks as the sixth most popular card-giving holiday, with 20 million cards sent each year.',
     'In 2017, the most popular pet costumes were pumpkins, hot dogs, and a tie between a dog, lion, and pirate.',
+    'Samhainophobia is the fear of Halloween.',
+    'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
+    'The first Jack O’Lanterns were actually made from turnips.',
+    "Some animal shelters won't allow the adoption of black cats around Halloween for fear they'll be sacrificed.",
+    'In a few American towns, Halloween was originally referred to as "Cabbage Night."'
 ];
 
 // Display message and fact
