@@ -6,7 +6,7 @@ const jumbotron = document.querySelector(".jumbotron");
 const factElement = document.querySelector('#fact');
 
 // Array of Halloween facts
-// Source: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/
+// Sources: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/, https://www.factretriever.com/halloween-facts
 const facts = [
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
@@ -23,6 +23,22 @@ const facts = [
     'Trunk-or-Treating was created as a safer alternative to Trick-or-Treating in 2000.',
     'Halloween ranks as the sixth most popular card-giving holiday, with 20 million cards sent each year.',
     'In 2017, the most popular pet costumes were pumpkins, hot dogs, and a tie between a dog, lion, and pirate.',
+    'The first Jack O’Lanterns were actually made from turnips.',
+    'Samhainophobia is the fear of Halloween.',
+    'The largest pumpkin ever measured was grown by Norm Craven, who broke the world record in 1993 with a 836 lb. pumpkin.',
+    'Trick-or-treating evolved from the ancient Celtic tradition of putting out treats and food to placate spirits who roamed the streets at Samhain, a sacred festival that marked the end of the Celtic calendar year.',
+    'The first known mention of trick-or-treating in print in North America occurred in 1927 in Blackie, Alberta, Canada.',
+    'Ireland is typically believed to be the birthplace of Halloween.',
+    'Scarecrows, a popular Halloween fixture, symbolize the ancient agricultural roots of the holiday.',
+    'Halloween has variously been called All Hallows’ Eve, Witches Night, Lamswool, Snap-Apple Night, Samhaim, and Summer’s End.',
+    'In 2010, 72.2% of those surveyed by the National Retail Federation will hand out candy, 46.3% will carve a pumpkin, 20.8% will visit a haunted house, and 11.5% will dress up their pets.',
+    'The Village Halloween parade in New York City is the largest Halloween parade in the United States. The parade includes 50,000 participants and draws over 2 million spectators.',
+    'Comedian John Evans once quipped: “What do you get if you divide the circumference of a jack-o’-lantern by its diameter? Pumpkin π.”',
+    'Boston, Massachusetts, holds the record for the most Jack O’Lanterns lit at once (30,128).',
+    'Both Salem, Massachusetts, and Anoka, Minnesota, are the self-proclaimed Halloween capitals of the world.',
+    'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
+    'According to tradition, if a person wears his or her clothes inside out and then walks backwards on Halloween, he or she will see a witch at midnight.',
+    'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.',
 ];
 
 // Display message and fact
