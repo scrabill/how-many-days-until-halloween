@@ -8,6 +8,7 @@
 - Mysterious ghost
 - Halloween costume generator
 - Halloween fact generator
+- Goosebumps theme
 - Pumpkin favicon
 
 And here are the stats so far!
