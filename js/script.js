@@ -23,6 +23,7 @@ const facts = [
     'Trunk-or-Treating was created as a safer alternative to Trick-or-Treating in 2000.',
     'Halloween ranks as the sixth most popular card-giving holiday, with 20 million cards sent each year.',
     'In 2017, the most popular pet costumes were pumpkins, hot dogs, and a tie between a dog, lion, and pirate.',
+    'Candy Corn was originally known as "chicken feed"',
 ];
 
 // Display message and fact
