@@ -9,6 +9,8 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/
 // Source: https://www.huffingtonpost.in/entry/halloween-weird-facts_n_5948456
 // Source: https://www.factretriever.com/halloween-facts
+// Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
+// Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
 
 const facts = [
     'The first jack-o`-lanterns were made out of potatoes and turnips',
@@ -50,6 +52,9 @@ const facts = [
     'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
     'According to tradition, if a person wears his or her clothes inside out and then walks backwards on Halloween, he or she will see a witch at midnight.',
     'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.',
+    'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
+    'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
+    'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
 ];
 
 // Display message and fact
