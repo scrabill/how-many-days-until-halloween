@@ -9,6 +9,8 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/
 // Source: https://www.huffingtonpost.in/entry/halloween-weird-facts_n_5948456
 // Source: https://www.factretriever.com/halloween-facts
+// Source: https://www.history.com/topics/halloween/history-of-trick-or-treating
+// Source: https://www.history.com/topics/halloween/pumpkin-facts
 
 const facts = [
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
@@ -48,6 +50,11 @@ const facts = [
     'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
     'According to tradition, if a person wears his or her clothes inside out and then walks backwards on Halloween, he or she will see a witch at midnight.',
     'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.',
+	'The phrase “trick or treat” had been firmly established in American popular culture by 1951, when trick-or-treating was depicted in the Peanuts comic strip.',
+	'The largest pumpkin pie ever baked was in 2005 and weighed 2,020 pounds.',
+	'Pumpkins have been grown in North America for five thousand years. They are indigenous to the western hemisphere.',
+	'Pumpkins are low in calories, fat, and sodium and high in fiber. They are good sources of Vitamin A, Vitamin B, potassium, protein, and iron.',
+	'Pumpkins are a member of the gourd family, which includes cucumbers, honeydew melons, cantaloupe, watermelons and zucchini.'
 ];
 
 // Display message and fact
@@ -155,7 +162,10 @@ const costumes = [
     ["Tamagotchi", "https://www.pinterest.ca/pin/192810427770341992/"],
     ["Clippy","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
-    ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"]
+    ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
+	["The Sims", "https://the-orbit.net/biodork/wp-content/uploads/sites/10/2013/07/SIMS-Cosplay.jpg"],
+	["Raven (Teen Titans)", "https://www.pinterest.co.uk/pin/549368854529441292"],
+	["Kiki (Kiki's Delivery Service", "https://www.pinterest.com/pin/1829656075790134"]
   ];
 
   //Assign DOM elements
