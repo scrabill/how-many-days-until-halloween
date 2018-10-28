@@ -31,8 +31,8 @@ const facts = [
     'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
     'The first Jack O’Lanterns were actually made from turnips.',
     "Some animal shelters won't allow the adoption of black cats around Halloween for fear they'll be sacrificed.",
-    'In a few American towns, Halloween was originally referred to as "Cabbage Night.",
-    'The first Jack O’Lanterns were actually made from turnips.',
+    'In a few American towns, Halloween was originally referred to as \"Cabbage Night.\"',
+    'The first Jack O\’Lanterns were actually made from turnips.',
     'Samhainophobia is the fear of Halloween.',
     'The largest pumpkin ever measured was grown by Norm Craven, who broke the world record in 1993 with a 836 lb. pumpkin.',
     'Trick-or-treating evolved from the ancient Celtic tradition of putting out treats and food to placate spirits who roamed the streets at Samhain, a sacred festival that marked the end of the Celtic calendar year.',
@@ -85,7 +85,7 @@ spooky.innerHTML = `<div>${message} 👻🎃</div>
                     <div id="costumeContent">Got a costume yet?
                      <br>Click on the bat for a random idea!</div>
                     </div>`;
-                    
+
 // Map of allowed keys for Konami Code
 const allowedKeys = {
     37: "left",
