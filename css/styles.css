@@ -104,3 +104,32 @@ p {
 #spooky-ghost-wrapper:hover #spooky-ghost{
 	display: block;
 }
+
+/* Costume picker styles */
+
+#outerCostumeBox {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	font-size: 50px;
+  }
+  
+  #costumeButton {
+	background-color: transparent;
+	border: none;
+  }
+  
+  #costumeContent {
+	text-align: center;
+  }
+	
+	/* Adjust font size with screen size */
+	@media screen and (max-width: 768px) {
+		#outerCostumeBox {
+			font-size: 25px;
+		}
+	}
+  
+  
