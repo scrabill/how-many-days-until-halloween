@@ -9,8 +9,12 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/
 // Source: https://www.huffingtonpost.in/entry/halloween-weird-facts_n_5948456
 // Source: https://www.factretriever.com/halloween-facts
+// Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
+// Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
 
 const facts = [
+    'The first jack-o`-lanterns were made out of potatoes and turnips',
+    'Americans spend about $86.13 on Halloween every year.',
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
     'The Plymouth Colony Pilgrims started the superstition about black cats.',
@@ -47,7 +51,28 @@ const facts = [
     'Both Salem, Massachusetts, and Anoka, Minnesota, are the self-proclaimed Halloween capitals of the world.',
     'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
     'According to tradition, if a person wears his or her clothes inside out and then walks backwards on Halloween, he or she will see a witch at midnight.',
-    'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.','The tradition of wearing scary costumes on Halloween comes from the ancient Celts: back then, people believed dressing up as demons and the like would confuse or ward off the evil spirits who roamed the streets during Samhain (the pagan version of Halloween)',
+    'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.',
+    'The tradition of wearing scary costumes on Halloween comes from the ancient Celts: back then, people believed dressing up as demons and the like would confuse or ward off the evil spirits who roamed the streets during Samhain (the pagan version of Halloween)',
+    'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
+    'According to ancient Roman records, tribes located in today’s Germany and France traditionally wore costumes of animal heads and skins to connect to spirits of the dead.',
+    'Christians, in an effort to convert pagans, changed Samhain in the 11th century to a three day celebration from October 31st to November 2nd. The first night of this holiday is called All Hallow’s Eve, which eventually became Halloween.',
+    'The word “witch” actually comes from an old English word that means “wise woman”; members of the wiccan were once highly respected. It was popularly believed that witches held one of their two annual meetings, called sabbats, on Halloween.',
+    'Owls are popular Halloween symbols. In medieval times, owls were believed to be witches, and if you heard the call of an owl it meant that someone was about to die.',
+    'Bats were also feared as the familiars of witches. Bats have an additional connection to Halloween: the bonfires that the ancient Celts built to celebrate Samhain would often attract the flying mammals.',
+    'During the celebrations associated with All Soul’s Day on November 2, poor people would knock on the doors of wealthy citizens and be given pastries as treats. Like guising, souling was a precursor to modern trick-or-treating.',
+    'Legend has it that if you see a spider on Halloween night, it means a loved one is watching over you.',
+    'In the 1940s, trick or treating was halted because war-time rationing had curtailed the use of sugar.',
+    'Halloween celebrations in Hong Kong are known as Yue Lan or the “Festival of the Hungry Ghosts” during which fires are lit and food and gifts are offered to placate potentially angry ghosts who might be looking for revenge.', 
+    'Teng Chieh or the Lantern Festival is one Halloween festival in China. Lanterns shaped like dragons and other animals are hung around houses and streets to help guide the spirits back to their earthly homes', 
+    'Halloween was influenced by the ancient Roman festival Pomona, which celebrated the harvest goddess of the same name', 
+    'Dressing up as ghouls and other spooks originated from the ancient Celtic tradition of townspeople disguising themselves as demons and spirits', 
+    'Scarecrows, a popular Halloween fixture, symbolize the ancient agricultural roots of the holiday',
+    'Fifty percent of kids prefer to receive chocolate candy for Halloween, compared with 24% who prefer non-chocolate candy and 10% who preferred gum.',
+    'Most experts trace trick-or-treating to the European practice of "mumming," or "guysing," in which costume-wearing participants would go door-to-door performing choreographed dances, songs and plays in exchange for treats.',
+    'Candy makers supposedly lobbied to extend daylight savings time into the beginning of November to get an extra hour of daylight so children could collect even more candy!',
+    'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
+    'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
+    'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
 ];
 
 // Display message and fact
