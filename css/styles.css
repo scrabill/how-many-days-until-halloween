@@ -68,3 +68,19 @@ p {
 		font-size: 20px;
 	}
 }
+
+#spooky-ghost-wrapper {
+	right:20vw;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+#spooky-ghost {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+#spooky-ghost-wrapper:hover #spooky-ghost{
+	display: block;
+}
