@@ -9,8 +9,12 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/
 // Source: https://www.huffingtonpost.in/entry/halloween-weird-facts_n_5948456
 // Source: https://www.factretriever.com/halloween-facts
+// Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
+// Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
 
 const facts = [
+    'The first jack-o`-lanterns were made out of potatoes and turnips',
+    'Americans spend about $86.13 on Halloween every year.',
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
     'The Plymouth Colony Pilgrims started the superstition about black cats.',
@@ -51,6 +55,9 @@ const facts = [
     'Fifty percent of kids prefer to receive chocolate candy for Halloween, compared with 24% who prefer non-chocolate candy and 10% who preferred gum.',
     'Most experts trace trick-or-treating to the European practice of "mumming," or "guysing," in which costume-wearing participants would go door-to-door performing choreographed dances, songs and plays in exchange for treats.',
     'Candy makers supposedly lobbied to extend daylight savings time into the beginning of November to get an extra hour of daylight so children could collect even more candy!',
+    'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
+    'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
+    'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
 ];
 
 // Display message and fact
