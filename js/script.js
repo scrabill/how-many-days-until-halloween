@@ -17,6 +17,7 @@ const facts = [
     'Americans spend about $86.13 on Halloween every year.',
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
+    '99% of all pumpkins sold are used as Jack-O-Lanterns for Halloween.',
     'The Plymouth Colony Pilgrims started the superstition about black cats.',
     'Tootsie Rolls, Smarties, and candy corn were among the most hated candies in 2017.',
     "Most of people is afraid of ghosts because they can't see them.",
@@ -25,6 +26,7 @@ const facts = [
     'Silly String is banned in Hollywood on Halloween.',
     'In 2014, the total estimated cost of all Halloween costumes was $2.8 billion.',
     'Candy Corn was created in 1898 and 35 million pounds of it are made every year.',
+    'Candy corn has been made with the same recipe by the Jelly Belly Candy Company since 1898.',
     'Halloween in the second largest consumer holiday in the United States. Consumers spent about $7 billion in 2015.',
     "Guinness World Records has named the Haunted Cave in Lewisburg, Ohio as the world's longest haunted house. It measures 3,564 feet long and is located 80 feet below ground in an abandoned mine.",
     'Harry Houdini died on Halloween in 1926.',
@@ -76,6 +78,8 @@ const facts = [
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
     'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
     'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
+    'Studies have shown that Halloween actually makes kids act more evil!',
+    'A full moon on Halloween is extremely rare.'
 ];
 
 // Display message and fact
@@ -183,9 +187,13 @@ const costumes = [
     ["Tamagotchi", "https://www.pinterest.ca/pin/192810427770341992/"],
     ["Clippy","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
+    ["Bounty Hunter", "https://www.popsugar.com/smart-living/photo-gallery/45420525/embed/45421772/Bounty-Hunter"],
     ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"],
-    ["Oh yeah!", "https://www.pinterest.com/pin/271975264971863827/visual-search/?x=9&y=9&w=282&h=342"]
+    ["Oh yeah!", "https://www.pinterest.com/pin/271975264971863827/visual-search/?x=9&y=9&w=282&h=342"],
+    ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
+    ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
+    ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"]
   ];
 
   //Assign DOM elements
