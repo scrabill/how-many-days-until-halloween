@@ -65,10 +65,10 @@ const facts = [
     'During the celebrations associated with All Soul’s Day on November 2, poor people would knock on the doors of wealthy citizens and be given pastries as treats. Like guising, souling was a precursor to modern trick-or-treating.',
     'Legend has it that if you see a spider on Halloween night, it means a loved one is watching over you.',
     'In the 1940s, trick or treating was halted because war-time rationing had curtailed the use of sugar.',
-    'Halloween celebrations in Hong Kong are known as Yue Lan or the “Festival of the Hungry Ghosts” during which fires are lit and food and gifts are offered to placate potentially angry ghosts who might be looking for revenge.', 
-    'Teng Chieh or the Lantern Festival is one Halloween festival in China. Lanterns shaped like dragons and other animals are hung around houses and streets to help guide the spirits back to their earthly homes', 
-    'Halloween was influenced by the ancient Roman festival Pomona, which celebrated the harvest goddess of the same name', 
-    'Dressing up as ghouls and other spooks originated from the ancient Celtic tradition of townspeople disguising themselves as demons and spirits', 
+    'Halloween celebrations in Hong Kong are known as Yue Lan or the “Festival of the Hungry Ghosts” during which fires are lit and food and gifts are offered to placate potentially angry ghosts who might be looking for revenge.',
+    'Teng Chieh or the Lantern Festival is one Halloween festival in China. Lanterns shaped like dragons and other animals are hung around houses and streets to help guide the spirits back to their earthly homes',
+    'Halloween was influenced by the ancient Roman festival Pomona, which celebrated the harvest goddess of the same name',
+    'Dressing up as ghouls and other spooks originated from the ancient Celtic tradition of townspeople disguising themselves as demons and spirits',
     'Scarecrows, a popular Halloween fixture, symbolize the ancient agricultural roots of the holiday',
     'Fifty percent of kids prefer to receive chocolate candy for Halloween, compared with 24% who prefer non-chocolate candy and 10% who preferred gum.',
     'Most experts trace trick-or-treating to the European practice of "mumming," or "guysing," in which costume-wearing participants would go door-to-door performing choreographed dances, songs and plays in exchange for treats.',
@@ -77,6 +77,7 @@ const facts = [
     'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
     'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
     'Studies have shown that Halloween actually makes kids act more evil!',
+    'A full moon on Halloween is extremely rare.'
 ];
 
 // Display message and fact
@@ -180,11 +181,11 @@ const costumes = [
     ["a 404error", "https://www.instagram.com/p/7QsQ9Vhj9_/?utm_source=ig_embed"],
     ["50 Shades of Grey", "https://i.pinimg.com/474x/9a/45/42/9a454265d6a6e59ba609831a1b7c7028--so-funny-funny-stuff.jpg"],
     ["Octocat", "https://twitter.com/Bint_alBeatz/status/793178052494815233"],
-    ["The Shining", "https://i.pinimg.com/originals/21/e3/a9/21e3a9859795366b7cc1b7aa3c8ed598.jpg"]
+    ["The Shining", "https://i.pinimg.com/originals/21/e3/a9/21e3a9859795366b7cc1b7aa3c8ed598.jpg"],
     ["Tamagotchi", "https://www.pinterest.ca/pin/192810427770341992/"],
     ["Clippy","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
-    ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"]
+    ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"]
   ];
 
