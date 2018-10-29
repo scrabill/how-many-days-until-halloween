@@ -160,7 +160,16 @@ const costumes = [
     ["Tamagotchi", "https://www.pinterest.ca/pin/192810427770341992/"],
     ["Clippy","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
-    ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"]
+    ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
+    ["Mike Myers", "https://lh6.googleusercontent.com/-9D6HisX7AQ0/T9Zoj01cyrI/AAAAAAAAAyM/p7gQaHoqRxg/s720/IMG_8023.jpg"],
+    ["Jason Voorehees", "http://bestcostumedeal.com/assets/images/889071.jpg"],
+    ["Scary Clown", "https://images.halloweencostumes.com/products/22473/1-1/deluxe-pennywise-costume.jpg"],
+    ["Viking", "https://images.halloweencostumes.com/products/23028/1-1/mens-mighty-viking-costume.jpg"],
+    ["Ghost", "http://cdn.mrcostumes.com/images/ProductCloseup/3322/plus-size-scream-ghost-costume-130865.jpg"],
+    ["Joker", "https://images.halloweencostumes.com/products/9104/1-1/grand-heritage-joker-costume.jpg"],
+    ["Penguin", "https://images.esellerpro.com/2448/I/633/54/lrgscaleFDAM997687front.jpg"],
+    ["Vampire", "https://images.halloweencostumes.com/products/6179/1-1/midnight-vampire-costume.jpg"],
+    ["Austin Powers", "https://images.halloweencostumes.com/products/2988/1-1/deluxe-austin-powers-costume.jpg"]
   ];
 
   //Assign DOM elements
