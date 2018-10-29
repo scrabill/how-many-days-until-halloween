@@ -201,7 +201,9 @@ const costumes = [
     ["Oh yeah!", "https://www.pinterest.com/pin/271975264971863827/visual-search/?x=9&y=9&w=282&h=342"],
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
-    ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"]
+    ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
+    ["Oscar Award", "https://www.pinterest.com/pin/281193570455380742/"],
+    ["3 Hole Punch", "https://amazon.com/Jim-Hole-Punch-Costume-T-shirt/dp/B0763FDFGY?sa-no-redirect=1"]
   ];
 
   //Assign DOM elements
