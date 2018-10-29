@@ -199,6 +199,8 @@ const costumes = [
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"],
     ["Lana Del Ray", "https://twitter.com/delreyxmafia/status/1056652839097954305"],
     ["Oh yeah!", "https://www.pinterest.com/pin/271975264971863827/visual-search/?x=9&y=9&w=282&h=342"],
+    ["Ruth Vader Ginsburg", "https://pbs.twimg.com/media/Dqn48iiX0AAOZKw.jpg"],
+    ["Pickle Rick", "https://cdn-blog.adafruit.com/uploads/2017/08/Pickle-Rick-costume-360x480.jpg"],
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"]
