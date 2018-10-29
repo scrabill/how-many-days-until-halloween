@@ -78,6 +78,7 @@ const facts = [
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
     'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
     'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
+    'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.'
 ];
@@ -190,6 +191,7 @@ const costumes = [
     ["Bounty Hunter", "https://www.popsugar.com/smart-living/photo-gallery/45420525/embed/45421772/Bounty-Hunter"],
     ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"],
+    ["Lana Del Ray", "https://twitter.com/delreyxmafia/status/1056652839097954305"],
     ["Oh yeah!", "https://www.pinterest.com/pin/271975264971863827/visual-search/?x=9&y=9&w=282&h=342"],
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
