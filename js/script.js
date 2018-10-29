@@ -190,6 +190,7 @@ const costumes = [
     ["Bounty Hunter", "https://www.popsugar.com/smart-living/photo-gallery/45420525/embed/45421772/Bounty-Hunter"],
     ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"],
+    ["Oh yeah!", "https://www.pinterest.com/pin/271975264971863827/visual-search/?x=9&y=9&w=282&h=342"],
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"]
