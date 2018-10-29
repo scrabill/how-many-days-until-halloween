@@ -187,6 +187,7 @@ const costumes = [
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
     ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"],
+    ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"]
   ];
