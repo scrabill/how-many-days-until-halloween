@@ -76,6 +76,7 @@ const facts = [
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
     'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
     'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
+    'Children are more than twice as likely to be killed in a pedestrian/car accident on Halloween than on any other night.'
 ];
 
 // Display message and fact
