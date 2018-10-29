@@ -76,6 +76,8 @@ const facts = [
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
     'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
     'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
+    'Studies have shown that Halloween actually makes kids act more evil!',
+    'A full moon on Halloween is extremely rare.'
 ];
 
 // Display message and fact
@@ -185,7 +187,8 @@ const costumes = [
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
     ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"],
-    ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"]
+    ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
+    ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"]
   ];
 
   //Assign DOM elements
