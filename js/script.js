@@ -11,6 +11,7 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.factretriever.com/halloween-facts
 // Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
 // Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
+// Source: https://www.canadiangeographic.ca/article/10-things-you-didnt-know-about-halloween-canada
 
 const facts = [
     'The first jack-o`-lanterns were made out of potatoes and turnips',
@@ -81,7 +82,9 @@ const facts = [
     'Children are more than twice as likely to be killed in a pedestrian/car accident on Halloween than on any other night.',
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
     'Studies have shown that Halloween actually makes kids act more evil!',
-    'A full moon on Halloween is extremely rare.'
+    'A full moon on Halloween is extremely rare.',
+    'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
+    'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.'
 ];
 
 // Display message and fact
