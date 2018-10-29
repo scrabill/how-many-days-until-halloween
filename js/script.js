@@ -99,7 +99,7 @@ const getMessage = days => {
         return "Halloween is tomorrow! Be afraid, be very afraid!";
     }
 
-    return `There are ${days} days until Halloween.`;
+    return `There are only ${days} days until Halloween!`;
 };
 
 const today = moment().startOf('day'); // Today
