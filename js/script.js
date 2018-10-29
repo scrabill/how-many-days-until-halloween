@@ -207,6 +207,7 @@ const costumes = [
   //Assign DOM elements
   let costumeButton = document.getElementById("costumeButton");
   let costumeContent = document.getElementById("costumeContent");
+  let factButton = document.getElementById("factButton");
 
   //Pick a random costume
   const costumeIs = () => {
@@ -224,3 +225,11 @@ const costumes = [
 
   //Add event listener on 'click'
   costumeButton.addEventListener('click', newCostume, false);
+
+  //display fact
+  const displayFact = () => {
+    factElement.innerHTML = facts[Math.floor(Math.random() * facts.length)];
+  };
+
+  //add event listener for fact
+  factButton.addEventListener('click', displayFact, false);
