@@ -83,6 +83,8 @@ const facts = [
     'According to Hallmark, Halloween is the sixth most popular card-giving holiday with 20 million cards sent each year.',
     'Children are more than twice as likely to be killed in a pedestrian/car accident on Halloween than on any other night.',
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
+    'A full moon on Halloween is extremely rare.',
+    'Hallowmass is another name for All Saint’s Day, a Roman Catholic festival that honors the saints.  Hollow’s eve is the day before Hallowmass.  This was shortened to Hallowe’en and that is where the current name for this holiday originated.'
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.',
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
@@ -209,6 +211,7 @@ const costumes = [
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
+    ["Shredded Girl with Balloon by Bansky", "https://twitter.com/WorldOfWard/status/1056284833327001600"],
     ["Iron Man", "https://costumeworld.co.nz/products/iron-man-adult-costume-top"],
     ["Arthur Read", "https://www.youtube.com/watch?v=BTU5FkLBxV4"],
     ["Ceiling Fan", "http://i.imgur.com/ZLjQ2.jpg"],
