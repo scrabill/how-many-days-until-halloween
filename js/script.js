@@ -11,6 +11,7 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.factretriever.com/halloween-facts
 // Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
 // Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
+// Source: https://www.babbel.com/en/magazine/10-spooky-halloween-facts-that-you-might-not-know/
 // Source: https://www.canadiangeographic.ca/article/10-things-you-didnt-know-about-halloween-canada
 // Source: https://www.officeholidays.com/facts/halloween
 
@@ -89,6 +90,7 @@ const facts = [
     'Hallowmass is another name for All Saint’s Day, a Roman Catholic festival that honors the saints.  Hollow’s eve is the day before Hallowmass.  This was shortened to Hallowe’en and that is where the current name for this holiday originated.'
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.',
+    'The Village Halloween Parade in New York City is the US\’s largest Halloween parade, involving 50,000 participants and over 2 million spectators.',
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
@@ -215,6 +217,8 @@ const costumes = [
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
+    ["Neo from The Matrix", "https://nextviewventures.com/wp-content/uploads/2014/07/control-content-marekting-for-startups.jpg"], 
+    ["Unicorn", "https://img.ltwebstatic.com/images/pi/201712/52/15133252867462243289_thumbnail_600x.webp"],
     ["Oscar Award", "https://www.pinterest.com/pin/281193570455380742/"],
     ["3 Hole Punch", "https://amazon.com/Jim-Hole-Punch-Costume-T-shirt/dp/B0763FDFGY?sa-no-redirect=1"],
     ["Shredded Girl with Balloon by Bansky", "https://twitter.com/WorldOfWard/status/1056284833327001600"],
