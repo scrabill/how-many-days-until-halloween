@@ -11,6 +11,7 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.factretriever.com/halloween-facts
 // Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
 // Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
+// Source: https://www.officeholidays.com/facts/halloween
 
 const facts = [
     'The first jack-o`-lanterns were made out of potatoes and turnips',
@@ -78,6 +79,7 @@ const facts = [
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
     'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
     'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
+    'According to Hallmark, Halloween is the sixth most popular card-giving holiday with 20 million cards sent each year.',
     'Children are more than twice as likely to be killed in a pedestrian/car accident on Halloween than on any other night.',
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
     'Studies have shown that Halloween actually makes kids act more evil!',
