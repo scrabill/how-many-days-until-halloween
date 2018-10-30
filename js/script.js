@@ -82,6 +82,7 @@ const facts = [
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.'
+    'October is the best month of the year'
 ];
 
 // Display message and fact
