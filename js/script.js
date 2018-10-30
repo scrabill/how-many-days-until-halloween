@@ -204,6 +204,7 @@ const costumes = [
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"]
+    ["Github Octocat", "https://i.pinimg.com/originals/bd/41/b1/bd41b18ec307df451c33e1ae13818d92.jpg"]
   ];
 
   //Assign DOM elements
