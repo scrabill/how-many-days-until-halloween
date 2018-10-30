@@ -7,7 +7,7 @@
 
 # How Many Days Until Halloween?
 
-Idk. Let [this page][this] do the counting for you!
+I don't know, let [this page][this] do the counting for you!
 
 ## About
 
