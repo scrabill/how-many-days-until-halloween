@@ -85,6 +85,7 @@ const facts = [
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.',
+    'Halloween is the second highest grossing commercial holiday after Christmas.',
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
     'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.'
 ];
