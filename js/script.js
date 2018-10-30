@@ -72,6 +72,7 @@ const facts = [
     'Halloween was influenced by the ancient Roman festival Pomona, which celebrated the harvest goddess of the same name',
     'Dressing up as ghouls and other spooks originated from the ancient Celtic tradition of townspeople disguising themselves as demons and spirits',
     'Scarecrows, a popular Halloween fixture, symbolize the ancient agricultural roots of the holiday',
+    'According to most experts, inspiration for trick-or-treating came from European "mumming". Which involved people in costume playing songs and dancing in return for treats.',
     'Fifty percent of kids prefer to receive chocolate candy for Halloween, compared with 24% who prefer non-chocolate candy and 10% who preferred gum.',
     'Most experts trace trick-or-treating to the European practice of "mumming," or "guysing," in which costume-wearing participants would go door-to-door performing choreographed dances, songs and plays in exchange for treats.',
     'Candy makers supposedly lobbied to extend daylight savings time into the beginning of November to get an extra hour of daylight so children could collect even more candy!',
