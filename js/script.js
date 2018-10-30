@@ -14,7 +14,8 @@ const factElement = document.querySelector('#fact');
 
 const facts = [
     'The first jack-o`-lanterns were made out of potatoes and turnips',
-    'Americans spend about $86.13 on Halloween every year.',
+    'Per-person, Americans spend about $86.13 on Halloween every year.',
+    'Americans are expected to spend nearly $9 billion this year, according to the National Retail Federation.',
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
     '99% of all pumpkins sold are used as Jack-O-Lanterns for Halloween.',
