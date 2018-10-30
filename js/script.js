@@ -90,6 +90,7 @@ const facts = [
     'Hallowmass is another name for All Saint’s Day, a Roman Catholic festival that honors the saints.  Hollow’s eve is the day before Hallowmass.  This was shortened to Hallowe’en and that is where the current name for this holiday originated.'
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.',
+    'Halloween was once a day of romance',
     'The Village Halloween Parade in New York City is the US\’s largest Halloween parade, involving 50,000 participants and over 2 million spectators.',
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
@@ -194,13 +195,13 @@ const doKonami = () => {
 
 const costumes = [
     ["Napolen Dynamite", "https://i.pinimg.com/originals/26/2a/f4/262af40e4592db053fd8613773e3f5b0.jpg"],
-    ["Castaway","https://www.pinterest.ca/pin/16958936081976494/"],
+    ["Castaway", "https://www.pinterest.ca/pin/16958936081976494/"],
     ["a 404error", "https://www.instagram.com/p/7QsQ9Vhj9_/?utm_source=ig_embed"],
     ["50 Shades of Grey", "https://i.pinimg.com/474x/9a/45/42/9a454265d6a6e59ba609831a1b7c7028--so-funny-funny-stuff.jpg"],
     ["Octocat", "https://twitter.com/Bint_alBeatz/status/793178052494815233"],
     ["The Shining", "https://i.pinimg.com/originals/21/e3/a9/21e3a9859795366b7cc1b7aa3c8ed598.jpg"],
     ["Tamagotchi", "https://www.pinterest.ca/pin/192810427770341992/"],
-    ["Clippy","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
+    ["Clippy", "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
     ["Mike Myers", "https://lh6.googleusercontent.com/-9D6HisX7AQ0/T9Zoj01cyrI/AAAAAAAAAyM/p7gQaHoqRxg/s720/IMG_8023.jpg"],
     ["Jason Voorehees", "http://bestcostumedeal.com/assets/images/889071.jpg"],
@@ -234,32 +235,32 @@ const costumes = [
     ["One Night Stand", "http://freshxmas.com/wp-content/uploads/2018/09/homemade-halloween-costume-ideas-for-men-best-costumes-disguises-images-on-pinterest-stylish.jpg"]
   ];
 
-  //Assign DOM elements
-  let costumeButton = document.getElementById("costumeButton");
-  let costumeContent = document.getElementById("costumeContent");
-  let factButton = document.getElementById("factButton");
+//Assign DOM elements
+let costumeButton = document.getElementById("costumeButton");
+let costumeContent = document.getElementById("costumeContent");
+let factButton = document.getElementById("factButton");
 
-  //Pick a random costume
-  const costumeIs = () => {
+//Pick a random costume
+const costumeIs = () => {
     let numCostumes = costumes.length;
-    let randomNumber = Math.floor( ( Math.random() * numCostumes ) );
+    let randomNumber = Math.floor((Math.random() * numCostumes));
     return costumes[randomNumber];
-  }
+}
 
-  //Display costume on page with link.
-  const newCostume = () => {
+//Display costume on page with link.
+const newCostume = () => {
     costume = costumeIs();
     costumeContent.innerHTML = `Got a costume yet?<br>
                                 You could be: <a href="${costume[1]}" target="_blank">${costume[0]}</a>`;
-  };
+};
 
-  //Add event listener on 'click'
-  costumeButton.addEventListener('click', newCostume, false);
+//Add event listener on 'click'
+costumeButton.addEventListener('click', newCostume, false);
 
-  //display fact
-  const displayFact = () => {
+//display fact
+const displayFact = () => {
     factElement.innerHTML = facts[Math.floor(Math.random() * facts.length)];
-  };
+};
 
-  //add event listener for fact
-  factButton.addEventListener('click', displayFact, false);
+//add event listener for fact
+factButton.addEventListener('click', displayFact, false);
