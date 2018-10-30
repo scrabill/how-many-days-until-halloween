@@ -211,6 +211,8 @@ const costumes = [
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
+    ["Oscar Award", "https://www.pinterest.com/pin/281193570455380742/"],
+    ["3 Hole Punch", "https://amazon.com/Jim-Hole-Punch-Costume-T-shirt/dp/B0763FDFGY?sa-no-redirect=1"],
     ["Shredded Girl with Balloon by Bansky", "https://twitter.com/WorldOfWard/status/1056284833327001600"],
     ["Iron Man", "https://costumeworld.co.nz/products/iron-man-adult-costume-top"],
     ["Arthur Read", "https://www.youtube.com/watch?v=BTU5FkLBxV4"],
