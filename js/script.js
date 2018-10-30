@@ -83,6 +83,7 @@ const facts = [
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.'
     'October is the best month of the year'
+    'Spooktober jokes are really fun'
 ];
 
 // Display message and fact
