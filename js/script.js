@@ -90,6 +90,9 @@ const facts = [
     'Hallowmass is another name for All Saint’s Day, a Roman Catholic festival that honors the saints.  Hollow’s eve is the day before Hallowmass.  This was shortened to Hallowe’en and that is where the current name for this holiday originated.'
     'Studies have shown that Halloween actually makes kids act more evil!',
     'A full moon on Halloween is extremely rare.',
+    'October is the best month of the year',
+    'Spooktober jokes are really fun',
+    'A full moon on Halloween is extremely rare.',
     'Halloween was once a day of romance',
     'The Village Halloween Parade in New York City is the US\’s largest Halloween parade, involving 50,000 participants and over 2 million spectators.',
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
