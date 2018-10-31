@@ -60,7 +60,7 @@ const facts = [
     'According to tradition, if a person wears his or her clothes inside out and then walks backwards on Halloween, he or she will see a witch at midnight.',
     'Fifty percent of kids prefer to receive chocolate candy for Halloween, compared with 24% who prefer non-chocolate candy and 10% who preferred gum',
     'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.',
-    'Orange and black are Halloween colors because orange is associated with the Fall and black is associated with darkness and death.',
+    'Orange and black are Halloween colors because orange is associated with the Fall harvest and black is associated with darkness and death.',
     'The tradition of wearing scary costumes on Halloween comes from the ancient Celts: back then, people believed dressing up as demons and the like would confuse or ward off the evil spirits who roamed the streets during Samhain (the pagan version of Halloween)',
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
     'According to ancient Roman records, tribes located in today’s Germany and France traditionally wore costumes of animal heads and skins to connect to spirits of the dead.',
