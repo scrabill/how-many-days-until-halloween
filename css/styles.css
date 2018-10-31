@@ -1,178 +1,50 @@
 @import url("https://fonts.googleapis.com/css?family=Creepster"); /* Imports a creepy webfont from google fonts*/
+@import url("_animations.css");
+@import url("_costume-picker.css");
+@import url("_spooky.css");
+@import url("_footer.css");
+@import url("_media.css");
 
-body{
-	background-color: #f7a325;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  margin-bottom: 60px;
+body {
 	animation: body-background-animation 30s linear infinite;
+	background-color: #f7a325;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
+	min-height: 100vh;
 }
 
 main {
-  flex: 1;
-  justify-content: center;
+	flex: 1;
+	justify-content: center;
 }
 
-.jumbotron {
-background-color: #f29810;
-animation: jumbotron-background-animation 30s linear infinite;
-}
-.jumbotron p {
-  margin-top: 20%;
-  font-size: 12px;
-}
 a {
-  text-decoration: underline;
-  color: black;
-  background: transparent;
-}
-
-svg#illustration {
-  margin: 2rem;
-  width: 15rem;
+	background: transparent;
+	color: black;
+	text-decoration: underline;
 }
 
 p {
 	font-size: 12px;
 }
 
- a {
-	text-decoration: underline;
-	color: black;
+.jumbotron {
+	animation: jumbotron-background-animation 30s linear infinite;
+	background-color: #f29810;
 }
 
-.footer {
-  /* position: absolute; */
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
+.jumbotron p {
+	font-size: 12px;
+	margin-top: 20%;
+}
+
+.illustration {
+	margin: 2rem;
+	width: 15rem;
 }
 
 .konami {
-  background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
-  color: #ada48f;
-}
-
-#spooky {
-  font-family: "Creepster";
-}
-
-@media only screen and (max-width: 768px) {
-  body,
-  html {
-   /* overflow: hidden; */
-  }
-  h1 {
-    font-size: 20vw;
-    word-spacing: 2rem;
-  }
-}
-
-@media screen and (min-width: 375px) {
-	#spooky {
-		font-size: 78px;
-	}
-}
-
-@media screen and (min-width: 414px) {
-	#spooky {
-		font-size: 88px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#spooky {
-		font-size: 134px;
-	}
-	.jumbotron p {
-		font-size: 20px;
-	}
-}
-
-#spooky-ghost-wrapper {
-	right:20vw;
-	position: absolute;
-	width: 50px;
-	height: 50px;
-}
-
-#spooky-ghost {
-	width: 100%;
-	height: auto;
-	display: none;
-}
-#spooky-ghost-wrapper:hover #spooky-ghost{
-	display: block;
-}
-
-/* Costume picker styles */
-
-#outerCostumeBox {
-	margin-top: 50px;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	align-items: center;
-	font-size: 50px;
-  }
-
-  #costumeButton {
-	background-color: transparent;
-	border: none;
-  }
-
-  #costumeContent {
-	text-align: center;
-  }
-
-	/* Adjust font size with screen size */
-	@media screen and (max-width: 768px) {
-		#outerCostumeBox {
-			font-size: 25px;
-		}
-	}
-
-
-@keyframes body-background-animation {
-	0% {
-		background-color: #f7a325;
-	}
-	20% {
-		background-color: #f7252f;
-	}
-	35% {
-		background-color: #f7252f;
-	}
-	36% {
-		background-color: #3d25f7;
-	}
-	64% {
-		background-color: #3d25f7;
-	}
-	65% {
-		background-color: #f7252f;
-	}
-	80% {
-		background-color: #f7252f;
-	}
-	100% {
-		background-color: #f7a325;
-	}
-}
-
-@keyframes jumbotron-background-animation {
-	0% {
-		background-color: #f29810;
-	}
-	35% {
-		background-color: #72f210;
-	}
-	65% {
-		background-color: #72f210;
-	}
-	100% {
-		background-color: #f29810;
-	}
+	background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
+	color: #ada48f;
 }

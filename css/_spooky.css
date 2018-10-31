@@ -1,0 +1,20 @@
+.spooky-ghost-wrapper {
+    height: 50px;
+    position: absolute;
+    right:20vw;
+    width: 50px;
+}
+
+.spooky {
+    font-family: "Creepster";
+}
+
+.spooky-ghost {
+    display: none;
+    height: auto;
+    width: 100%;
+}
+
+.spooky-ghost-wrapper:hover .spooky-ghost {
+    display: block;
+}

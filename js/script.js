@@ -133,9 +133,9 @@ const message = getMessage(halloween.diff(today, "days")); // Calculate differen
 
 // Display message
 spooky.innerHTML = `<div>${message} 👻🎃</div>
-                    <div id="outerCostumeBox">
-                    <button id="costumeButton">🦇</button>
-                    <div id="costumeContent">Got a costume yet?
+                    <div id="outerCostumeBox" class="outer-costume-box">
+                    <button id="costumeButton" class="costume-button">🦇</button>
+                    <div id="costumeContent" class="costume-content">Got a costume yet?
                      <br>Click on the bat for a random idea!</div>
                     </div>`;
 
@@ -241,9 +241,9 @@ const costumes = [
   ];
 
 //Assign DOM elements
-let costumeButton = document.getElementById("costumeButton");
-let costumeContent = document.getElementById("costumeContent");
-let factButton = document.getElementById("factButton");
+const costumeButton = document.getElementById("costumeButton");
+const costumeContent = document.getElementById("costumeContent");
+const factButton = document.getElementById("factButton");
 
 //Pick a random costume
 const costumeIs = () => {

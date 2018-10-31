@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 20vw;
+        word-spacing: 2rem;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .jumbotron .spooky {
+        font-size: 78px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .jumbotron .spooky {
+        font-size: 88px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron .spooky {
+        font-size: 134px;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+    }
+}
+/* Adjust font size with screen size */
+@media screen and (max-width: 768px) {
+    .outer-costume-box {
+        font-size: 25px;
+    }
+}
