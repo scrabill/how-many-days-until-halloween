@@ -81,8 +81,7 @@ const facts = [
     'Children are more than twice as likely to be killed in a pedestrian/car accident on Halloween than on any other night.',
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
     'Studies have shown that Halloween actually makes kids act more evil!',
-    'A full moon on Halloween is extremely rare.',
-    'According to legend, if you put your clothes on inside out and walk backwards at Halloween, you’ll see a witch at midnight.'
+    'Many other countries celebrate the passing of dead spirits in late October and early November. On Mexico’s Day of the Dead, graveyards are flooded with people tidying relatives’ graves and bringing offerings of food, flowers and tequila. Some even stay to picnic and party.'
 ];
 
 // Display message and fact
