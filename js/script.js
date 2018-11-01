@@ -11,34 +11,38 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.factretriever.com/halloween-facts
 // Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
 // Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
+// Source: https://www.babbel.com/en/magazine/10-spooky-halloween-facts-that-you-might-not-know/
+// Source: https://www.canadiangeographic.ca/article/10-things-you-didnt-know-about-halloween-canada
+// Source: https://www.officeholidays.com/facts/halloween
 
 const facts = [
     'The first jack-o`-lanterns were made out of potatoes and turnips',
-    'Americans spend about $86.13 on Halloween every year.',
+    'Per-person, Americans spend about $86.13 on Halloween every year.',
+    'Americans are expected to spend nearly $9 billion this year, according to the National Retail Federation.',
     'California, Illinois, Michigan, New York, Ohio, and Pennsylvania produce the majority of pumpkins for Halloween – over 1 billion pounds a year!',
     'The name Jack-O-Lantern first originated from an Irish folktale about a man named Stingy Jack who tricked the Devil over and over again. When Jack died, he was forced to walk the Earth with only a carved-out turnip and burning coal to help light his way.',
     '99% of all pumpkins sold are used as Jack-O-Lanterns for Halloween.',
     'The Plymouth Colony Pilgrims started the superstition about black cats.',
     'Tootsie Rolls, Smarties, and candy corn were among the most hated candies in 2017.',
-    "Most of people is afraid of ghosts because they can't see them.",
-    "Reese's Peanut Butter Cups were 2017’s most popular Halloween candy.",
+    'Most of people is afraid of ghosts because they can\'t see them.',
+    'Reese\'s Peanut Butter Cups were 2017\'s most popular Halloween candy.',
     'At one time, it was customary to perform dances, songs, prayers, and plays in order to receive treats.',
     'Silly String is banned in Hollywood on Halloween.',
     'In 2014, the total estimated cost of all Halloween costumes was $2.8 billion.',
     'Candy Corn was created in 1898 and 35 million pounds of it are made every year.',
     'Candy corn has been made with the same recipe by the Jelly Belly Candy Company since 1898.',
     'Halloween in the second largest consumer holiday in the United States. Consumers spent about $7 billion in 2015.',
-    "Guinness World Records has named the Haunted Cave in Lewisburg, Ohio as the world's longest haunted house. It measures 3,564 feet long and is located 80 feet below ground in an abandoned mine.",
+    'Guinness World Records has named the Haunted Cave in Lewisburg, Ohio as the world\'s longest haunted house. It measures 3,564 feet long and is located 80 feet below ground in an abandoned mine.',
     'Harry Houdini died on Halloween in 1926.',
     'Trunk-or-Treating was created as a safer alternative to Trick-or-Treating in 2000.',
     'Halloween ranks as the sixth most popular card-giving holiday, with 20 million cards sent each year.',
     'In 2017, the most popular pet costumes were pumpkins, hot dogs, and a tie between a dog, lion, and pirate.',
-    'Candy Corn was originally known as "chicken feed"',
+    'Candy Corn was originally known as \'chicken feed\'',
     'Samhainophobia is the fear of Halloween.',
     'Halloween is thought to have originated around 4000 B.C., which means Halloween has been around for over 6,000 years.',
     'The first Jack O’Lanterns were actually made from turnips.',
-    "Some animal shelters won't allow the adoption of black cats around Halloween for fear they'll be sacrificed.",
-    'In a few American towns, Halloween was originally referred to as \"Cabbage Night.\"',
+    'Some animal shelters won\'t allow the adoption of black cats around Halloween for fear they\'ll be sacrificed.',
+    'In a few American towns, Halloween was originally referred to as \'Cabbage Night.\'',
     'The first Jack O\’Lanterns were actually made from turnips.',
     'Samhainophobia is the fear of Halloween.',
     'The largest pumpkin ever measured was grown by Norm Craven, who broke the world record in 1993 with a 836 lb. pumpkin.',
@@ -72,16 +76,32 @@ const facts = [
     'Halloween was influenced by the ancient Roman festival Pomona, which celebrated the harvest goddess of the same name',
     'Dressing up as ghouls and other spooks originated from the ancient Celtic tradition of townspeople disguising themselves as demons and spirits',
     'Scarecrows, a popular Halloween fixture, symbolize the ancient agricultural roots of the holiday',
+    'More than 175 million Americans will celebrate Halloween this year, with seven out of ten consumers planning to hand out candy.',
     'Fifty percent of kids prefer to receive chocolate candy for Halloween, compared with 24% who prefer non-chocolate candy and 10% who preferred gum.',
-    'Most experts trace trick-or-treating to the European practice of "mumming," or "guysing," in which costume-wearing participants would go door-to-door performing choreographed dances, songs and plays in exchange for treats.',
+    'Most experts trace trick-or-treating to the European practice of \'mumming,\' or \'guysing,\' in which costume-wearing participants would go door-to-door performing choreographed dances, songs and plays in exchange for treats.',
     'Candy makers supposedly lobbied to extend daylight savings time into the beginning of November to get an extra hour of daylight so children could collect even more candy!',
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
     'Chocolate makes up about three-quarters of a trick-or-treater’s loot, according to the National Confectioners Association.',
     'Immigrants from Ireland and Scotland brought Halloween to the United States in the 1800s. Haitian and African immigrants brought voodoo beliefs about black cats, fire, and witchcraft.',
+    'According to Hallmark, Halloween is the sixth most popular card-giving holiday with 20 million cards sent each year.',
     'Children are more than twice as likely to be killed in a pedestrian/car accident on Halloween than on any other night.',
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
+    'A full moon on Halloween is extremely rare.',
+    'Hallowmass is another name for All Saint\'s Day, a Roman Catholic festival that honors the saints.  Hollow\'s eve is the day before Hallowmass.  This was shortened to Hallowe\'en and that is where the current name for this holiday originated.',
     'Studies have shown that Halloween actually makes kids act more evil!',
-    'A full moon on Halloween is extremely rare.'
+    'Many other countries celebrate the passing of dead spirits in late October and early November. On Mexico’s Day of the Dead, graveyards are flooded with people tidying relatives’ graves and bringing offerings of food, flowers and tequila. Some even stay to picnic and party.',
+    'There\'s a $1,000 fine for using or selling Silly String in Hollywood on Halloween.',
+    'Halloween is the second highest grossing commercial holiday after Christmas.',
+    'A full moon on Halloween is extremely rare.',
+    'October is the best month of the year',
+    'Spooktober jokes are really fun',
+    'A full moon on Halloween is extremely rare.',
+    'Halloween was once a day of romance',
+    'The Village Halloween Parade in New York City is the US\’s largest Halloween parade, involving 50,000 participants and over 2 million spectators.',
+    'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
+    'Halloween is the second highest grossing commercial holiday after Christmas.',
+    'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
+    'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.'
 ];
 
 // Display message and fact
@@ -181,13 +201,13 @@ const doKonami = () => {
 
 const costumes = [
     ["Napolen Dynamite", "https://i.pinimg.com/originals/26/2a/f4/262af40e4592db053fd8613773e3f5b0.jpg"],
-    ["Castaway","https://www.pinterest.ca/pin/16958936081976494/"],
+    ["Castaway", "https://www.pinterest.ca/pin/16958936081976494/"],
     ["a 404error", "https://www.instagram.com/p/7QsQ9Vhj9_/?utm_source=ig_embed"],
     ["50 Shades of Grey", "https://i.pinimg.com/474x/9a/45/42/9a454265d6a6e59ba609831a1b7c7028--so-funny-funny-stuff.jpg"],
     ["Octocat", "https://twitter.com/Bint_alBeatz/status/793178052494815233"],
     ["The Shining", "https://i.pinimg.com/originals/21/e3/a9/21e3a9859795366b7cc1b7aa3c8ed598.jpg"],
     ["Tamagotchi", "https://www.pinterest.ca/pin/192810427770341992/"],
-    ["Clippy","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
+    ["Clippy", "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
     ["Mike Myers", "https://lh6.googleusercontent.com/-9D6HisX7AQ0/T9Zoj01cyrI/AAAAAAAAAyM/p7gQaHoqRxg/s720/IMG_8023.jpg"],
     ["Jason Voorehees", "http://bestcostumedeal.com/assets/images/889071.jpg"],
@@ -199,39 +219,57 @@ const costumes = [
     ["a Selfie", "https://twitter.com/hellofelicia14/status/1055155960384290816"],
     ["Lana Del Ray", "https://twitter.com/delreyxmafia/status/1056652839097954305"],
     ["Oh yeah!", "https://www.pinterest.com/pin/271975264971863827/visual-search/?x=9&y=9&w=282&h=342"],
+    ["Ruth Vader Ginsburg", "https://pbs.twimg.com/media/Dqn48iiX0AAOZKw.jpg"],
+    ["Pickle Rick", "https://cdn-blog.adafruit.com/uploads/2017/08/Pickle-Rick-costume-360x480.jpg"],
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
     ["Happy Meal", "https://in.pinterest.com/pin/261208847122984969/"],
     ["Unicorn", "https://in.pinterest.com/pin/261208847116945784/"]
+    ["Pumpkin Spiced Clown", "https://i.redd.it/sv7g8ajzxyr11.jpg"],
+    ["Neo from The Matrix", "https://nextviewventures.com/wp-content/uploads/2014/07/control-content-marekting-for-startups.jpg"],
+    ["Unicorn", "https://img.ltwebstatic.com/images/pi/201712/52/15133252867462243289_thumbnail_600x.webp"],
+    ["Oscar Award", "https://www.pinterest.com/pin/281193570455380742/"],
+    ["3 Hole Punch", "https://amazon.com/Jim-Hole-Punch-Costume-T-shirt/dp/B0763FDFGY?sa-no-redirect=1"],
+    ["Shredded Girl with Balloon by Bansky", "https://twitter.com/WorldOfWard/status/1056284833327001600"],
+    ["Iron Man", "https://costumeworld.co.nz/products/iron-man-adult-costume-top"],
+    ["Arthur Read", "https://www.youtube.com/watch?v=BTU5FkLBxV4"],
+    ["Ceiling Fan", "http://i.imgur.com/ZLjQ2.jpg"],
+    ["Android","https://www.geek.com/wp-content/uploads/2017/10/android-halloween-costume-e1508426401556.jpg"],
+    ["Incredibles", "https://ae01.alicdn.com/kf/HTB1pKI0cYwrBKNjSZPcq6xpapXaW/NEW-ARRIVAL-Incredibles-2-Helen-Parr-Cosplay-Costume-Superhero-Elastigirl-Costume-Halloween-Outfit-Custom-Made.jpg_640x640.jpg"],
+    ["Spider-Man", "https://images.halloweencostumes.com/products/46552/1-21/marvel-infinity-war-deluxe-iron-spider-kids-costume.jpg"],
+    ["Avocado Toast", "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-09-10-at-2-36-54-pm-1536604924.png?crop=0.798xw:0.802xh;0.105xw,0.154xh&resize=980:*"],
+    ["Nerd", "https://downerclassic.com/wp-content/uploads/2018/09/30-genius-homemade-halloween-costumes-for-adults-and-kids-cool-diy-ideas-of-easy-homemade-halloween-costumes-for-adults-of-easy-homemade-halloween-costumes-for-adults.jpg"],
+    ["One Night Stand", "http://freshxmas.com/wp-content/uploads/2018/09/homemade-halloween-costume-ideas-for-men-best-costumes-disguises-images-on-pinterest-stylish.jpg"],
+    ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"]
   ];
 
-  //Assign DOM elements
-  let costumeButton = document.getElementById("costumeButton");
-  let costumeContent = document.getElementById("costumeContent");
-  let factButton = document.getElementById("factButton");
+//Assign DOM elements
+let costumeButton = document.getElementById("costumeButton");
+let costumeContent = document.getElementById("costumeContent");
+let factButton = document.getElementById("factButton");
 
-  //Pick a random costume
-  const costumeIs = () => {
+//Pick a random costume
+const costumeIs = () => {
     let numCostumes = costumes.length;
-    let randomNumber = Math.floor( ( Math.random() * numCostumes ) );
+    let randomNumber = Math.floor((Math.random() * numCostumes));
     return costumes[randomNumber];
-  }
+}
 
-  //Display costume on page with link.
-  const newCostume = () => {
+//Display costume on page with link.
+const newCostume = () => {
     costume = costumeIs();
     costumeContent.innerHTML = `Got a costume yet?<br>
                                 You could be: <a href="${costume[1]}" target="_blank">${costume[0]}</a>`;
-  };
+};
 
-  //Add event listener on 'click'
-  costumeButton.addEventListener('click', newCostume, false);
+//Add event listener on 'click'
+costumeButton.addEventListener('click', newCostume, false);
 
-  //display fact
-  const displayFact = () => {
+//display fact
+const displayFact = () => {
     factElement.innerHTML = facts[Math.floor(Math.random() * facts.length)];
-  };
+};
 
   //add event listener for fact
-  factButton.addEventListener('click', displayFact, false);
+  factButton.addEventListener('click', displayFact, alse);

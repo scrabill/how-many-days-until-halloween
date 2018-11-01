@@ -1,5 +1,18 @@
 ## Changelog
 
+2018-10-30
+
+AAAAaaaahhhhhhh!! Halloween is tomorrow!
+
+- Added lots of new costumes
+- And more facts :)
+
+And here are the stats so far!
+
+![Stats from September 30, 2018 – October 30, 2018](img/stats-2018-10-30.png)
+
+***
+
 2018-10-28
 
 3 more days!
