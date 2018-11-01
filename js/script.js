@@ -102,8 +102,8 @@ const facts = [
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
     'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.',
+    'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you.',
     'In Brazil, the date of Halloween is called witch\`s day'
-
 ];
 
 // Display message and fact
