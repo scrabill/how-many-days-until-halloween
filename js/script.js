@@ -89,6 +89,7 @@ const facts = [
     'A full moon on Halloween is extremely rare.',
     'Hallowmass is another name for All Saint\'s Day, a Roman Catholic festival that honors the saints.  Hollow\'s eve is the day before Hallowmass.  This was shortened to Hallowe\'en and that is where the current name for this holiday originated.',
     'Studies have shown that Halloween actually makes kids act more evil!',
+    'Many other countries celebrate the passing of dead spirits in late October and early November. On Mexico’s Day of the Dead, graveyards are flooded with people tidying relatives’ graves and bringing offerings of food, flowers and tequila. Some even stay to picnic and party.',
     'There\'s a $1,000 fine for using or selling Silly String in Hollywood on Halloween.',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'A full moon on Halloween is extremely rare.',
