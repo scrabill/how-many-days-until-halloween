@@ -1,25 +1,17 @@
+![How Many Days Until Halloween?](img/readme-banner.jpg)
+
 ![Contributions welcome](https://img.shields.io/badge/Friendly-True-brightgreen.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)
 ![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/w/eslint/eslint.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
-
 # How Many Days Until Halloween?
 
-Idk. Let [this page][this] do the counting for you!
-
-## 2018-10-11 update
-
-Hey ghouls! It's been a few days since I've been on here, but I have not forgotten. I caught my first cold (or flu) of the season so I've spent the past few days catching up on sleep. I hope to be back up and running over the weekend. Then I'll get started on reviewing the very spooky additions you all have made to this project.
-
-Thanks for your patience!
-
-![img](https://media.giphy.com/media/XUHaEglC894hq/giphy.gif)
+I don't know, let [this page][this] do the counting for you!
 
 ## About
 
 In the spirit of [Hacktoberfest][hacktoberfest], I posted this project to GitHub with the purpose of giving developers a place to practice write coding and working with Git / Github. You can [read my blog post][blog] or my [AMA on open source][ama] for more on how this project came to be.
-
 
 ## Table of Contents
 
@@ -35,10 +27,10 @@ If you are interested in contributing, [open issues can be found here][issues] o
 
 ## Technologies
 
-- [JavaScript](javascript) - the programming language of HTML and the Web 
-  - [JQuery](jquery) - a fast, small, and feature-rich JavaScript library 
-  - [Moment.js](momentjs) - date and time logic behind the Halloween counter
-- [Bootstrap](bootstrap) - HTML and CSS front-end development
+- [JavaScript][javascript] - the programming language of HTML and the Web
+  - [JQuery][jquery] - a fast, small, and feature-rich JavaScript library
+  - [Moment.js][momentjs] - date and time logic behind the Halloween counter
+- [Bootstrap][bootstrap] - HTML and CSS front-end development
 
 [this]: http://shannoncrabill.com/how-many-days-until-halloween/
 [hacktoberfest]: https://hacktoberfest.digitalocean.com/
