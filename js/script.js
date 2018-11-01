@@ -112,7 +112,8 @@ const facts = [
     'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
     'In Brazil, the date of Halloween is called witch\`s day',
     'The popular movie, Hocus Pocus, was almost called Halloween House instead!',
-    'Magician Harry Houdini died on Halloween in 1926.'
+    'Magician Harry Houdini died on Halloween in 1926.',
+    'Samhainophobia is the medical term for a pathalogical fear of Halloween.'
 ];
 
 // Display message and fact
