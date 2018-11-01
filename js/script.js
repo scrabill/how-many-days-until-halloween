@@ -101,7 +101,8 @@ const facts = [
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
-    'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.',
+    'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
+    'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
     'In Brazil, the date of Halloween is called witch\`s day'
 ];
 
