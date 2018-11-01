@@ -89,6 +89,7 @@ const facts = [
     'A full moon on Halloween is extremely rare.',
     'Hallowmass is another name for All Saint\'s Day, a Roman Catholic festival that honors the saints.  Hollow\'s eve is the day before Hallowmass.  This was shortened to Hallowe\'en and that is where the current name for this holiday originated.',
     'Studies have shown that Halloween actually makes kids act more evil!',
+    'Many other countries celebrate the passing of dead spirits in late October and early November. On Mexico’s Day of the Dead, graveyards are flooded with people tidying relatives’ graves and bringing offerings of food, flowers and tequila. Some even stay to picnic and party.',
     'There\'s a $1,000 fine for using or selling Silly String in Hollywood on Halloween.',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'A full moon on Halloween is extremely rare.',
@@ -100,8 +101,9 @@ const facts = [
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
-    'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.'
-    'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.'
+    'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
+    'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
+    'In Brazil, the date of Halloween is called witch\`s day'
 ];
 
 // Display message and fact
@@ -200,7 +202,7 @@ const doKonami = () => {
 // Script for Random Costume Picker
 
 const costumes = [
-    ["Napolen Dynamite", "https://i.pinimg.com/originals/26/2a/f4/262af40e4592db053fd8613773e3f5b0.jpg"],
+    ["Napoleon Dynamite", "https://i.pinimg.com/originals/26/2a/f4/262af40e4592db053fd8613773e3f5b0.jpg"],
     ["Castaway", "https://www.pinterest.ca/pin/16958936081976494/"],
     ["a 404error", "https://www.instagram.com/p/7QsQ9Vhj9_/?utm_source=ig_embed"],
     ["50 Shades of Grey", "https://i.pinimg.com/474x/9a/45/42/9a454265d6a6e59ba609831a1b7c7028--so-funny-funny-stuff.jpg"],
@@ -224,6 +226,8 @@ const costumes = [
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
+    ["Happy Meal", "https://in.pinterest.com/pin/261208847122984969/"],
+    ["Unicorn", "https://in.pinterest.com/pin/261208847116945784/"]
     ["Pumpkin Spiced Clown", "https://i.redd.it/sv7g8ajzxyr11.jpg"],
     ["Neo from The Matrix", "https://nextviewventures.com/wp-content/uploads/2014/07/control-content-marekting-for-startups.jpg"],
     ["Unicorn", "https://img.ltwebstatic.com/images/pi/201712/52/15133252867462243289_thumbnail_600x.webp"],
@@ -233,13 +237,17 @@ const costumes = [
     ["Iron Man", "https://costumeworld.co.nz/products/iron-man-adult-costume-top"],
     ["Arthur Read", "https://www.youtube.com/watch?v=BTU5FkLBxV4"],
     ["Ceiling Fan", "http://i.imgur.com/ZLjQ2.jpg"],
-    ["Android","https://www.geek.com/wp-content/uploads/2017/10/android-halloween-costume-e1508426401556.jpg"],
+    ["Android", "https://www.geek.com/wp-content/uploads/2017/10/android-halloween-costume-e1508426401556.jpg"],
     ["Incredibles", "https://ae01.alicdn.com/kf/HTB1pKI0cYwrBKNjSZPcq6xpapXaW/NEW-ARRIVAL-Incredibles-2-Helen-Parr-Cosplay-Costume-Superhero-Elastigirl-Costume-Halloween-Outfit-Custom-Made.jpg_640x640.jpg"],
     ["Spider-Man", "https://images.halloweencostumes.com/products/46552/1-21/marvel-infinity-war-deluxe-iron-spider-kids-costume.jpg"],
     ["Avocado Toast", "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-09-10-at-2-36-54-pm-1536604924.png?crop=0.798xw:0.802xh;0.105xw,0.154xh&resize=980:*"],
     ["Nerd", "https://downerclassic.com/wp-content/uploads/2018/09/30-genius-homemade-halloween-costumes-for-adults-and-kids-cool-diy-ideas-of-easy-homemade-halloween-costumes-for-adults-of-easy-homemade-halloween-costumes-for-adults.jpg"],
-    ["One Night Stand", "http://freshxmas.com/wp-content/uploads/2018/09/homemade-halloween-costume-ideas-for-men-best-costumes-disguises-images-on-pinterest-stylish.jpg"]
-  ];
+    ["One Night Stand", "http://freshxmas.com/wp-content/uploads/2018/09/homemade-halloween-costume-ideas-for-men-best-costumes-disguises-images-on-pinterest-stylish.jpg"],
+    ["Identity Theft", "https://i.imgur.com/9DF2KI9.jpg"],
+    ["Slack notification", "https://twitter.com/aengelbro/status/1057659128707829760"],
+    ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"],
+    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"]
+];
 
 //Assign DOM elements
 let costumeButton = document.getElementById("costumeButton");
@@ -268,5 +276,5 @@ const displayFact = () => {
     factElement.innerHTML = facts[Math.floor(Math.random() * facts.length)];
 };
 
-//add event listener for fact
-factButton.addEventListener('click', displayFact, false);
+  //add event listener for fact
+  factButton.addEventListener('click', displayFact, alse);
