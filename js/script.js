@@ -101,7 +101,9 @@ const facts = [
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
-    'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.'
+    'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.',
+    'In Brazil, the date of Halloween is called witch\`s day'
+
 ];
 
 // Display message and fact
@@ -233,14 +235,14 @@ const costumes = [
     ["Iron Man", "https://costumeworld.co.nz/products/iron-man-adult-costume-top"],
     ["Arthur Read", "https://www.youtube.com/watch?v=BTU5FkLBxV4"],
     ["Ceiling Fan", "http://i.imgur.com/ZLjQ2.jpg"],
-    ["Android","https://www.geek.com/wp-content/uploads/2017/10/android-halloween-costume-e1508426401556.jpg"],
+    ["Android", "https://www.geek.com/wp-content/uploads/2017/10/android-halloween-costume-e1508426401556.jpg"],
     ["Incredibles", "https://ae01.alicdn.com/kf/HTB1pKI0cYwrBKNjSZPcq6xpapXaW/NEW-ARRIVAL-Incredibles-2-Helen-Parr-Cosplay-Costume-Superhero-Elastigirl-Costume-Halloween-Outfit-Custom-Made.jpg_640x640.jpg"],
     ["Spider-Man", "https://images.halloweencostumes.com/products/46552/1-21/marvel-infinity-war-deluxe-iron-spider-kids-costume.jpg"],
     ["Avocado Toast", "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-09-10-at-2-36-54-pm-1536604924.png?crop=0.798xw:0.802xh;0.105xw,0.154xh&resize=980:*"],
     ["Nerd", "https://downerclassic.com/wp-content/uploads/2018/09/30-genius-homemade-halloween-costumes-for-adults-and-kids-cool-diy-ideas-of-easy-homemade-halloween-costumes-for-adults-of-easy-homemade-halloween-costumes-for-adults.jpg"],
     ["One Night Stand", "http://freshxmas.com/wp-content/uploads/2018/09/homemade-halloween-costume-ideas-for-men-best-costumes-disguises-images-on-pinterest-stylish.jpg"],
-    ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"]
-  ];
+    ["Ultimate Mech-Daddy-Daughter", "https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"]
+];
 
 //Assign DOM elements
 let costumeButton = document.getElementById("costumeButton");
