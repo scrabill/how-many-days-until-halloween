@@ -257,7 +257,17 @@ const costumes = [
     ["Identity Theft", "https://i.imgur.com/9DF2KI9.jpg"],
     ["Slack notification", "https://twitter.com/aengelbro/status/1057659128707829760"],
     ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"],
-    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"]
+    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"],
+    ["Old Man", "https://www.pinterest.com/pin/389561436504301415/"],
+    ["Old Ladies", "https://www.pinterest.com/pin/119626933834842414/"],
+    ["Where's Waldo", "https://www.pinterest.com/pin/531284087276399090/"],
+    ["Wonder Woman", "https://www.pinterest.com/pin/79024168441172068/"],
+    ["Bettlejuice", "https://www.pinterest.com/pin/232428030741676625/"],
+    ["Addams Family", "https://www.pinterest.com/pin/495607133976737193/"],
+    ["Minions", "https://www.pinterest.com/pin/110408628342259164/"],
+    ["Flo", "https://www.pinterest.com/pin/85990674120375997/"],
+    ["Lego's", "https://www.pinterest.com/pin/202380576982502260/"],
+    ["Flintstone's", "https://www.pinterest.com/pin/494903446524346816/"]
 ];
 
 //Assign DOM elements
