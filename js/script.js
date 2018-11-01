@@ -226,6 +226,8 @@ const costumes = [
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
+    ["Happy Meal", "https://in.pinterest.com/pin/261208847122984969/"],
+    ["Unicorn", "https://in.pinterest.com/pin/261208847116945784/"]
     ["Pumpkin Spiced Clown", "https://i.redd.it/sv7g8ajzxyr11.jpg"],
     ["Neo from The Matrix", "https://nextviewventures.com/wp-content/uploads/2014/07/control-content-marekting-for-startups.jpg"],
     ["Unicorn", "https://img.ltwebstatic.com/images/pi/201712/52/15133252867462243289_thumbnail_600x.webp"],
@@ -273,5 +275,5 @@ const displayFact = () => {
     factElement.innerHTML = facts[Math.floor(Math.random() * facts.length)];
 };
 
-//add event listener for fact
-factButton.addEventListener('click', displayFact, false);
+  //add event listener for fact
+  factButton.addEventListener('click', displayFact, alse);
