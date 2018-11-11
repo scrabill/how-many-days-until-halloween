@@ -110,7 +110,8 @@ const facts = [
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
     'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
     'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
-    'In Brazil, the date of Halloween is called witch\`s day'
+    'In Brazil, the date of Halloween is called witch\`s day',
+    'Halloween was brought to North America by immigrants from Europe who would celebrate the harvest around a bonfire, share ghost stories, sing, dance and tell fortunes.'
 ];
 
 // Display message and fact
