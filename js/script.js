@@ -289,4 +289,4 @@ const displayFact = () => {
 };
 
   //add event listener for fact
-  factButton.addEventListener('click', displayFact, alse);
+  factButton.addEventListener('click', displayFact, false);
