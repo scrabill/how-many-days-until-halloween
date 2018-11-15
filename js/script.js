@@ -18,6 +18,7 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.officeholidays.com/facts/halloween
 
 const facts = [
+    'It is illegal to dress up as a priest for Halloween in Alabama',
     'The first jack-o`-lanterns were made out of potatoes and turnips',
     'Per-person, Americans spend about $86.13 on Halloween every year.',
     'Americans are expected to spend nearly $9 billion this year, according to the National Retail Federation.',
