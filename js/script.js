@@ -110,7 +110,11 @@ const facts = [
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
     'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
     'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
-    'In Brazil, the date of Halloween is called witch\`s day'
+    'In Brazil, the date of Halloween is called witch\`s day',
+    'The jack-o-lantern comes from a Celtic legend.',
+    'Samhainophobia is the medical term for a pathalogical fear of Halloween.',
+    'Bats have an additional connection to Halloween: the bonfires that the ancient Celts built to celebrate Samhain would often attract the flying mammals.'
+
 ];
 
 // Display message and fact
