@@ -111,6 +111,7 @@ const facts = [
     'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
     'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
     'In Brazil, the date of Halloween is called witch\`s day'
+    'The most lit jack o lanterns on display is 30,581'
 ];
 
 // Display message and fact
