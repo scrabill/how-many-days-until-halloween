@@ -16,6 +16,7 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.babbel.com/en/magazine/10-spooky-halloween-facts-that-you-might-not-know/
 // Source: https://www.canadiangeographic.ca/article/10-things-you-didnt-know-about-halloween-canada
 // Source: https://www.officeholidays.com/facts/halloween
+// Source: https://www.factinate.com/things/42-strange-facts-halloween/
 
 const facts = [
     'The first jack-o`-lanterns were made out of potatoes and turnips',
@@ -110,7 +111,11 @@ const facts = [
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
     'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
     'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
-    'In Brazil, the date of Halloween is called witch\`s day'
+    'In Brazil, the date of Halloween is called witch\`s day',
+    'Picky Eaters: 50% of children prefer to receive chocolate on Halloween over other types of treats. 24% of children like candy, and 10% would choose gum. Toothbrushes didn’t make the list.',
+    'The Great Pumpkin: Ron Wallace holds the world record for the largest pumpkin ever grown: a 1,502 pound behemoth he grew in 2006.',
+    'Fastest Carver: This is a real event. The record is 16.47 seconds and is held by Stephen Clarke.',
+    'Long In The Tooth: Halloween is thought to be 6,000 years old, and was first celebrated around 4,000 BCE.',
 ];
 
 // Display message and fact
@@ -288,4 +293,4 @@ const displayFact = () => {
 };
 
   //add event listener for fact
-  factButton.addEventListener('click', displayFact, alse);
+  factButton.addEventListener('click', displayFact, false);
