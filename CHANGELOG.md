@@ -1,5 +1,14 @@
 ## Changelog
 
+2019-10-01
+
+A new year, a new October, and a new Halloween!
+
+- Refactored the Style.CSS page to make it more readable
+- Shored up the index.html file to make it more readable
+
+***
+
 2018-10-30
 
 AAAAaaaahhhhhhh!! Halloween is tomorrow!

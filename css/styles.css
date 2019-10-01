@@ -1,103 +1,60 @@
 @import url("https://fonts.googleapis.com/css?family=Creepster"); /* Imports a creepy webfont from google fonts*/
 
-body{
+/* Global Styles */
+body {
 	background-color: #f7a325;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  margin-bottom: 60px;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin-bottom: 60px;
 	animation: body-background-animation 30s linear infinite;
 }
-
-main {
-  flex: 1;
-  justify-content: center;
-}
-
-.jumbotron {
-background-color: #f29810;
-animation: jumbotron-background-animation 30s linear infinite;
-}
-.jumbotron p {
-  margin-top: 20%;
-  font-size: 12px;
-}
 a {
-  text-decoration: underline;
-  color: black;
-  background: transparent;
+	text-decoration: underline;
+	color: black;
+	background: transparent;
 }
-
-svg#illustration {
-  margin: 2rem;
-  width: 15rem;
-}
-
 p {
 	font-size: 12px;
 }
-
- a {
-	text-decoration: underline;
-	color: black;
+main {
+	flex: 1;
+	justify-content: center;
 }
 
-.footer {
-  /* position: absolute; */
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-}
-
-.konami {
-  background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
-  color: #ada48f;
-}
-
+/* Font Identifier -- Add this ID to any div/p to change font */
 #spooky {
-  font-family: "Creepster";
-}
-
-@media only screen and (max-width: 768px) {
-  body,
-  html {
-   /* overflow: hidden; */
+	font-family: "Creepster";
   }
-  h1 {
-    font-size: 20vw;
-    word-spacing: 2rem;
-  }
+
+/* Main Jumbotron */
+.jumbotron {
+	background-color: #f29810;
+	animation: jumbotron-background-animation 30s linear infinite;
 }
 
-@media screen and (min-width: 375px) {
-	#spooky {
-		font-size: 78px;
-	}
+/* Footer Styles */
+.footer {
+	/* position: absolute; */
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
 }
 
-@media screen and (min-width: 414px) {
-	#spooky {
-		font-size: 88px;
-	}
+/* SVG Sizing */
+svg#illustration {
+	margin: 2rem;
+	width: 15rem;
 }
 
-@media screen and (min-width: 768px) {
-	#spooky {
-		font-size: 134px;
-	}
-	.jumbotron p {
-		font-size: 20px;
-	}
-}
-
+/* Spooky Ghost Stuff */
 #spooky-ghost-wrapper {
 	right:20vw;
 	position: absolute;
 	width: 50px;
 	height: 50px;
 }
-
 #spooky-ghost {
 	width: 100%;
 	height: auto;
@@ -107,8 +64,30 @@ p {
 	display: block;
 }
 
-/* Costume picker styles */
+/* Responsiveness Styles */
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 20vw;
+		word-spacing: 2rem;
+	}
+}
+@media screen and (min-width: 375px) {
+	#spooky {
+		font-size: 78px;
+	}
+}
+@media screen and (min-width: 414px) {
+	#spooky {
+		font-size: 88px;
+	}
+}
+@media screen and (min-width: 768px) {
+	#spooky {
+		font-size: 134px;
+	}
+}
 
+/* Costume picker styles */
 #outerCostumeBox {
 	margin-top: 50px;
 	display: flex;
@@ -116,25 +95,23 @@ p {
 	width: 100%;
 	align-items: center;
 	font-size: 50px;
-  }
-
-  #costumeButton {
+}
+#costumeButton {
 	background-color: transparent;
 	border: none;
-  }
-
-  #costumeContent {
+}
+#costumeContent {
 	text-align: center;
-  }
+}
 
-	/* Adjust font size with screen size */
-	@media screen and (max-width: 768px) {
-		#outerCostumeBox {
-			font-size: 25px;
-		}
+/* Adjust font size with screen size */
+@media screen and (max-width: 768px) {
+	#outerCostumeBox {
+		font-size: 25px;
 	}
+}
 
-
+/* Animation Rules */
 @keyframes body-background-animation {
 	0% {
 		background-color: #f7a325;
@@ -161,7 +138,6 @@ p {
 		background-color: #f7a325;
 	}
 }
-
 @keyframes jumbotron-background-animation {
 	0% {
 		background-color: #f29810;
