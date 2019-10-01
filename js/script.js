@@ -287,5 +287,5 @@ const displayFact = () => {
     factElement.innerHTML = facts[Math.floor(Math.random() * facts.length)];
 };
 
-  //add event listener for fact
-  factButton.addEventListener('click', displayFact, alse);
+//add event listener for fact
+factButton.addEventListener('click', displayFact, false);
