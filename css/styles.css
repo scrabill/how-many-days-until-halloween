@@ -12,6 +12,7 @@ body{
 main {
   flex: 1;
   justify-content: center;
+  
 }
 
 .jumbotron {
@@ -26,6 +27,7 @@ a {
   text-decoration: underline;
   color: black;
   background: transparent;
+  
 }
 
 svg#illustration {
@@ -54,6 +56,17 @@ p {
   background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
   color: #ada48f;
 }
+#factButton{
+	margin-top: 10px;
+    border:0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background:#fff;
+    font-weight: bold;
+    color:  #df4723;
+    cursor: pointer;
+}
 
 #spooky {
   font-family: "Creepster";
@@ -79,6 +92,7 @@ p {
 @media screen and (min-width: 414px) {
 	#spooky {
 		font-size: 88px;
+		text-shadow: 3px 2px red;
 	}
 }
 
@@ -121,6 +135,13 @@ p {
   #costumeButton {
 	background-color: transparent;
 	border: none;
+	margin-top: 10px;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
   }
 
   #costumeContent {
