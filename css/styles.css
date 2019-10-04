@@ -6,8 +6,7 @@ body{
   min-height: 100vh;
   flex-direction: column;
   margin-bottom: 60px;
-	animation: body-background-animation 30s linear infinite;
-	animation: text-color-animation 30s linear infinite;
+	animation: body-background-animation 30s linear infinite,  text-color-animation 30s linear infinite;
 }
 
 main {
