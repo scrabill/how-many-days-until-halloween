@@ -16,7 +16,7 @@ main {
 
 .jumbotron {
 background-color: #f29810;
-animation: jumbotron-background-animation 30s linear infinite;
+animation: body-background-animation 30s linear infinite;
 }
 .jumbotron p {
   margin-top: 20%;
@@ -136,33 +136,6 @@ p {
 
 
 @keyframes body-background-animation {
-	0% {
-		background-color: #f7a325;
-	}
-	20% {
-		background-color: #f7252f;
-	}
-	35% {
-		background-color: #f7252f;
-	}
-	36% {
-		background-color: #3d25f7;
-	}
-	64% {
-		background-color: #3d25f7;
-	}
-	65% {
-		background-color: #f7252f;
-	}
-	80% {
-		background-color: #f7252f;
-	}
-	100% {
-		background-color: #f7a325;
-	}
-}
-
-@keyframes jumbotron-background-animation {
 	0% {
 		background-color: #f7a325;
 	}
