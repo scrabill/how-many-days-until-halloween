@@ -7,6 +7,7 @@ body{
   flex-direction: column;
   margin-bottom: 60px;
 	animation: body-background-animation 30s linear infinite;
+	animation: text-color-animation 30s linear infinite;
 }
 
 main {
@@ -24,8 +25,8 @@ animation: jumbotron-background-animation 30s linear infinite;
 }
 a {
   text-decoration: underline;
-  color: black;
   background: transparent;
+  	animation: text-color-animation 30s linear infinite;
 }
 
 svg#illustration {
@@ -39,7 +40,7 @@ p {
 
  a {
 	text-decoration: underline;
-	color: black;
+	animation: text-color-animation 30s linear infinite;
 }
 
 .footer {
@@ -52,7 +53,7 @@ p {
 
 .konami {
   background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
-  color: #ada48f;
+  animation: text-color-animation 30s linear infinite;
 }
 
 #spooky {
@@ -174,5 +175,32 @@ p {
 	}
 	100% {
 		background-color: #f29810;
+	}
+}
+
+@keyframes text-color-animation {
+	0% {
+		color: #4f25f7;
+	}
+	20% {
+		color: #2ff725;
+	}
+	35% {
+		color: #2ff725;
+	}
+	36% {
+		color: #f79825;
+	}
+	64% {
+		color: #f79825;
+	}
+	65% {
+		color: #2ff725;
+	}
+	80% {
+		color: #2ff725;
+	}
+	100% {
+		color: #4f25f7;
 	}
 }
