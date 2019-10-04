@@ -164,15 +164,27 @@ p {
 
 @keyframes jumbotron-background-animation {
 	0% {
-		background-color: #f29810;
+		background-color: #f7a325;
+	}
+	20% {
+		background-color: #f7252f;
 	}
 	35% {
-		background-color: #72f210;
+		background-color: #f7252f;
+	}
+	36% {
+		background-color: #3d25f7;
+	}
+	64% {
+		background-color: #3d25f7;
 	}
 	65% {
-		background-color: #72f210;
+		background-color: #f7252f;
+	}
+	80% {
+		background-color: #f7252f;
 	}
 	100% {
-		background-color: #f29810;
+		background-color: #f7a325;
 	}
 }
