@@ -28,10 +28,29 @@ a {
   background: transparent;
 }
 
+.cauldron {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 svg#illustration {
   margin: 2rem;
   width: 15rem;
+	animation: float 3s ease-in-out infinite;
 }
+
+#shadow {
+	width: 12%;
+	height: 5px;
+	padding: 10px;
+	background-color: black;
+	opacity: 0.1;
+	border-radius: 100%;
+	animation: shadow_float 3s ease-in-out infinite;
+	text-align: center;
+}
+
 
 p {
 	font-size: 12px;
@@ -134,6 +153,31 @@ p {
 		}
 	}
 
+/* keyframes for cauldron and shadow */
+	@keyframes float {
+		0% {
+		transform: translatey(25px);
+		}
+		50% {
+			transform: translatey(-20px)
+		}
+		100% {
+			transform: translatey(25px)
+		}
+	}
+
+	@keyframes shadow_float {
+	  0% {
+	    opacity: 0.5;
+	  }
+	  50% {
+	    opacity: 0.2;
+			width: 8%;
+	  }
+	  100% {
+	    opacity: 0.5;
+	  }
+	}
 
 @keyframes body-background-animation {
 	0% {
