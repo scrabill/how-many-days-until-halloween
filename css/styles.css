@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Creepster"); /* Imports a creepy webfont from google fonts*/
 
+/* HTML tags */
 body{
 	background-color: #f7a325;
   display: flex;
@@ -14,82 +15,57 @@ main {
   justify-content: center;
 }
 
-.jumbotron {
-background-color: #f29810;
-animation: jumbotron-background-animation 30s linear infinite;
-}
-.jumbotron p {
-  margin-top: 20%;
-  font-size: 12px;
-}
 a {
-  text-decoration: underline;
-  color: black;
-  background: transparent;
-}
-
-svg#illustration {
-  margin: 2rem;
-  width: 15rem;
+	text-decoration: underline;
+	color: black;
+	background: transparent;
 }
 
 p {
 	font-size: 12px;
 }
 
- a {
+a {
 	text-decoration: underline;
 	color: black;
 }
+/* -- END OF HTML Tags */
+
+/* Classes and Classes inheritance */
+.jumbotron {
+	background-color: #f29810;
+	animation: jumbotron-background-animation 30s linear infinite;
+}
+
+.jumbotron p {
+	margin-top: 20%;
+	font-size: 12px;
+}
 
 .footer {
-  /* position: absolute; */
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
+	/* position: absolute; */
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
 }
 
 .konami {
-  background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
-  color: #ada48f;
+	background: #000 url("https://i.ytimg.com/vi/v4zU8Is-lDY/maxresdefault.jpg");
+	color: #ada48f;
+}
+/* -- END OF Classes */
+
+/* ID's */
+svg#illustration {
+  margin: 2rem;
+  width: 15rem;
 }
 
 #spooky {
   font-family: "Creepster";
 }
 
-@media only screen and (max-width: 768px) {
-  body,
-  html {
-   /* overflow: hidden; */
-  }
-  h1 {
-    font-size: 20vw;
-    word-spacing: 2rem;
-  }
-}
-
-@media screen and (min-width: 375px) {
-	#spooky {
-		font-size: 78px;
-	}
-}
-
-@media screen and (min-width: 414px) {
-	#spooky {
-		font-size: 88px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#spooky {
-		font-size: 134px;
-	}
-	.jumbotron p {
-		font-size: 20px;
-	}
-}
 
 #spooky-ghost-wrapper {
 	right:20vw;
@@ -103,12 +79,12 @@ p {
 	height: auto;
 	display: none;
 }
+
 #spooky-ghost-wrapper:hover #spooky-ghost{
 	display: block;
 }
 
 /* Costume picker styles */
-
 #outerCostumeBox {
 	margin-top: 50px;
 	display: flex;
@@ -116,52 +92,83 @@ p {
 	width: 100%;
 	align-items: center;
 	font-size: 50px;
-  }
+}
 
-  #costumeButton {
+#costumeButton {
 	background-color: transparent;
 	border: none;
-  }
+}
 
-  #costumeContent {
+#costumeContent {
 	text-align: center;
-  }
+}
+/* -- END OF ID'S */
 
-	/* Adjust font size with screen size */
-	@media screen and (max-width: 768px) {
-		#outerCostumeBox {
-			font-size: 25px;
-		}
+/* Mobile view with a screen-width of 768px*/
+@media only screen and (max-width: 768px) {
+	html, body {
+		overflow: hidden;
 	}
 
-
-@keyframes body-background-animation {
-	0% {
-		background-color: #f7a325;
-	}
-	20% {
-		background-color: #f7252f;
-	}
-	35% {
-		background-color: #f7252f;
-	}
-	36% {
-		background-color: #3d25f7;
-	}
-	64% {
-		background-color: #3d25f7;
-	}
-	65% {
-		background-color: #f7252f;
-	}
-	80% {
-		background-color: #f7252f;
-	}
-	100% {
-		background-color: #f7a325;
+	h1 {
+		font-size: 20vw;
+		word-spacing: 2rem;
 	}
 }
 
+/* Mobile view with a screen-width of 375px */
+@media screen and (min-width: 375px) {
+	#spooky {
+		font-size: 78px;
+	}
+}
+
+/* Mobile view with a screen-width of 414px */
+@media screen and (min-width: 414px) {
+	#spooky {
+		font-size: 88px;
+	}
+}
+
+/* Mobile view with a minimum screen-width of 768px */
+@media screen and (min-width: 768px) {
+	#spooky {
+		font-size: 134px;
+	}
+	
+	.jumbotron p {
+		font-size: 20px;
+	}
+}
+
+/* Adjust font size with screen size */
+@media screen and (max-width: 768px) {
+	#outerCostumeBox {
+		font-size: 25px;
+	}
+}
+
+/* ANIMATIONS */
+/* Background color animation*/
+@keyframes body-background-animation {
+	20% {
+		background-color: #f75f1c;
+	}
+	40% {
+		background-color: #ff9a00;
+	}
+	60% {
+		background-color: #000000;
+	}
+	80% {
+		background-color: #881ee4;
+	}
+	100% {
+		background-color: #85e21f;
+	}
+}
+
+/* jumbotron background color animation */
 @keyframes jumbotron-background-animation {
 	0% {
 		background-color: #f29810;
@@ -176,3 +183,4 @@ p {
 		background-color: #f29810;
 	}
 }
+/* -- END OF ANIMATIONS */
