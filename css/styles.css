@@ -8,6 +8,34 @@ body{
   margin-bottom: 60px;
 	animation: body-background-animation 30s linear infinite;
 }
+button#factButton {
+  font-family: "Creepster";
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border: 1px solid orange;
+  border-radius: 100px;
+  width: 150px;
+  height: 50px;
+  box-shadow: 0px 3px 8px black;
+  background-image: linear-gradient(
+    rgba(254, 254, 254, .5),
+    rgba(1, 1, 1, .3));
+}
+
+button#factButton:hover{
+	background-image: linear-gradient(
+	 rgba(1, 1, 1, .1),
+		 orange);
+	 border: 1px solid orange;
+}
+button#factButton:active {
+  box-shadow: 0px 0px 0px;
+  transform: translateY(4px);
+}
+button#factButton:focus {
+  outline:0;
+}
 
 main {
   flex: 1;
