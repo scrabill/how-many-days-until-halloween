@@ -37,6 +37,7 @@ button#factButton:focus {
   outline:0;
 }
 
+
 main {
   flex: 1;
   justify-content: center;
@@ -151,6 +152,19 @@ p {
 	border: none;
   }
 
+/* #costumeButton:focus{
+	-webkit-transform: scale(10);
+			 -ms-transform: scale(10);
+			 transform: scale(10);
+			 transition: 8s;
+			 -webkit-transform: scale(0.8);
+			 -ms-transform: scale(0.8);
+			 transform: scale(0.8);
+	outline: 0;
+ } */
+
+
+
   #costumeContent {
 	text-align: center;
   }
@@ -203,4 +217,31 @@ p {
 	100% {
 		background-color: #f29810;
 	}
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
 }
