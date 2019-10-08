@@ -1,0 +1,42 @@
+{
+  "name": "how-many-days-until-halloween",
+  "version": "1.0.0",
+  "description": "![How Many Days Until Halloween?](img/readme-banner.jpg)",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "build": "browserify js/script.js -o dist/bundle.js",
+    "watch": "watchify js/script.js -o dist/bundle.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReardGjoni/how-many-days-until-halloween.git"
+  },
+  "author": "ReardGjoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReardGjoni/how-many-days-until-halloween/issues"
+  },
+  "homepage": "https://github.com/ReardGjoni/how-many-days-until-halloween#readme",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "@babel/preset-env"
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "watchify": "^3.11.1"
+  }
+}
