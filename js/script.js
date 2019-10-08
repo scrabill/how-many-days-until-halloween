@@ -258,6 +258,7 @@ const costumes = [
     ["Slack notification", "https://twitter.com/aengelbro/status/1057659128707829760"],
     ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"],
     ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"]
+    ["Dali, Casa de Papel", "https://www.deguisetoi.fr/p-316484-deguisement-combinaison-rouge-braqueur-adulte.html?type=product&gclid=EAIaIQobChMI4fjA_aWN5QIVhOd3Ch18dAEpEAYYBCABEgIh1fD_BwE#ectrans=1"]
 ];
 
 //Assign DOM elements
