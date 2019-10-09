@@ -257,7 +257,8 @@ const costumes = [
     ["Identity Theft", "https://i.imgur.com/9DF2KI9.jpg"],
     ["Slack notification", "https://twitter.com/aengelbro/status/1057659128707829760"],
     ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"],
-    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"]
+    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"],
+    ["Inflatable T-Rex", "https://images-na.ssl-images-amazon.com/images/I/81AghAH-j3L._UY445_.jpg"]
 ];
 
 //Assign DOM elements
