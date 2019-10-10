@@ -5,6 +5,9 @@
 ![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/w/eslint/eslint.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
+| 10/10/19 - Thank you all for your patience. I've been focusing on coursework and have not had the opportunity make the updates that I've been wanting to make to this project. More to come soon. In the meantime, stay spooky and DM on Twitter if you have questions. 👻 |
+| --- |
+
 # How Many Days Until Halloween?
 
 I don't know, let [this page][this] do the counting for you!
