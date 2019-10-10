@@ -9,6 +9,8 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.womansday.com/life/g485/15-fascinating-halloween-facts-124464/
 // Source: https://www.huffingtonpost.in/entry/halloween-weird-facts_n_5948456
 // Source: https://www.factretriever.com/halloween-facts
+// Source: https://www.history.com/topics/halloween/history-of-trick-or-treating
+// Source: https://www.history.com/topics/halloween/pumpkin-facts
 // Source: https://www.realsimple.com/holidays-entertaining/holidays/halloween/halloween-fun-facts
 // Source: https://edition.cnn.com/2013/06/13/us/halloween-fast-facts/index.html
 // Source: https://www.babbel.com/en/magazine/10-spooky-halloween-facts-that-you-might-not-know/
@@ -60,6 +62,11 @@ const facts = [
     'According to tradition, if a person wears his or her clothes inside out and then walks backwards on Halloween, he or she will see a witch at midnight.',
     'Fifty percent of kids prefer to receive chocolate candy for Halloween, compared with 24% who prefer non-chocolate candy and 10% who preferred gum',
     'Because the movie Halloween (1978) was on such a tight budget, they had to use the cheapest mask they could find for the character Michael Meyers, which turned out to be a William Shatner Star Trek mask. Shatner initially didn’t know the mask was in his likeness, but when he found out years later, he said he was honored.',
+	'The phrase “trick or treat” had been firmly established in American popular culture by 1951, when trick-or-treating was depicted in the Peanuts comic strip.',
+	'The largest pumpkin pie ever baked was in 2005 and weighed 2,020 pounds.',
+	'Pumpkins have been grown in North America for five thousand years. They are indigenous to the western hemisphere.',
+	'Pumpkins are low in calories, fat, and sodium and high in fiber. They are good sources of Vitamin A, Vitamin B, potassium, protein, and iron.',
+	'Pumpkins are a member of the gourd family, which includes cucumbers, honeydew melons, cantaloupe, watermelons and zucchini.',
     'Orange and black are Halloween colors because orange is associated with the Fall harvest and black is associated with darkness and death.',
     'The tradition of wearing scary costumes on Halloween comes from the ancient Celts: back then, people believed dressing up as demons and the like would confuse or ward off the evil spirits who roamed the streets during Samhain (the pagan version of Halloween)',
     'Trick-or-treating harks back to the Middle Ages and All Souls’ Day, when poor people in Britain would beg for soul cakes, a sweet-bread treat, and pray for dead relatives in return.',
@@ -89,6 +96,7 @@ const facts = [
     'A full moon on Halloween is extremely rare.',
     'Hallowmass is another name for All Saint\'s Day, a Roman Catholic festival that honors the saints.  Hollow\'s eve is the day before Hallowmass.  This was shortened to Hallowe\'en and that is where the current name for this holiday originated.',
     'Studies have shown that Halloween actually makes kids act more evil!',
+    'Many other countries celebrate the passing of dead spirits in late October and early November. On Mexico’s Day of the Dead, graveyards are flooded with people tidying relatives’ graves and bringing offerings of food, flowers and tequila. Some even stay to picnic and party.',
     'There\'s a $1,000 fine for using or selling Silly String in Hollywood on Halloween.',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'A full moon on Halloween is extremely rare.',
@@ -100,7 +108,9 @@ const facts = [
     'Some people want to see a ghost but it is not necessary that the ghost also wants to see you too. :D',
     'Halloween is the second highest grossing commercial holiday after Christmas.',
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
-    'The UNICEF orange collection boxes are iconic in Canada, wiith Canadians continuing to donate on average $3 million every Halloween.'
+    'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
+    'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
+    'In Brazil, the date of Halloween is called witch\`s day'
 ];
 
 // Display message and fact
@@ -199,7 +209,7 @@ const doKonami = () => {
 // Script for Random Costume Picker
 
 const costumes = [
-    ["Napolen Dynamite", "https://i.pinimg.com/originals/26/2a/f4/262af40e4592db053fd8613773e3f5b0.jpg"],
+    ["Napoleon Dynamite", "https://i.pinimg.com/originals/26/2a/f4/262af40e4592db053fd8613773e3f5b0.jpg"],
     ["Castaway", "https://www.pinterest.ca/pin/16958936081976494/"],
     ["a 404error", "https://www.instagram.com/p/7QsQ9Vhj9_/?utm_source=ig_embed"],
     ["50 Shades of Grey", "https://i.pinimg.com/474x/9a/45/42/9a454265d6a6e59ba609831a1b7c7028--so-funny-funny-stuff.jpg"],
@@ -208,6 +218,10 @@ const costumes = [
     ["Tamagotchi", "https://www.pinterest.ca/pin/192810427770341992/"],
     ["Clippy", "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F83%2F37%2F31%2F8337315668b57bcbf4fcb82a4fde2a99.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F518758450798995072%2F&docid=zgMyyDogGc7eJM&tbnid=Ex7IH-SdFvQoaM%3A&vet=10ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ..i&w=650&h=975&safe=off&client=firefox-b-ab&bih=781&biw=1440&q=halloween%20clippy&ved=0ahUKEwjXjKbr0_ndAhWL1FkKHZg5DfYQMwg7KAEwAQ&iact=mrc&uact=8"],
     ["Mark Zuckerberg", "https://costumewall.com/dress-like-mark-zuckerberg/"],
+    ["a stick figure", "https://twitter.com/CarlForrest/status/1050448521353207808"],
+  	["The Sims", "https://the-orbit.net/biodork/wp-content/uploads/sites/10/2013/07/SIMS-Cosplay.jpg"],
+  	["Raven (Teen Titans)", "https://www.pinterest.co.uk/pin/549368854529441292"],
+  	["Kiki (Kiki's Delivery Service", "https://www.pinterest.com/pin/1829656075790134"],
     ["Mike Myers", "https://lh6.googleusercontent.com/-9D6HisX7AQ0/T9Zoj01cyrI/AAAAAAAAAyM/p7gQaHoqRxg/s720/IMG_8023.jpg"],
     ["Jason Voorehees", "http://bestcostumedeal.com/assets/images/889071.jpg"],
     ["Scary Clown", "https://images.halloweencostumes.com/products/22473/1-1/deluxe-pennywise-costume.jpg"],
@@ -223,6 +237,8 @@ const costumes = [
     ["Ecce homo", "https://theheureka.com/wp-content/uploads/2012/10/3Ts6B.jpeg"],
     ["Blessing in Disguise", "https://www.instagram.com/p/BpcONbEAUnu/?hl=en"],
     ["Blue Screen of Death", "https://i.redd.it/gvq357z64iu11.jpg"],
+    ["Happy Meal", "https://in.pinterest.com/pin/261208847122984969/"],
+    ["Unicorn", "https://in.pinterest.com/pin/261208847116945784/"]
     ["Pumpkin Spiced Clown", "https://i.redd.it/sv7g8ajzxyr11.jpg"],
     ["Neo from The Matrix", "https://nextviewventures.com/wp-content/uploads/2014/07/control-content-marekting-for-startups.jpg"],
     ["Unicorn", "https://img.ltwebstatic.com/images/pi/201712/52/15133252867462243289_thumbnail_600x.webp"],
@@ -232,13 +248,17 @@ const costumes = [
     ["Iron Man", "https://costumeworld.co.nz/products/iron-man-adult-costume-top"],
     ["Arthur Read", "https://www.youtube.com/watch?v=BTU5FkLBxV4"],
     ["Ceiling Fan", "http://i.imgur.com/ZLjQ2.jpg"],
-    ["Android","https://www.geek.com/wp-content/uploads/2017/10/android-halloween-costume-e1508426401556.jpg"],
+    ["Android", "https://www.geek.com/wp-content/uploads/2017/10/android-halloween-costume-e1508426401556.jpg"],
     ["Incredibles", "https://ae01.alicdn.com/kf/HTB1pKI0cYwrBKNjSZPcq6xpapXaW/NEW-ARRIVAL-Incredibles-2-Helen-Parr-Cosplay-Costume-Superhero-Elastigirl-Costume-Halloween-Outfit-Custom-Made.jpg_640x640.jpg"],
     ["Spider-Man", "https://images.halloweencostumes.com/products/46552/1-21/marvel-infinity-war-deluxe-iron-spider-kids-costume.jpg"],
     ["Avocado Toast", "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2018-09-10-at-2-36-54-pm-1536604924.png?crop=0.798xw:0.802xh;0.105xw,0.154xh&resize=980:*"],
     ["Nerd", "https://downerclassic.com/wp-content/uploads/2018/09/30-genius-homemade-halloween-costumes-for-adults-and-kids-cool-diy-ideas-of-easy-homemade-halloween-costumes-for-adults-of-easy-homemade-halloween-costumes-for-adults.jpg"],
-    ["One Night Stand", "http://freshxmas.com/wp-content/uploads/2018/09/homemade-halloween-costume-ideas-for-men-best-costumes-disguises-images-on-pinterest-stylish.jpg"]
-  ];
+    ["One Night Stand", "http://freshxmas.com/wp-content/uploads/2018/09/homemade-halloween-costume-ideas-for-men-best-costumes-disguises-images-on-pinterest-stylish.jpg"],
+    ["Identity Theft", "https://i.imgur.com/9DF2KI9.jpg"],
+    ["Slack notification", "https://twitter.com/aengelbro/status/1057659128707829760"],
+    ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"],
+    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"]
+];
 
 //Assign DOM elements
 let costumeButton = document.getElementById("costumeButton");
@@ -267,5 +287,5 @@ const displayFact = () => {
     factElement.innerHTML = facts[Math.floor(Math.random() * facts.length)];
 };
 
-//add event listener for fact
-factButton.addEventListener('click', displayFact, false);
+  //add event listener for fact
+  factButton.addEventListener('click', displayFact, alse);
