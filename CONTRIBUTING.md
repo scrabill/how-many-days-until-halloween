@@ -29,6 +29,7 @@ Key areas of code contributions include:
 - [Discussion](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion)
 - [Documentation](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation)
 - [Enhancements](https://github.com/scrabill/how-many-days-until-halloween/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+- [Issues](https://github.com/scrabill/how-many-days-until-halloween/issues/)
 
 When working on an issue, see if the update/fix already has a pending [pull request](https://github.com/scrabill/how-many-days-until-halloween/pulls). New pull requests are always welcome, however, duplicate pull requests will not be merged. You can always add new commits to the existing pull request before it is merged. It will get automatically updated.
 
