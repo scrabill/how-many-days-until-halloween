@@ -16,6 +16,7 @@ const factElement = document.querySelector('#fact');
 // Source: https://www.babbel.com/en/magazine/10-spooky-halloween-facts-that-you-might-not-know/
 // Source: https://www.canadiangeographic.ca/article/10-things-you-didnt-know-about-halloween-canada
 // Source: https://www.officeholidays.com/facts/halloween
+// Source: https://www.parents.com/holiday/halloween/traditions/fun-and-freaky-halloween-facts/
 
 const facts = [
     'The first jack-o`-lanterns were made out of potatoes and turnips',
@@ -110,7 +111,9 @@ const facts = [
     'Many myths explain that spotting a spider on Halloween is actually a loved one watching over you!',
     'The UNICEF orange collection boxes are iconic in Canada, with Canadians continuing to donate on average $3 million every Halloween.',
     'On average, a licking machine designed by engineering students at Purdue needed 364 licks to reach the centre of a tootsie pop.',
-    'In Brazil, the date of Halloween is called witch\`s day'
+    'In Brazil, the date of Halloween is called witch\`s day',
+    'Black cats were once believed to be witch\'s assistants who protected their powers.',
+    'Orange and black are Halloween colors because orange represents the fall harvest, and black is associated with darkness and death.'
 ];
 
 // Display message and fact
@@ -257,7 +260,8 @@ const costumes = [
     ["Identity Theft", "https://i.imgur.com/9DF2KI9.jpg"],
     ["Slack notification", "https://twitter.com/aengelbro/status/1057659128707829760"],
     ["Ultimate Mech-Daddy-Daughter","https://www.youtube.com/watch?v=rCpMaoVx4uY&ab_channel=GriddlockCosplay"],
-    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"]
+    ["The Cloud", "https://www.instagram.com/p/u1WzDEBzZj/?utm_source=ig_embed"],
+    ["White Witch","https://in.pinterest.com/pin/246079567111447343/?lp=true"]
 ];
 
 //Assign DOM elements
