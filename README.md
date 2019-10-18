@@ -1,5 +1,7 @@
 ## We're baaaaaaack
 
+![Relative date](https://img.shields.io/date/1572480000?color=orange&label=Spooky%20day&style=for-the-badge)
+
 After keeping you waiting in _antici........ PATION_, your favorite, spooky, open source, countdown to Halloween is back!
 
 ![There are 15 days until Halloween](/img/15-days.png)
