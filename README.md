@@ -1,5 +1,8 @@
 ## We're baaaaaaack
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72b6d067-1ba3-48ff-9fd2-296ff5b0ee4f/deploy-status)](https://app.netlify.com/sites/distracted-shaw-96624d/deploys)
+
+
 After keeping you waiting in _antici........ PATION_, your favorite, spooky, open source, countdown to Halloween is back!
 
 ![There are 15 days until Halloween](/img/15-days.png)
@@ -19,7 +22,7 @@ If you are contributing to this project as part of [Hacktoberfest](https://hackt
 
 ## To contribute to this project
 
-1. Fork this repo. Please be sure to use the current _master_ branch as your starting point
+1. Fork this repo. Please be sure to use the current _master_ branch as your starting point.
 1. Clone to your computer
 1. Open in the text editor of your choice
 1. Make your edits
