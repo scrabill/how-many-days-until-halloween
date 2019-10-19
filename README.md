@@ -30,22 +30,22 @@ If you are contributing to this project as part of [Hacktoberfest](https://hackt
 
 ### Branch naming conventions 
 
-1.Use grouping tokens (words) at the beginning of your branch names.
-2.Define and use short lead tokens to differentiate branches in a way that is meaningful to your workflow.
-3.Use slashes to separate parts of your branch names.
-4.Do not use bare numbers as leading parts.
-5.Avoid long descriptive names for long-lived branches.
+1. Use grouping tokens (words) at the beginning of your branch names.
+2. Define and use short lead tokens to differentiate branches in a way that is meaningful to your workflow.
+3. Use slashes to separate parts of your branch names.
+4. Do not use bare numbers as leading parts.
+5. Avoid long descriptive names for long-lived branches.
 
 #### How to close the repository
-1.Login to your account
-2.Click on Repositories
-3.Select your Repository (that you wants to delete)
-4.Click on settings tab
-5.Goto "Danger Zone" block
-6.Click on "Delete this repository" button
-7.Type the repository name (that you wants to delete)
-8.Now click "I understand the consequences, delete this repository" button
-9.Now your repository deleted successfully.
+1. Login to your account
+2. Click on Repositories
+3. Select your Repository (that you wants to delete)
+4. Click on settings tab
+5. Goto "Danger Zone" block
+6. Click on "Delete this repository" button
+7. Type the repository name (that you wants to delete)
+8. Now click "I understand the consequences, delete this repository" button
+9. Now your repository deleted successfully.
 
 If there are any doubts, questions, etc, please open an issue and we can chat about it! Heck, if you have an idea but aren't sure how to approach it, open an issue anyway and we'll help you through it.
 
