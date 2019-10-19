@@ -1,0 +1,16 @@
+body {
+  font-family: "Special Elite", cursive;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 7em;
+  text-align: left;
+  color: #da4200;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 5em;
+  }
+}
