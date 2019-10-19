@@ -20,12 +20,14 @@ Contributions are welcome! Here are some ways to contribute.
 
 If you are contributing to this project as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com), please keep in mind that _quality_ is more important that quantity. Correcting a typo or syntax error that you've found is great! But creating a pull request to remove white space or something that is more a _hinerance vs. helping_ does not align with the spirit of Hacktoberfest and may be marked as invalid.
 
-## To contribute to this project
+## To contribute to this project.
 
 1. Fork this repo. Please be sure to use the current _master_ branch as your starting point.
+1. Make a request in the comment section to take up the issue if no one is working on it.
 1. Clone to your computer
 1. Open in the text editor of your choice
 1. Make your edits
+1. Make sure you rename your edited file and click on commit changes before generating a pull request.
 1. Submit a pull request
 
 If there are any doubts, questions, etc, please open an issue and we can chat about it! Heck, if you have an idea but aren't sure how to approach it, open an issue anyway and we'll help you through it.
