@@ -8,3 +8,13 @@ h1 {
 	text-align: left;
 	color: #DA4200;
 }
+
+@media only screen and (max-width: 767px) {
+	body {
+		display: flex;
+		flex-wrap: wrap;
+	}
+   h1 {
+      font-size: 3em;
+   }
+ }
