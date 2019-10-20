@@ -3,7 +3,7 @@
 ![Relative date](https://img.shields.io/date/1572480000?color=orange&label=Spooky%20day&style=for-the-badge)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/72b6d067-1ba3-48ff-9fd2-296ff5b0ee4f/deploy-status)](https://app.netlify.com/sites/distracted-shaw-96624d/deploys)
 
-After keeping you waiting in _antici........ PATION_, your favorite, spooky, open source, countdown to Halloween is back!
+After keeping you waiting in _antici........ PATION_, your favorite, spooky, open-source, countdown to Halloween is back!
 
 ![There are 15 days until Halloween](/img/15-days.png)
 
@@ -18,7 +18,7 @@ Contributions are welcome! Here are some ways to contribute.
 - Improve or contribute to documentation
 - And more...
 
-If you are contributing to this project as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com), please keep in mind that _quality_ is more important that quantity. Correcting a typo or syntax error that you've found is great! But creating a pull request to remove white space or something that is more a _hinerance vs. helping_ does not align with the spirit of Hacktoberfest and may be marked as invalid.
+If you are contributing to this project as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com), please keep in mind that _quality_ is more important than quantity. Correcting a typo or syntax error that you've found is great! But creating a pull request to remove white space or something that is more a _hinerance vs. helping_ does not align with the spirit of Hacktoberfest and may be marked as invalid.
 
 ## To contribute to this project
 
