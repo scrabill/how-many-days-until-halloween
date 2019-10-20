@@ -1,4 +1,3 @@
-You can refer to the CONTRIBUTING.md file to know how to contribute to this !
 # Contributing
 
 Contributions are welcome! Here are some ways to contribute.
