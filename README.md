@@ -18,7 +18,7 @@ Contributions are welcome! Here are some ways to contribute.
 - Improve or contribute to documentation
 - And more...
 
-If you are contributing to this project as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com), please keep in mind that _quality_ is more important that quantity. Correcting a typo or syntax error that you've found is great! But creating a pull request to remove white space or something that is more a _hinerance vs. helping_ does not align with the spirit of Hacktoberfest and may be marked as invalid.
+If you are contributing to this project as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com), please keep in mind that _quality_ is more important that quantity. Correcting a typo or syntax error that you've found is great! But creating a pull request to remove white space or something that is more a _hindrance vs. helping_ does not align with the spirit of Hacktoberfest and may be marked as invalid.
 
 ## To contribute to this project
 
