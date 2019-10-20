@@ -8,3 +8,27 @@ h1 {
 	text-align: left;
 	color: #DA4200;
 }
+
+/* Starting media query's */
+@media (min-width: 320px) {
+
+   h1 {
+      font-size: 2em;
+   }
+}
+
+@media (min-width: 570px)
+{
+    h1
+    {
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 950px)
+{
+    h1
+    {
+        font-size: 7em;
+    }
+}
