@@ -303,8 +303,7 @@ const activateKonamiTheme = () => {
   halloweenMessageElement.style.color = colors["spooky"];
   document.body.classList.add(["konami"]);
 
-  document
-    .querySelectorAll("a")
+  [...document.querySelectorAll("a")]
     .filter(link => link.href !== "")
     .forEach(link => {
       link.style.color = colors["spooky"];
@@ -316,6 +315,7 @@ const handleCostumeButtonClick = () => {
   updateCostumeContent();
 };
 
+let konamiCodePosition = 0;
 const handleKonamiCodeDetectionOnKeyDown = event => {
   const konamiCode = [
     "up",
@@ -337,14 +337,12 @@ const handleKonamiCodeDetectionOnKeyDown = event => {
     65: "a",
     66: "b"
   };
-  let konamiCodePosition = 0;
 
   const pressedKey = allowedKeys[event.keyCode];
   const requiredKey = konamiCode[konamiCodePosition];
 
   if (pressedKey === requiredKey) {
-    konamiCodePosition++;
-
+    konamiCodePosition = konamiCodePosition + 1;
     // If the last key is reached, activate cheats
     if (konamiCodePosition === konamiCode.length) {
       activateKonamiTheme();
