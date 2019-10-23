@@ -9,6 +9,7 @@ h1 {
 	color: #DA4200;
 }
 
+
 .ghostContainer {
 	position: absolute;
 	top: 10vh;
@@ -18,7 +19,7 @@ h1 {
 	z-index: -5;
 	animation: ghostAnimation 10s ease-in infinite;
   }
-  
+
   .ghostOne {
 	background-color: #ffffff;
 	position: absolute;
@@ -29,7 +30,7 @@ h1 {
 	border-radius: 25px;
 	z-index: -2;
   }
-  
+
   .ghostTwo {
 	background-color: #ffffff;
 	position: absolute;
@@ -39,7 +40,7 @@ h1 {
 	width: 100px;
 	z-index: -3;
   }
-  
+
   .ghostThree {
 	background-color: #000;
 	position: absolute;
@@ -50,7 +51,7 @@ h1 {
 	border-radius: 50%;
 	z-index: -2;
   }
-  
+
   .ghostFour {
 	background-color: #000;
 	position: absolute;
@@ -61,7 +62,7 @@ h1 {
 	border-radius: 50%;
 	z-index: -2;
   }
-  
+
   .ghostEyeOne {
 	background-color: #00bbff;
 	position: absolute;
@@ -72,7 +73,7 @@ h1 {
 	border-radius: 50%;
 	z-index: -1;
   }
-  
+
   .ghostEyeTwo {
 	background-color: #00bbff;
 	position: absolute;
@@ -84,12 +85,23 @@ h1 {
 	z-index: -1;
   }
 
+.red {
+	animation: redinterval 3s infinite alternate;
+}
+
+@keyframes redinterval {
+	0% { color: #DA4200; }
+	30% { color: #DA4200; }
+	70% { color: crimson ; }
+	100% { color: crimson ; }
+}
+
 @media only screen and (max-width: 480px) {
 	h1 {
 	  font-size: 30px;
 	}
   }
-  
+
   @media only screen and (max-width: 320px) {
 	h1 {
 	  font-size: 20px;
@@ -119,5 +131,3 @@ h1 {
 		left: 50vh;
 	}
 }
-  
-  
