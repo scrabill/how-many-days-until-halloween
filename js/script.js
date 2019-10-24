@@ -14,7 +14,7 @@ const getMessage = days => {
         return "Halloween is tomorrow! Be afraid, be very afraid!";
     }
 
-    return `There are ${days} days until Halloween!`;
+    return `There are <span class="red">${days} days</span> until Halloween!`;
 };
 
 const today = moment().startOf("day"); // Today
