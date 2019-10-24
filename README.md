@@ -9,18 +9,20 @@ After keeping you waiting in _antici........ PATION_, your favorite, spooky, ope
 
 Hop on over to our new domain, [halloweeti.me](http://halloweenti.me/) to see it in action.
 
-# Contributing
+# 9 Days!
 
-Contributions are welcome! Here are some ways to contribute.
+Ahhhhhhhhhh! We're getting close to the end of Hacktoberfest, so I wanted to make a few notes.
 
-- Add a feature
-- Fix a bug
-- Improve or contribute to documentation
-- And more...
+- I am working on reviewing and merging the existing pull requests (there were over 100 in the past week!)
+- Please, _please_ see if an issue/change you are looking to make had already been done. Adding to on something is fine, however duplicate PRs may not be merged. I try to review PRs in order of oldest to newest.
+- Please make sure you are forking and working off of the current `master` branch and not a branch from a previous year. Because of the time involved, I will not be merging PRs for branches other than the current `master` branch.
+- As long as you have registered for [Hacktoberfest](https://hacktoberfest.digitalocean.com/), any unmerged PRs will count towards your 4, unless, it is marked as invalid (ie, a spammy PR). Details on what this means can be found here: [hacktoberfest.digitalocean.com/details](https://hacktoberfest.digitalocean.com/details)
+- Quality over quantity is the motto for this year.
 
-If you are contributing to this project as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com), please keep in mind that _quality_ is more important that quantity. Correcting a typo or syntax error that you've found is great! But creating a pull request to remove white space or something that is more a _hinerance vs. helping_ does not align with the spirit of Hacktoberfest and may be marked as invalid.
+That's it for now, boys and ghouls.
 
-## To contribute to this project
+![David S Pumpkins](https://media.giphy.com/media/3oriNYMXEh2K5l4D9C/giphy.gif)
+
 
 1. Fork this repo. Please be sure to use the current _master_ branch as your starting point.
 1. Clone to your computer
@@ -39,3 +41,5 @@ It's going to be a bumpy ride. :ghost:
 # License
 
 This repository is licensed with ![MIT License](./LICENSE)
+
+## Refer to CONTRIBUTING.md to get a better idea on this !
