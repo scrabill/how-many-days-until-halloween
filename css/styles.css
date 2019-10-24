@@ -105,17 +105,25 @@ h1#spooky {
 @media only screen and (max-width: 480px) {
 	h1 {
 	  font-size: 30px;
+	  text-align: center;
+	  margin: 70px auto;
+	  line-height: 50px !important;
 	}
   }
 
   @media only screen and (max-width: 320px) {
 	h1 {
 	  font-size: 20px;
+	  text-align: center;
+	  margin: 70px auto;
+	  line-height: 50px !important;
 	}
   }
 @media only screen and (max-width: 768px) {
 	h1 {
 	  font-size: 40px;
+	  text-align: center;
+	  margin: 70px auto;
 	}
   }
 
