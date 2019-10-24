@@ -14,6 +14,11 @@ const getMessage = days => {
         return "Halloween is tomorrow! Be afraid, be very afraid!";
     }
 
+    if (today.date() == 13 && today.isoWeekday() == 5) {
+        let message = `Happy <br> <span class="red">Friday the 13th!</span> <br>`
+        return message;
+    }
+
     return `There are <br> <span class="red">${days} days</span> <br> until Halloween!`;
 };
 
