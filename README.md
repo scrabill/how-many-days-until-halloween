@@ -17,7 +17,7 @@ Ahhhhhhhhhh! We're getting close to the end of Hacktoberfest, so I wanted to mak
 - Please, _please_ see if an issue/change you are looking to make had already been done. Adding to on something is fine, however duplicate PRs may not be merged. I try to review PRs in order of oldest to newest.
 - Please make sure you are forking and working off of the current `master` branch and not a branch from a previous year. Because of the time involved, I will not be merging PRs for branches other than the current `master` branch.
 - As long as you have registered for [Hacktoberfest](https://hacktoberfest.digitalocean.com/), any unmerged PRs will count towards your 4, unless, it is marked as invalid (ie, a spammy PR). Details on what this means can be found here: [hacktoberfest.digitalocean.com/details](https://hacktoberfest.digitalocean.com/details)
-- Quality over quantity is the motto for this year.
+- Quality over quantity is the motto for this year. Adding onto a feature is fine (let's use, improving how it looks on mobile as an example), but changing font-sizes for the sake of changing font-sizes is not quite in the spirit of Hacktoberfest.
 
 That's it for now, boys and ghouls.
 
