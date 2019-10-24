@@ -23,4 +23,23 @@ That's it for now, boys and ghouls.
 
 ![David S Pumpkins](https://media.giphy.com/media/3oriNYMXEh2K5l4D9C/giphy.gif)
 
+
+1. Fork this repo. Please be sure to use the current _master_ branch as your starting point.
+1. Clone to your computer
+1. Open in the text editor of your choice
+1. Make your edits
+1. Submit a pull request
+
+If there are any doubts, questions, etc, please open an issue and we can chat about it! Heck, if you have an idea but aren't sure how to approach it, open an issue anyway and we'll help you through it.
+
+Star this repo and stay tuned for updates.
+
+It's going to be a bumpy ride. :ghost:
+
+![Tower of Terror ride at Disney](https://media.giphy.com/media/2reM0P5agXPLG/giphy.gif)
+
+# License
+
+This repository is licensed with ![MIT License](./LICENSE)
+
 ## Refer to CONTRIBUTING.md to get a better idea on this !

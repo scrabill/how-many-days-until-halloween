@@ -1,14 +1,26 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
+	position: relative;
+	height: 100vh;
+	font-size: 16px;
 	font-family: 'Special Elite', cursive;
 	background-color: #000;
 }
 
 h1 {
-	font-size: 7em;
-	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 6rem;
+	text-align: center;
 	color: #DA4200;
 }
-
 
 .ghostContainer {
 	position: absolute;
@@ -87,6 +99,12 @@ h1 {
 
 .red {
 	animation: redinterval 3s infinite alternate;
+}
+
+h1#spooky {
+    margin: 150px auto;
+    text-align: center;
+    line-height: 150px;
 }
 
 @keyframes redinterval {
