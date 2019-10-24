@@ -8,10 +8,10 @@ const colors = {
 };
 
 const getMessage = (days, isFriday13) => {
-    let message = `There are ${days} days until Halloween! `;
+    let message = `There are <span class="red">${days} days</span> until Halloween!`;
 
     if (days < 0) {
-        message = `Halloween was ${-days} days ago.`;
+        message = `Halloween was <span class="red">${-days} days</span>  ago.`;
     }
 
     if (days === 0) {
