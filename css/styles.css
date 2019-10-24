@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
 	position: relative;
 	height: 100vh;
@@ -11,28 +10,26 @@ body {
 	font-family: 'Special Elite', cursive;
 	background-color: #000;
 }
-
 h1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 6rem;
-	text-align: center;
 	color: #DA4200;
+	font-size: 6rem;
+	left: 50%;
+	line-height: 120px;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	transform: translate(-50%, -50%);
 }
-
 .ghostContainer {
 	position: absolute;
 	top: 10vh;
-	left: 80vw;
+	left: 0;
 	width: 100px;
 	height: 100px;
 	z-index: -5;
 	animation: ghostAnimation 10s ease-in infinite;
-  }
-
-  .ghostOne {
+}
+.ghostOne {
 	background-color: #ffffff;
 	position: absolute;
 	top: 0px;
@@ -41,9 +38,8 @@ h1 {
 	width: 50px;
 	border-radius: 25px;
 	z-index: -2;
-  }
-
-  .ghostTwo {
+}
+.ghostTwo {
 	background-color: #ffffff;
 	position: absolute;
 	top: 25px;
@@ -51,9 +47,8 @@ h1 {
 	height: 50px;
 	width: 100px;
 	z-index: -3;
-  }
-
-  .ghostThree {
+}
+.ghostThree {
 	background-color: #000;
 	position: absolute;
 	top: -25px;
@@ -62,9 +57,8 @@ h1 {
 	width: 50px;
 	border-radius: 50%;
 	z-index: -2;
-  }
-
-  .ghostFour {
+}
+.ghostFour {
 	background-color: #000;
 	position: absolute;
 	top: -25px;
@@ -73,9 +67,8 @@ h1 {
 	width: 50px;
 	border-radius: 50%;
 	z-index: -2;
-  }
-
-  .ghostEyeOne {
+}
+.ghostEyeOne {
 	background-color: #00bbff;
 	position: absolute;
 	top: 12px;
@@ -84,9 +77,8 @@ h1 {
 	height: 10px;
 	border-radius: 50%;
 	z-index: -1;
-  }
-
-  .ghostEyeTwo {
+}
+.ghostEyeTwo {
 	background-color: #00bbff;
 	position: absolute;
 	top: 12px;
@@ -95,42 +87,46 @@ h1 {
 	height: 10px;
 	border-radius: 50%;
 	z-index: -1;
-  }
-
+}
 .red {
 	animation: redinterval 3s infinite alternate;
 }
-
 h1#spooky {
-    margin: 150px auto;
-    text-align: center;
-    line-height: 150px;
+	margin-top: 0;
+	text-align: center;
+	/*line-height: 70px;*/
 }
-
 @keyframes redinterval {
 	0% { color: #DA4200; }
 	30% { color: #DA4200; }
 	70% { color: crimson ; }
 	100% { color: crimson ; }
 }
-
-@media only screen and (max-width: 480px) {
-	h1 {
-	  font-size: 30px;
-	}
-  }
-
-  @media only screen and (max-width: 320px) {
-	h1 {
-	  font-size: 20px;
-	}
-  }
 @media only screen and (max-width: 768px) {
 	h1 {
-	  font-size: 40px;
+		font-size: 50px;
+		top: 30%;
 	}
-  }
+	h1#spooky {
+		line-height: 90px;
+	}
 
+}
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+		top: 30%;
+	}
+	h1#spooky {
+		line-height: 40px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	h1 {
+		/*font-size: 20px;*/
+	}
+
+}
 @keyframes ghostAnimation {
 	20% {
 		top: 60vh;
