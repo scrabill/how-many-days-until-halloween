@@ -38,4 +38,4 @@ It's going to be a bumpy ride. :ghost:
 
 # License
 
-This repository is licensed with ![MIT License](./LICENSE.md)
+This repository is licensed with ![MIT License](./LICENSE)
