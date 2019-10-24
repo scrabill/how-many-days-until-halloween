@@ -1,11 +1,5 @@
 // Assign DOM elements
 const spooky = document.querySelector("#spooky");
-const jumbotron = document.querySelector(".jumbotron");
-
-// Assign colors
-const colors = {
-    spooky: "#ada48f"
-};
 
 const getMessage = days => {
     if (days < 0) {
@@ -23,7 +17,7 @@ const getMessage = days => {
     return `There are <span class="red">${days} days</span> until Halloween!`;
 };
 
-const today = moment().startOf('day'); // Today
+const today = moment().startOf("day"); // Today
 const halloween = moment("31-10", "DD-MM"); // Next Halloween
 const message = getMessage(halloween.diff(today, "days")); // Calculate difference
 
