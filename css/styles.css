@@ -9,6 +9,13 @@ h1 {
 	color: #DA4200;
 }
 
+h2 {
+	font-size: 2em;
+	color: #DA4200;
+	text-align: left;
+	position: fixed;
+	bottom: 0em;
+}
 
 .ghostContainer {
 	position: absolute;
@@ -100,16 +107,25 @@ h1 {
 	h1 {
 	  font-size: 30px;
 	}
+	h2 {
+		font-size: 20px;
+	}
   }
 
   @media only screen and (max-width: 320px) {
 	h1 {
 	  font-size: 20px;
 	}
+	h2 {
+		font-size: 10px;
+	}
   }
 @media only screen and (max-width: 768px) {
 	h1 {
 	  font-size: 40px;
+	}
+	h2 {
+		font-size: 30px;
 	}
   }
 
