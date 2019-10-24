@@ -101,6 +101,12 @@ h1 {
 	animation: redinterval 3s infinite alternate;
 }
 
+h1#spooky {
+    margin: 150px auto;
+    text-align: center;
+    line-height: 150px;
+}
+
 @keyframes redinterval {
 	0% { color: #DA4200; }
 	30% { color: #DA4200; }
