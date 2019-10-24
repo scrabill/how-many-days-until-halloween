@@ -30,7 +30,50 @@
   </head>
   <body class="text-center">
     <a href="https://github.com/scrabill/how-many-days-until-halloween"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-    <main class="jumbotron container align-self-stretch">
+   
+
+   
+<div class="container2 border">
+  <div class="animate2">
+  </div>
+</div>  
+<style>
+ 
+
+.container2 {
+  width:100%;
+  position:relative;
+  left: 42%;
+  margin:0 auto;
+}
+
+.animate2{
+  width:200px;
+  height:200px;
+  background-image:url(http://icons.iconarchive.com/icons/arrioch/halloween/512/ghost-icon.png);
+  background-size: 200px;
+  background-repeat:no-repeat;
+  position:absolute;
+  animation:left-to-right 2s;
+  -webkit-animation:left-to-right 3s;
+  -webkit-animation-delay:0s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+}
+
+@keyframes left-to-right {
+  from {left:-400px;}
+  to {left:400px;}
+}
+
+@-webkit-keyframes left-to-right {
+  from {left:0px;}
+  to {left:400px;} 
+}
+
+</style> 
+
+   <main class="jumbotron container align-self-stretch">
       <div class="row">
         <div class="col">
           <span id="spooky-ghost-wrapper"><img id="spooky-ghost" src="img/ghost.png" alt="spooky ghost"></span>
