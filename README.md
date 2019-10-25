@@ -9,4 +9,37 @@ After keeping you waiting in _antici........ PATION_, your favorite, spooky, ope
 
 Hop on over to our new domain, [halloweeti.me](http://halloweenti.me/) to see it in action.
 
-Please check CONTRIBUTING.md for how to contribute to this project.
+# 9 Days!
+
+Ahhhhhhhhhh! We're getting close to the end of Hacktoberfest, so I wanted to make a few notes.
+
+- I am working on reviewing and merging the existing pull requests (there were over 100 in the past week!)
+- Please, _please_ see if an issue/change you are looking to make had already been done. Adding to on something is fine, however duplicate PRs may not be merged. I try to review PRs in order of oldest to newest.
+- Please make sure you are forking and working off of the current `master` branch and not a branch from a previous year. Because of the time involved, I will not be merging PRs for branches other than the current `master` branch.
+- As long as you have registered for [Hacktoberfest](https://hacktoberfest.digitalocean.com/), any unmerged PRs will count towards your 4, unless, it is marked as invalid (ie, a spammy PR). Details on what this means can be found here: [hacktoberfest.digitalocean.com/details](https://hacktoberfest.digitalocean.com/details)
+- Quality over quantity is the motto for this year.
+
+That's it for now, boys and ghouls.
+
+![David S Pumpkins](https://media.giphy.com/media/3oriNYMXEh2K5l4D9C/giphy.gif)
+
+
+1. Fork this repo. Please be sure to use the current _master_ branch as your starting point.
+1. Clone to your computer
+1. Open in the text editor of your choice
+1. Make your edits
+1. Submit a pull request
+
+If there are any doubts, questions, etc, please open an issue and we can chat about it! Heck, if you have an idea but aren't sure how to approach it, open an issue anyway and we'll help you through it.
+
+Star this repo and stay tuned for updates.
+
+It's going to be a bumpy ride. :ghost:
+
+![Tower of Terror ride at Disney](https://media.giphy.com/media/2reM0P5agXPLG/giphy.gif)
+
+# License
+
+This repository is licensed with ![MIT License](./LICENSE)
+
+## Refer to CONTRIBUTING.md to get a better idea on this !

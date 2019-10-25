@@ -1,10 +1,151 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
+	position: relative;
+	height: 100vh;
+	font-size: 16px;
 	font-family: 'Special Elite', cursive;
-	background-color: #ffffff;
+	background-color: #000;
 }
 
 h1 {
-	font-size: 7em;
-	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 6rem;
+	text-align: center;
 	color: #DA4200;
+}
+
+.ghostContainer {
+	position: absolute;
+	top: 10vh;
+	left: 80vw;
+	width: 100px;
+	height: 100px;
+	z-index: -5;
+	animation: ghostAnimation 10s ease-in infinite;
+  }
+
+  .ghostOne {
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	z-index: -2;
+  }
+
+  .ghostTwo {
+	background-color: #ffffff;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	height: 50px;
+	width: 100px;
+	z-index: -3;
+  }
+
+  .ghostThree {
+	background-color: #000;
+	position: absolute;
+	top: -25px;
+	left: 0px;
+	height: 100px;
+	width: 50px;
+	border-radius: 50%;
+	z-index: -2;
+  }
+
+  .ghostFour {
+	background-color: #000;
+	position: absolute;
+	top: -25px;
+	left: 100px;
+	height: 100px;
+	width: 50px;
+	border-radius: 50%;
+	z-index: -2;
+  }
+
+  .ghostEyeOne {
+	background-color: #00bbff;
+	position: absolute;
+	top: 12px;
+	left: 62px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: -1;
+  }
+
+  .ghostEyeTwo {
+	background-color: #00bbff;
+	position: absolute;
+	top: 12px;
+	left: 80px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: -1;
+  }
+
+.red {
+	animation: redinterval 3s infinite alternate;
+}
+
+h1#spooky {
+    margin: 150px auto;
+    text-align: center;
+    line-height: 150px;
+}
+
+@keyframes redinterval {
+	0% { color: #DA4200; }
+	30% { color: #DA4200; }
+	70% { color: crimson ; }
+	100% { color: crimson ; }
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {
+	  font-size: 30px;
+	}
+  }
+
+  @media only screen and (max-width: 320px) {
+	h1 {
+	  font-size: 20px;
+	}
+  }
+@media only screen and (max-width: 768px) {
+	h1 {
+	  font-size: 40px;
+	}
+  }
+
+@keyframes ghostAnimation {
+	20% {
+		top: 60vh;
+		left: 40vw;
+	}
+	40% {
+		top: 10vh;
+		left: 20vw;
+	}
+	60% {
+		top: 20vh;
+		left: 80vw;
+	}
+	80% {
+		top: 50vh;
+		left: 50vh;
+	}
 }
