@@ -104,7 +104,8 @@ h1 {
 h1#spooky {
     margin: 150px auto;
     text-align: center;
-    line-height: 150px;
+	line-height: 150px;
+	animation: fadeInOut 2s ease-in-out infinite reverse;
 }
 
 @keyframes redinterval {
@@ -112,6 +113,12 @@ h1#spooky {
 	30% { color: #DA4200; }
 	70% { color: crimson ; }
 	100% { color: crimson ; }
+}
+
+@keyframes fadeInOut {
+	0% { opacity: 1; }
+	100% { opacity: 0 }
+
 }
 
 @media only screen and (max-width: 480px) {
