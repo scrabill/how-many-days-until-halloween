@@ -81,7 +81,8 @@ const facts = [
     'Children are more than twice as likely to be killed in a pedestrian/car accident on Halloween than on any other night.',
     'Pumpkin carving in bulk is a popular Guinness World Record. The proud Halloween enthusiasts of Highwood, Illinois took the record in 2011 with 30,919 simultaneously lit Jack-O-Lanterns.',
     'A full moon on Halloween is extremely rare.',
-    'Hallowmass is another name for All Saint’s Day, a Roman Catholic festival that honors the saints.  Hollow’s eve is the day before Hallowmass.  This was shortened to Hallowe’en and that is where the current name for this holiday originated.'
+    'Hallowmass is another name for All Saint’s Day, a Roman Catholic festival that honors the saints.  Hollow’s eve is the day before Hallowmass.  This was shortened to Hallowe’en and that is where the current name for this holiday originated.',
+    'Goblin comes from the German kobold. In German folklore, a kobold was a mischievous household spirit.'
 ];
 
 // Display message and fact
