@@ -10,7 +10,7 @@ body{
     margin-top: -120px;
     width: 300px;
     height: 200px;
-    animation: slide 4s ease-in-out infinite alternate;
+    animation: slide 4s ease-in-out infinite alternate, zoomIn 6s ease-in-out infinite alternate;
   }
   
   .pumpkin{
@@ -439,9 +439,14 @@ body{
   
   @keyframes slide {
     0% { left: 20%; }
-    50% { left: 70%; }
-    100% { left: 50% }
+    100% { left: 70% }
   }
+
+  @keyframes zoomIn { 
+    0%, 50%, 100%  { transform: scale(1); }
+    66.7% { transform: scale(2); }
+  }
+
   .pumpkin .eye.left{
     -webkit-animation: twitchLeft 650ms ease-in-out infinite; 
     -moz-animation:    twitchLeft 650ms ease-in-out infinite; 
