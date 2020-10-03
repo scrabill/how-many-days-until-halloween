@@ -1,0 +1,78 @@
+:root {
+    --dark: #202020;
+    --light: #efefef;
+    --accent: #981ceb;
+    --alt-accent: #2de02d;
+    --lg: 50px;
+    --display-font: 'Bungee Shade', cursive;
+    --copy-font: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    align-items: stretch;
+    background-color: var(--dark);
+    grid-template-columns: var(--lg) auto var(--lg);
+    grid-template-rows: var(--lg) auto var(--lg);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+}
+
+main {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+footer {
+    color: var(--accent);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: var(--copy-font)
+}
+
+h1,h2,h3 {
+    color: var(--accent);
+    font-family: var(--display-font);
+    font-size: 5em;
+    letter-spacing: .02em;
+}
+
+#date {
+    color: var(--alt-accent);
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+    color: var(--accent);
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 2em;
+    }
+}
