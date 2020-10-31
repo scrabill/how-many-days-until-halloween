@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             title.innerHTML = `${daysUntil} Day Until Halloween!`
             break;
         case 0:
-            h1.innerHTML = "Today is Halloween! Eat, drink and be scary!"
+            h1.innerHTML = `<span id="date">Today is Halloween!</span> Eat, drink and be scary!`
             title.innerHTML = "Ahhhh! Today is Halloween!"
             break;
         default:
