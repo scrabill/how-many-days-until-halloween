@@ -10,13 +10,19 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const timeUntil = halloween.getTime() - now.getTime()
     const daysUntil = Math.abs(Math.ceil(timeUntil / (1000 * 60 * 60 * 24)))
 
-    if (daysUntil == 0) {
-        h1.innerHTML = "Today is Halloween! Eat, drink and be scary!"
-        title.innerHTML = "Ahhhh! Today is Halloween!"
-    } else {
-        date.innerHTML = daysUntil
-        title.innerHTML = `${daysUntil} Days Until Halloween!`
+    switch (daysUntil) {
+        case 1:
+            h1.innerHTML = `Halloween is <span id="date">${daysUntil}</span> day away!`
+            title.innerHTML = `${daysUntil} Day Until Halloween!`
+            break;
+        case 0:
+            h1.innerHTML = "Today is Halloween! Eat, drink and be scary!"
+            title.innerHTML = "Ahhhh! Today is Halloween!"
+            break;
+        default:
+            date.innerHTML = daysUntil
+            title.innerHTML = `${daysUntil} Days Until Halloween!`
+            break;
     }
-
 
 });
