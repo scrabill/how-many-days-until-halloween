@@ -53,6 +53,17 @@ h1,h2,h3 {
 
 #date {
     color: var(--alt-accent);
+    animation: flicker 5s ease 2s alternate infinite none running;
+}
+
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        color: var(--alt-accent);
+    }
+
+    20%, 24%, 55% {
+        color: #2de02d00;
+    }
 }
 
 a,
