@@ -5,8 +5,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const title = document.querySelector("title")
     const h1 = document.querySelector("h1")
 
+
     const now = new Date()
-    const halloween = new Date(`October 31, ${now.getFullYear()} 00:00:00`)
+    let year = now.getFullYear()
+
+    if (now.getMonth() > 9) {
+        year += 1
+    }
+
+    const halloween = new Date(`October 31, ${year} 00:00:00`)
     const timeUntil = halloween.getTime() - now.getTime()
     const daysUntil = Math.abs(Math.ceil(timeUntil / (1000 * 60 * 60 * 24)))
 
