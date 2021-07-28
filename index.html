@@ -1,47 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179579849-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179579849-1"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'UA-179579849-1');
+      gtag("config", "UA-179579849-1");
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="A Javascript countdown to the spookiest day of the year.">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="A Javascript countdown to the spookiest day of the year."
+    />
     <title>How Many Days Until Halloween?</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
     <!--Open Graph-->
     <meta property="og:title" content="How Many Days Until Halloween?" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://halloweenti.me/" />
-    <meta property="og:description" content="A Javascript countdown to the spookiest day of the year." />
-    <meta property="og:image" content="http://github.com/scrabill/how-many-days-until-halloween/blob/master/assets/social-preview.png?raw=true" />
+    <meta
+      property="og:description"
+      content="A Javascript countdown to the spookiest day of the year."
+    />
+    <meta
+      property="og:image"
+      content="http://github.com/scrabill/how-many-days-until-halloween/blob/master/assets/social-preview.png?raw=true"
+    />
     <!--Twitter Summary Card with Large Image-->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@shannon_crabill">
-    <meta name="twitter:title" content="How Many Days Until Halloween?">
-    <meta name="twitter:description" content="A Javascript countdown to the spookiest day of the year.">
-    <meta name="twitter:image" content="http://github.com/scrabill/how-many-days-until-halloween/blob/master/assets/social-preview.png?raw=true">
-    <link rel="preload" href="css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@shannon_crabill" />
+    <meta name="twitter:title" content="How Many Days Until Halloween?" />
+    <meta
+      name="twitter:description"
+      content="A Javascript countdown to the spookiest day of the year."
+    />
+    <meta
+      name="twitter:image"
+      content="http://github.com/scrabill/how-many-days-until-halloween/blob/master/assets/social-preview.png?raw=true"
+    />
+    <link
+      rel="preload"
+      href="css/styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="css/styles.css" /></noscript>
     <script src="js/script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&text=There%20are%200123456789%20days%20until%20Halloween%20E%20k%20b%20c%20!%20,&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&text=There%20are%200123456789%20days%20until%20Halloween%20E%20k%20b%20c%20!%20,&family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button id="theme-switcher">🌞</button>
     <main>
-        <h1>There are <span id="date">x</span> days until Halloween</h1>
-
+      <h1>There are <span id="date">x</span> days until Halloween</h1>
     </main>
     <footer>
-        <a href="https://github.com/scrabill/how-many-days-until-halloween">How Many Days Until Halloween</a> is a project by <a href="http://shannoncrabill.com/">Shannon Crabill</a>.
+      <a href="https://github.com/scrabill/how-many-days-until-halloween"
+        >How Many Days Until Halloween</a
+      >
+      is a project by <a href="http://shannoncrabill.com/">Shannon Crabill</a>.
     </footer>
-</body>
+  </body>
 </html>
