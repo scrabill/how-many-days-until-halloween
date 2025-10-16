@@ -4,7 +4,7 @@ A vanilla Javascript countdown to the spookiest day of the year.
 
 It can be seen online at [halloweenti.me](https://halloweenti.me) *if you dare!*
 
-![](assets/social-preview.png)
+![](assets/social-preview-2025.png)
 
 ## Opting Out of Hacktoberfest
 
