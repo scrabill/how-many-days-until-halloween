@@ -2,7 +2,7 @@
 
 A vanilla Javascript countdown to the spookiest day of the year.
 
-It can be seen online at [halloweenti.me](https://halloweenti.me) *if you dare!*
+It can be seen online at [shannoncrabill.com/halloween](https://shannoncrabill.com/halloween) *if you dare!*
 
 ![](assets/social-preview-2025.png)
 
